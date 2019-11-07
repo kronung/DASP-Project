@@ -6,6 +6,7 @@ from urllib import request
 import json
 
 
+
 url = "https://www.emnlp-ijcnlp2019.org/program/ischedule/"
 
 try:
