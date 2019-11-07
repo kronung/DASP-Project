@@ -1,0 +1,2 @@
+beautifulSoup4 >= 4.8.1
+request	>= 2019.4.13
