@@ -3,7 +3,9 @@
 		"name": "NAACL 2019",
 		"location": "Frankfurt",
 		"datetime": "4. - 10. May",
-		"submission_deadlines": ["10. February", "11. February"],
+		"submission_deadlines":[
+			{name: "example name", date: "April 21, 2019"}
+		],
 		"topics": ["NLP", "Transformers"],
 		"organizers": ["orga1", "orga2"],
 		"papers": [
