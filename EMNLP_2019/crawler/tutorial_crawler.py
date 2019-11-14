@@ -7,6 +7,12 @@ import json
 
 
 def extract_tutorials():
+    """
+    Extracts all information available for tutorials provided at
+    https://www.emnlp-ijcnlp2019.org/program/tutorials/ and
+    https://www.emnlp-ijcnlp2019.org/program/ischedule/
+    :return: list of dictionaries with a tutorial represented as one dictionary.
+    """
     tutorials = []
     tutorial_reference = {}
     url = "https://www.emnlp-ijcnlp2019.org/program/tutorials/"
@@ -37,9 +43,6 @@ def extract_tutorials():
         tutorials.append(tutorial)
         tutorial_reference[child.text.split(" ")[0]] = reference_counter
         reference_counter += 1
-        #print(tutorial)
-
-
 
     url = "https://www.emnlp-ijcnlp2019.org/program/ischedule/"
 
