@@ -58,5 +58,5 @@ def extract_workshops():
             workshops[goal_index]["datetime"] = date + ", " + time
             workshops[goal_index]["location"] = location
 
-    print(json.dumps(workshops, indent=1))
+    #print(json.dumps(workshops, indent=1))
     return workshops

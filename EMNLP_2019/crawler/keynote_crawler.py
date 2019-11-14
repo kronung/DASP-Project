@@ -36,5 +36,5 @@ def extract_keynotes():
             keynote["abstract"] = session.findNext("div", {"class": "session-abstract"}).text
             keynotes.append(keynote)
 
-    print(json.dumps(keynotes, indent=1))
+    #print(json.dumps(keynotes, indent=1))
     return keynotes

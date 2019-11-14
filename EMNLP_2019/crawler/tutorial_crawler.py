@@ -32,14 +32,14 @@ def extract_tutorials():
         if child.text.split(" ")[0] in tutorial_reference:
             continue
         tutorial["title"] = child.text
-        tutorial["authors"] = child.findNext("p").text.replace(" and ", ", ").split(",")
+        tutorial["authors"] = child.findNext("p").text.replace(" and ", ", ").split(", ")
         next_node = child.findNext("p").findNext("p")
         abstract = ""
         while next_node.name == "p":
             abstract += next_node.text + " "
             next_node = next_node.findNext()
 
-        tutorial["abstract"] = abstract
+        tutorial["abstract"] = abstract[:-1]
         tutorials.append(tutorial)
         tutorial_reference[child.text.split(" ")[0]] = reference_counter
         reference_counter += 1
@@ -68,6 +68,6 @@ def extract_tutorials():
                 cur_datetime = tutorials[goal_index]["datetime"] + ", " + time.text
                 tutorials[goal_index]["datetime"] = cur_datetime
 
-    print(json.dumps(tutorials, indent=1))
+    #print(json.dumps(tutorials, indent=1))
     return tutorials
 
