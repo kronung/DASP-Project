@@ -7,6 +7,12 @@ import json
 
 
 def extract_workshops():
+    """
+    Extracts all information available for workshops provided at
+    https://www.emnlp-ijcnlp2019.org/program/workshops/ and
+    https://www.emnlp-ijcnlp2019.org/program/ischedule/
+    :return: list of dictionaries with a workshop represented as one dictionary.
+    """
     workshops = []
     workshop_reference = {}
     url = "https://www.emnlp-ijcnlp2019.org/program/workshops/"
@@ -52,5 +58,5 @@ def extract_workshops():
             workshops[goal_index]["datetime"] = date + ", " + time
             workshops[goal_index]["location"] = location
 
-    print(json.dumps(workshops, indent=1))
+    #print(json.dumps(workshops, indent=1))
     return workshops
