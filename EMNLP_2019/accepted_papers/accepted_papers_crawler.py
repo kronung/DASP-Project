@@ -6,6 +6,8 @@ from bs4 import BeautifulSoup
 r = requests.get('https://www.emnlp-ijcnlp2019.org/program/accepted/')
 html_doc = r.text
 
+soup = BeautifulSoup(html_doc, 'html.parser')
+
 fn_paper_list = dict(
     (
         e.get_text(),
