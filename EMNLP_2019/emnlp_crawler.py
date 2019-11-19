@@ -16,8 +16,8 @@ def collect_data():
     conf_dict["papers"] = paper_crawler.extract_papers()
     # TODO need general information
 
-    with open("output/emnlp2019_data.json", "w") as f:
-        json.dump({"EMNLP2019": conf_dict}, f)
+    with open("output/emnlp2019_data.json", "w", encoding='utf-8') as f:
+        json.dump({"EMNLP2019": conf_dict}, f, ensure_ascii=False)
     print("created conference data!")
 
 
