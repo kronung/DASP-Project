@@ -1,40 +1,56 @@
 {
-	"name": "",
-	"location": "",
-	"datetime": "",
-	"submission_deadlines": [{
-		"name": "",
-		"date": ""
-	}],
-	"topics": [],
-	"organizers": [],
-	"papers": [{
-		"authors": [],
-		"title": "",
-		"link": ""
-	}],
-	"tutorials": [{
-		"title": "",
-		"authors": [],
-		"abstract": "",
-		"datetime": "",
-		"location": "",
-		"link": ""
-	}],
-	"keynotes": [{
-		"title": "",
-		"authors": [],
-		"abstract": "",
-		"datetime": "",
-		"location": "",
-		"link": ""
-	}],
-	"workshops": [{
-		"title": "",
-		"authors": [],
-		"abstract": "",
-		"datetime": "",
-		"location": "",
-		"link": ""
-	}]
+  "conference": {
+    "name": "",
+    "location": "",
+    "datetime": "",
+    "submission_deadlines": [
+      {
+        "name": "",
+        "date": ""
+      }
+    ],
+    "topics": [],
+    "organizers": [],
+    "papers": [
+      {
+        "authors": [],
+        "title": "",
+        "topic": "",
+        "link": "",
+        "type": "",
+        "datetime": ""
+      }
+    ],
+    "tutorials": [
+      {
+        "title": "",
+        "authors": [],
+        "abstract": "",
+        "datetime": "",
+        "location": "",
+        "link": ""
+      }
+    ],
+    "keynotes": [
+      {
+        "title": "",
+        "authors": [],
+        "abstract": "",
+        "datetime": "",
+        "location": "",
+        "link": ""
+      }
+    ],
+    "workshops": [
+      {
+        "title": "",
+        "authors": [],
+        "abstract": "",
+        "datetime": "",
+        "location": "",
+        "link": ""
+      }
+    ]
+  }
 }
+

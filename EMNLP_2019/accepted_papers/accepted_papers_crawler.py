@@ -29,5 +29,5 @@ fn_paper_list = dict(
 
 print(fn_paper_list)
 
-with open('emnlp-ijcnlp2019-Accepted-Papers-scrapper_data_func.txt', 'w') as outfile:
-    json.dump(fn_paper_list, outfile, indent=2)
+#with open('emnlp-ijcnlp2019-Accepted-Papers-scrapper_data_func.txt', 'w') as outfile:
+#    json.dump(fn_paper_list, outfile, indent=2)

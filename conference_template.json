@@ -1,56 +1,57 @@
 {
-	"conference": {
-		"name": "NAACL 2019",
-		"location": "Frankfurt",
-		"datetime": "4. - 10. May",
-		"submission_deadlines":[
-			{"name": "example name", "date": "April 21, 2019"}
-		],
-		"topics": ["NLP", "Transformers"],
-		"organizers": ["orga1", "orga2"],
-		"papers": [
-			{
-				"authors" : ["1", "2"], 
-				"title" : "titel", 
-				"link": "http"
-			}, 
-			{
-				"authors" : ["1", "2"], 
-				"title" : "titel", 
-				"link": "http"
-			}
-		],
-		"tutorials": [ 
-			{
-				"title" : "titel",
-				"authors": ["1", "2"],
-				"abstract": "abstract of this tutorial",
-				"datetime": "2019-10-03 14:00-15:00",
-				"location": "room number",
-				"link": "http"
-			}
-		],
-		"keynotes": [
-			{
-				"title" : "titel", 
-				"authors": ["1", "2"],
-				"abstract": "abstract of the keynote",
-				"datetime": "2019-10-03 14:00-15:00",
-				"location": "room number",
-				"link": "http"
-			}
-		],
-		"workshops": [
-			{
-				"title" : "titel", 
-				"authors": ["1", "2"],
-				"abstract": "abstract of the workshop",
-				"datetime": "2019-10-03 14:00-15:00",
-				"location": "room number",
-				"link": "http"
-			}
-		]
-	}
+  "conference": {
+    "name": "",
+    "location": "",
+    "datetime": "",
+    "submission_deadlines": [
+      {
+        "name": "",
+        "date": ""
+      }
+    ],
+    "topics": [],
+    "organizers": [],
+    "papers": [
+      {
+        "authors": [],
+        "title": "",
+        "topic": "",
+        "link": "",
+        "type": "",
+        "datetime": ""
+      }
+    ],
+    "tutorials": [
+      {
+        "title": "",
+        "authors": [],
+        "abstract": "",
+        "datetime": "",
+        "location": "",
+        "link": ""
+      }
+    ],
+    "keynotes": [
+      {
+        "title": "",
+        "authors": [],
+        "abstract": "",
+        "datetime": "",
+        "location": "",
+        "link": ""
+      }
+    ],
+    "workshops": [
+      {
+        "title": "",
+        "authors": [],
+        "abstract": "",
+        "datetime": "",
+        "location": "",
+        "link": ""
+      }
+    ]
+  }
 }
 
 	
