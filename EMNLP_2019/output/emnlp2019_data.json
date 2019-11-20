@@ -5,12 +5,86 @@
     "datetime": "",
     "submission_deadlines": [
       {
-        "name": "",
-        "date": ""
+        "name": "Anonymity period begins",
+        "date": "April 21, 2019"
+      },
+      {
+        "name": "Abstracts due (long & short)",
+        "date": "May 15, 2019"
+      },
+      {
+        "name": "Submissions due (long & short)",
+        "date": "May 21, 2019"
+      },
+      {
+        "name": "Author response period starts",
+        "date": "July 9, 2019"
+      },
+      {
+        "name": "Author responses due",
+        "date": "July 15, 2019"
+      },
+      {
+        "name": "Notification of acceptance",
+        "date": "August 12, 2019"
+      },
+      {
+        "name": "Camera-ready due",
+        "date": "August 30, 2019"
+      },
+      {
+        "name": "Workshops & tutorials",
+        "date": "November 3–4, 2019"
+      },
+      {
+        "name": "Main conference",
+        "date": "November 5–7, 2019"
       }
     ],
-    "topics": [],
-    "organizers": [],
+    "topics": [
+      "Dialog and Interactive Systems",
+      "Discourse and Pragmatics",
+      "Information Extraction",
+      "Information Retrieval and Document Analysis",
+      "Lexical Semantics",
+      "Linguistic Theories, Cognitive Modeling and Psycholinguistics",
+      "Machine Learning for NLP",
+      "Machine Translation and Multilinguality",
+      "Phonology, Morphology and Word Segmentation",
+      "Question Answering",
+      "Sentence-level Semantics",
+      "Sentiment Analysis and Argument Mining",
+      "Social Media and Computational Social Science",
+      "Speech, Vision, Robotics, Multimodal and Grounding",
+      "Summarization and Generation",
+      "Tagging, Chunking, Syntax and Parsing",
+      "Text Mining and NLP Applications",
+      "Textual Inference and Other Areas of Semantics"
+    ],
+    "organizers": [
+      "Kentaro Inui (Tohuku University, Japan)",
+      "Jing Jiang (Singapore Management University, Singapore) ",
+      "Vincent Ng (University of Texas at Dallas, USA) ",
+      "Xiaojun Wan (Peking University, China)",
+      "Dialog and Interactive Systems: Amanda Stent",
+      "Discourse and Pragmatics: Bonnie Webber",
+      "Information Extraction: Dan Roth",
+      "Information Retrieval and Document Analysis: Hang Li",
+      "Lexical Semantics: Mona Diab",
+      "Linguistic Theories, Cognitive Modeling and Psycholinguistics: Andrew Kehler",
+      "Machine Learning for NLP: Kevin Duh",
+      "Machine Translation and Multilinguality: Chris Quirk",
+      "Phonology, Morphology and Word Segmentation: Yuji Matsumoto",
+      "Question Answering: Scott Yih",
+      "Sentence-level Semantics: Mirella Lapata",
+      "Sentiment Analysis and Argument Mining: Yulan He",
+      "Social Media and Computational Social Science: Dirk Hovy",
+      "Speech, Vision, Robotics, Multimodal and Grounding: Li Haizhou",
+      "Summarization and Generation: Michael White",
+      "Tagging, Chunking, Syntax and Parsing: Yue Zhang",
+      "Text Mining and NLP Applications: Jimmy Lin",
+      "Textual Inference and Other Areas of Semantics: Alessandro Moschitti"
+    ],
     "papers": [
       {
         "title": "“Transforming” Delete, Retrieve, Generate Approach for Controlled Text Style Transfer",
