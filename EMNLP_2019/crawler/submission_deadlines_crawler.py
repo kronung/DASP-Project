@@ -7,7 +7,7 @@ import bs4
 from bs4 import BeautifulSoup
 import json
 
-def submission_deadlines_crawler():
+def extract_submission_deadlines():
     """
        Extracts all information available for submission important dates at
        https://www.emnlp-ijcnlp2019.org/calls/papers .
@@ -27,8 +27,8 @@ def submission_deadlines_crawler():
         submission_deadline['name'] = i[0]
         submission_deadline['date'] = i[2]
         submission_deadlines.append(submission_deadline)
-    #print(submission_deadlines)
     #print(json.dumps(submission_deadlines, indent=1))
     return(submission_deadlines)
+
 
 
