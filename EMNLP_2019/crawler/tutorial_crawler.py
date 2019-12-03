@@ -68,6 +68,5 @@ def extract_tutorials():
                 cur_datetime = tutorials[goal_index]["datetime"] + ", " + time.text
                 tutorials[goal_index]["datetime"] = cur_datetime
 
-    #print(json.dumps(tutorials, indent=1))
     return tutorials
 

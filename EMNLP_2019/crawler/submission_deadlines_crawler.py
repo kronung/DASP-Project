@@ -3,7 +3,6 @@ __author__ = "Yuqing_Xu"
 
 
 import requests
-import bs4
 from bs4 import BeautifulSoup
 import json
 
@@ -23,9 +22,9 @@ def extract_submission_deadlines():
     array2 = []
     [array2.append(array1[i:i+3]) for i in range(0,len(array1),3)]
     for i in array2:
-        submission_deadline = {attribute: None for attribute in ["name", "date"]}
+        submission_deadline = {attribute: None for attribute in ["name", "datetime"]}
         submission_deadline['name'] = i[0]
-        submission_deadline['date'] = i[2]
+        submission_deadline['datetime'] = i[2]
         submission_deadlines.append(submission_deadline)
     #print(json.dumps(submission_deadlines, indent=1))
     return(submission_deadlines)
