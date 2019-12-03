@@ -1,0 +1,79 @@
+### NLU
+
+give_tutorials_info:
+	- could you give me some information about the tutorials at {conf_name}
+	- could you introduce the tutorials at {conf_name} to me
+	- infomation of tutorials at {conf_name}  
+
+give_tutorials_titles:
+	- what tutorials take place at {conf_name}
+	- what tutorials are there at {conf_name}
+	- what are the tutorials offered at {conf_name}
+	- what are the titles of the tutorials at {conf_name}
+	- what are the tutorials titled at {conf_name}
+	- what are the tutorials at {conf_name} called
+	- titles of tutorials at {conf_name}
+
+give_tutorials_speakers:
+	- who will hold the tutorial {tutorial_title} at {conf_name}
+	- who is the speaker of the tutorial {tutorial_title} at {conf_name}
+	- speaker of the tutorial {tutorial_title} at {conf_name}
+
+give_tutorials_abstract:
+	- what is the abstract of {tutorial_title} at {conf_name}
+	- what is the main content of {tutorial_title} at {conf_name}
+	- abstract of the tutorial {tutorial_title} at {conf_name}
+
+give_tutorials_datetime:
+	- when does the tutorial {tutorial_title} at {conf_name} take place
+	- when is the tutorial {tutorial_title} at {conf_name}
+	- when does the tutorial {tutorial_title} at {conf_name} start
+	- when does the tutorial {tutorial_title} at {conf_name} begin
+	- when should I head to the tutorial {tutorial_title} at {conf_name}
+	- time of the tutorial {tutorial_title} at {conf_name}
+
+give_tutorials_location:
+	- where does the tutorial {tutorial_title} at {conf_name} take place
+	- where is the tutorial {tutorial_title} at {conf_name} 
+	- what is the location of the tutorial {tutorial_title} at {conf_name}  
+	- where should I head to the tutorial {tutorial_title} at {conf_name}  
+	- location of the tutorial {tutorial_title} at {conf_name}
+
+
+### NLG
+
+show_tutorials_info:
+	- {tutorials_info}
+
+show_tutorials_info_error:
+	- I could not find the information of the tutorials at {conf_name} you asked for
+
+show_tutorials_titles:
+	-{tutorials_titles}
+
+show_tutorials_titles_error:
+	- I couldn't find the titles of the tutorial at {conf_name} you asked for
+
+show_tutorials_speakers:
+	- {tutorial_title} is held by {tutorial_speakers}
+
+show_tutorials_speakers_error:
+	- I couldn't find the speaker(s) you asked for
+
+show_tutorials_abstract:
+	-{tutorial_title_abstract}
+
+show_tutorials_abstract_error:
+	- I couldn't find the abstract of the tutorial you asked for
+
+shou_tutorials_datetime:
+	- {tutorial_title} takes place on {tutorial_datetime} 
+
+shou_tutorials_datetime_error:
+	- I couldn't find the datetime of the tutorial you asked for
+
+show_tutorials_location:
+	- {tutorial_title} takes place in {tutorial_location}
+
+shou_tutorials_location_error:
+	- I couldn't find the location of the tutorial you asked for

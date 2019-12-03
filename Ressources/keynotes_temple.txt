@@ -1,0 +1,83 @@
+### NLU
+
+give_keynotes_info:
+	- could you give me some information about the keynotes at {conf_name}
+	- could you introduce the keynotes at {conf_name} to me
+	- infomation of keynotes at {conf_name}  
+
+give_keynotes_titles:
+	- what keynotes take place at {conf_name}
+	- what keynotes are there at {conf_name}
+	- what are the keynotes offered at {conf_name}
+	- what are the titles of the keynotes at {conf_name}
+	- what are the keynotes titled at {conf_name}
+	- what are the keynotes at {conf_name} called
+	- titles of keynotes at {conf_name}
+
+give_keynotes_speakers:
+	- who will hold the keynote {keynote_title} at {conf_name}
+	- who is the speaker of the keynote {keynote_title} at {conf_name}
+	- speaker of the keynote {keynote_title} at {conf_name}
+
+give_keynotes_abstract:
+	- what is the abstract of {keynote_title} at {conf_name}
+	- what is the main content of {keynote_title} at {conf_name}
+	- abstract of the keynote {keynote_title} at {conf_name}
+
+give_keynotes_datetime:
+	- when does the keynote {keynote_title} at {conf_name} take place
+	- when is the keynote {keynote_title} at {conf_name}
+	- when does the keynote {keynote_title} at {conf_name} start
+	- when does the keynote {keynote_title} at {conf_name} begin
+	- when should I head to the keynote {keynote_title} at {conf_name}
+	- time of the keynote {keynote_title} at {conf_name}
+
+give_keynotes_location:
+	- where does the keynote {keynote_title} at {conf_name} take place
+	- where is the keynote {keynote_title} at {conf_name} 
+	- what is the location of the keynote {keynote_title} at {conf_name}  
+	- where should I head to the keynote {keynote_title} at {conf_name}  
+	- location of the keynote {keynote_title} at {conf_name}
+
+
+### NLG
+
+show_keynotes_info:
+	- {keynotes_info}
+
+show_keynotes_info_error:
+	- I could not find the information of the keynotes at {conf_name} you asked for
+
+show_keynotes_titles:
+	- {keynotes_titles}
+
+show_keynotes_titles_error:
+	- I couldn't find the titles of the keynotes at {conf_name} you asked for
+
+show_keynotes_speakers:
+	- {keynote_title} is held by {keynote_speakers}
+
+show_keynotes_speakers_error:
+	- I couldn't find the speaker(s) you asked for
+
+show_keynotes_abstract:
+	-{keynote_title_abstract}
+
+show_keynotes_abstract_error:
+	- I couldn't find the abstract of the keynote you asked for
+
+shou_keynotes_datetime:
+	- {keynote_title} takes place on {keynote_datetime} 
+
+shou_keynotes_datetime_error:
+	- I couldn't find the datetime of the keynote you asked for
+
+show_keynotes_location:
+	- {keynote_title} takes place in {keynote_location}
+
+shou_keynotes_location_error:
+	- I couldn't find the location of the keynote you asked for
+
+
+
+

@@ -1,0 +1,79 @@
+### NLU
+
+give_sessions_titles:
+	- what sessions take place at {conf_name}
+	- what sessions are there at {conf_name}
+	- what are the sessions offered at {conf_name}
+	- what are the titles of the sessions at {conf_name}
+	- what are the sessions titled at {conf_name}
+	- what are sessions at {conf_name} called
+	- titles of sessions at {conf_name}
+
+give_sessions_time:
+	- when do the sessions at {conf_name} take place
+	- when are the sessions at {conf_name}
+	- when do the session at {conf_name} start
+	- when do the session at {conf_name} begain
+	- when should I head to the sessions at {conf_name}
+	- times of sessions at {conf_name}
+	- when does the session {session_title} at {conf_name} take place
+	- when is the session {session_title} at {conf_name}
+	- when does the session {session_title} at {conf_name} start
+	- when does the session {session_title} at {conf_name} begin
+	- when should I head to the session {session_title} at {conf_name}
+	- time of the session {session_title} at {conf_name}
+
+give_sessions_talks_titles:
+	- what are the titles of the talks in {session_title} at {conf_name}
+	- what are the talks given in {session_title} at {conf_name}
+	- what are the titles of the papers in {session_title} at {conf_name}
+	- what are the papers presented in {session_title} at {conf_name}
+	- talks in session {session_title} at {conf_name}
+
+give_sessions_talks_speakers:
+	- who are the speakers in {session_title} at {conf_name}
+	- who will give a talk in {session_title} at {conf_name}
+	- who is going to give a talk in {session_title} at {conf_name}
+	- who are the speakers in {session_title} at {conf_name
+	- speakers in session {session_title} at {conf_name}
+
+give_sessions_talks_links:
+	- what is the link of {paper_title} in {session_title} at {conf_name}
+	- what it the whole paper of {paper_title} in {session_title} at {conf_name}
+	- link of {paper_title} in {session_title} at {conf_name}
+
+
+### NLG
+
+show_sessions_titles:
+	- {sessions_titles}
+
+show_sessions_error:
+	- I couldn't find out which sessions are taking place in {conf_name}
+
+show_sessions_time:
+	- {sessions_title} takes place on {session_time}
+
+show_session_time_error:
+ 	- I couldn't find out the time of the session you asked for
+
+show_session_talks_titles:
+	- {sessions_talks_titles}
+
+show_session_talks_titles_error:
+	- I couldn't find out what talks are presented in {session_title} you asked for
+
+show_sessions_talks_speakers:
+	- The speakers of {session_title} are {sessions_talk_speakers}
+
+show_sessions_talks_speakers_error:
+	- I couldn't find out the speakers in {session_title} you asked for
+
+give_sessions_talks_links:
+	- The link of {paper_title} is {paper_link}
+
+give_sessions_talks_links_error:
+	- I couldn't find out the link of {paper_title} you asked for
+
+
+

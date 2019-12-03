@@ -1,0 +1,69 @@
+### NLU
+
+give_conf_date:
+	- when does {conf_name} take place
+	- when is {conf_name}
+	- when does {conf_name} start
+	- when should I head to {conf_name}
+	- when is {conf_name} beginning
+	- when is {conf_name} starting
+	- date of {conf_name}
+
+give_conf_location:
+	- where does {conf_name} take place
+	- where is {conf_name}
+	- what is the location of {conf_name}
+	- location of {conf_name}
+
+give_conf_submission_deadlines:
+	- when are the deadlines of {conf_name}
+	- when are the {conf_name} deadlines
+	- deadlines of {conf_name}
+
+give_conf_topic:
+	- what are the topics of {conf_name}
+	- which topics does {conf_name} focus on
+	- topics of {conf_name}
+
+give_conf_organizers:
+	- who are the organizers for {conf_name}
+	- who organize {conf_name}
+	- organizers of {conf_name}
+
+
+### NLG
+
+show_conf_date:
+	- {conf_name} takes place on {conf_name_date}
+
+show_conf_date_error:
+	- I could not find the date for {conf_name} you asked for
+
+show_conf_location:
+	- {conf_name} takes place on {conf_name_location}
+
+show_conf_location_error:
+	- I could not find the location for {conf_name} you asked for
+
+show_conf_submission_deadlines:
+	- {conf_name_submission_deadlines}
+
+show_conf_submission_deadlines_error:
+	- I could not find the deadlines of {conf _name} you asked for
+
+show_conf_topics:
+	- {conf_name_topics}
+
+show_conf_topics_error:
+	- I could not find the topics of {conf_name} you asked for
+
+show_conf_organizers:
+	- {conf_name_organizers}
+
+show_conf_organizers_error:
+	- I could not find the organizers of {conf_name} you asked for
+
+
+
+
+

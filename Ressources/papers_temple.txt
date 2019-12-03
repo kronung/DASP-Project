@@ -1,0 +1,75 @@
+### NLU
+
+give_papers_titles:
+	- what are the papers accepted at {conf_name}
+	- papers accepted at {conf_name}
+	- what paper is {author_name} presenting at {conf_name}
+	- what is the paper of {author_name} at {conf_name} called
+	- paper of {author_name} at {conf_name}
+
+give_papers_authors:
+	- who are the authors of {paper_title} at {conf_name}
+	- authors of {paper_title} at {conf_name}
+
+give_papers_topics:
+	- what is the topic of {paper_title} at {conf_name}
+	- which topic does {paper_title} at {conf_name} focus on
+	- topic of {paper_title} at {conf_name}
+
+give_papers_types:
+	- what is the type of {paper_title} at {conf_name}
+	- which type does {paper_title} at {conf_name} belong to
+	- type of {paper_title} at {conf_name}
+
+give_papers_links:
+	- what is the link of {paper_title} at {conf_name}
+	- link of {paper_title} at {conf_name}
+
+giev_papers_datetime:
+	- when does the talk of {paper_title} at {conf_name} start
+	- when does the talk of {paper_title} at {conf_name} begain
+	- when is the talk of {paper_title} at {conf_name} scheduled
+	- time of the talk of {paper_title} at {conf_name}
+
+
+### NLG
+
+show_papers_titles:
+	- {papers_titles}
+
+show_papers_titles_error:
+	- I could not find the paper title you asked for
+
+show_papers_authors:
+	- {paper_authors} are the authors of {paper_title}
+
+show_papers_authors_error:
+	- I could not find the authors of {paper_title} you asked for
+
+show_papers_topics:
+	- The topic of {paper_title} is {paper_topic}
+
+show_papers_topics_error:
+	- I could not find the topic of {paper_title} you asked for
+
+show_papers_types:
+	- The type of {paper_title} is {paper_type}
+
+show_papers_types_error:
+	- I could not find the type of {paper_title} you asked for
+
+show_papers_links:
+	- The link of {paper_title} is {paper_link}
+
+show_papers_links_error:
+	- I could not find the link of {paper_title} you asked for
+
+show_papers_datetime:
+	- The talk of {paper_title} starts at {paper_datetime}
+
+show_papers_datetime_error:
+	- I could not find the time of {paper_title} you asked for
+
+
+
+ 
