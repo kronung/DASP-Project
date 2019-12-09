@@ -95,6 +95,11 @@ def add_papers_to_dummy(dictionary, information, information_author):
     return dictionary
 
 
+def add_workshops_to_dummy():
+    # TODO search and add all tutorials to the json dummy
+    return "null"
+
+
 string = 'C:/Users/Y508854/Documents/DSAP NAACL 19 conference/naacl_schedule_2019/data'
 my_schedule = Schedule(string)
 my_schedule.load_schedule()
