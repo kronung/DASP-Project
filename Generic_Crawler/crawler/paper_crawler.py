@@ -34,7 +34,7 @@ def extract_papers(papers_url, schedule_url=None):
     # on the accepted papers site, papers can either be in <ul> tags or just be <p> tags
     content_determine = soup.findNext("h2").find_next_sibling("p")
 
-    # if papers are just <p. tags
+    # if papers are just <p> tags
     if content_determine is not None:
 
         for paper_entry in soup.findAll("p"):
@@ -73,7 +73,6 @@ def extract_papers(papers_url, schedule_url=None):
     #url = "https://www.emnlp-ijcnlp2019.org/program/ischedule/"
 
     if schedule_url is None:
-        print("hhhhhhhhhhhhhhhh")
         return papers
 
     try:

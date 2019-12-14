@@ -2,6 +2,7 @@
 __author__= "Lars Meister"
 
 import json
+import logging
 
 from Generic_Crawler.crawler import tutorial_crawler, workshop_crawler, keynote_crawler, paper_crawler, \
     topics_crawler, organizers_crawler, submission_deadlines_crawler
@@ -31,19 +32,22 @@ conf_emnlp19 = {
     }
 
 
-def collect_data(conf_dict):
+def collect_data(conf_file):
     conf_dict = generate_conference_dummy_dict()
-    conf_dict["topics"] = topics_crawler.extract_topics(conf_dict["topics_url"])
-    conf_dict["organizers"] = organizers_crawler.extract_organizers(conf_dict["organizers_url"])
+    conf_dict["topics"] = topics_crawler.extract_topics(conf_file["topics_url"])
+    conf_dict["organizers"] = organizers_crawler.extract_organizers(conf_file["organizers_url"])
     conf_dict["submission_deadlines"] = submission_deadlines_crawler\
-        .extract_submission_deadlines(conf_dict["smd_url"])
-    conf_dict["name"] = conf_dict["conf_name"]
-    conf_dict["tutorials"] = tutorial_crawler.extract_tutorials(conf_dict["tutorials_url"], conf_dict["schedule_url"])
-    conf_dict["workshops"] = workshop_crawler.extract_workshops(conf_dict["workshops_url"], conf_dict["schedule_url"])
-    conf_dict["keynotes"] = keynote_crawler.extract_keynotes(conf_dict["schedule_url"])
-    conf_dict["papers"] = paper_crawler.extract_papers(conf_dict["papers_url"], conf_dict["schedule_url"])
+        .extract_submission_deadlines(conf_file["smd_url"])
+    conf_dict["name"] = conf_file["conf_name"]
+    conf_dict["tutorials"] = tutorial_crawler.extract_tutorials(conf_file["tutorials_url"],
+                                                                conf_file["schedule_url"])
+    conf_dict["workshops"] = workshop_crawler.extract_workshops(conf_file["workshops_url"],
+                                                                conf_file["schedule_url"])
+    conf_dict["keynotes"] = keynote_crawler.extract_keynotes(conf_file["schedule_url"])
+    conf_dict["papers"] = paper_crawler.extract_papers(conf_file["papers_url"], conf_file[
+        "schedule_url"])
 
-    with open("output/" + conf_dict["conf_name"].replace(" ", "").lower() + "data.json", "w", \
+    with open("output/" + conf_file["conf_name"].replace(" ", "").lower() + "2data.json", "w", \
               encoding='utf-8') \
             as f:
         json.dump(conf_dict, f, ensure_ascii=False)
@@ -54,6 +58,24 @@ def generate_conference_dummy_dict():
     with open("conference_template.json", "r") as template:
         return json.load(template)
 
+
+def main():
+    logging.basicConfig(format='%(asctime)s %(name)s %(levelname)s:%(message)s',
+                        level=logging.DEBUG,
+                        datefmt='%H:%M:%S',
+                        filename='confCrawler.log',
+                        filemode='w')
+    console = logging.StreamHandler()
+    console.setLevel(logging.INFO)
+    # add the handler to the root logger
+    logging.getLogger('').addHandler(console)
+    logging.info('Start crawling data...')
+    tutorial_crawler.extract_tutorials("https://www.emnlp-ijcnlp2019.org/program/tutorials/",
+                                     "https://www.emnlp-ijcnlp2019.org/program/ischedule/")
+    logging.info('Completed crawling')
+
+
 if __name__ == "__main__":
-    collect_data(conf_naacl19)
-    collect_data(conf_emnlp19)
+    main()
+    #collect_data(conf_naacl19)
+    #collect_data(conf_emnlp19)

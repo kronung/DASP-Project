@@ -5,20 +5,26 @@ from bs4 import BeautifulSoup
 from urllib import request
 from json import dumps
 from re import sub
+from util import basic_string_clean
 
 
-def extract_workshops(workshops_url, schedule_url):
+def extract_workshops(workshops_url, schedule_url=None):
     """
-    Extracts all information available for workshops provided at
-    https://www.emnlp-ijcnlp2019.org/program/workshops/ and
-    https://www.emnlp-ijcnlp2019.org/program/ischedule/
+    Extracts basic information available for workshops provided at
+    the workshop site of the conference and tries to extract and merge with optional data for a
+    workshop if interactive schedule of conference is specified.
+    :param: workshops_url: the url where the workshops are listed
+            (for example https://naacl2019.org/program/workshops/ ,
+                         https://www.emnlp-ijcnlp2019.org/program/workshops/ )
+    :param: schedule_url: the url of the interactive schedule if available (default None)
+            (for example: https://www.emnlp-ijcnlp2019.org/program/ischedule/ )
     :return: list of dictionaries with a workshop represented as one dictionary.
     """
     workshops = []
-    workshop_reference = {}
-    #url = "https://www.emnlp-ijcnlp2019.org/program/workshops/"
+    workshop_reference = {} # we need this dictionary to merge existing workshops with the
+                            # schedule data
 
-    # information from workshop site
+    # extract information from workshop site
     try:
         page = request.urlopen(workshops_url)
     except:
@@ -30,14 +36,16 @@ def extract_workshops(workshops_url, schedule_url):
     for child in soup.findChildren("h3"):
         workshop = {attribute: None for attribute in ["title", "authors", "abstract", "datetime",
                                                            "location", "link"]}
-        workshop["title"] = child.text.split(" (")[0] + " " + child.findNext("p").find("a").text
-        workshop["abstract"] = child.findNext("p").text.replace('\n','')
+        workshop["title"] = pretty_title(child.text)
+        workshop["abstract"] = basic_string_clean(child.findNext("p").text)
         organizers = child.findNext("em")
         if organizers is not None:
             workshop["authors"] = clean_organizers(organizers.text)
-        workshop["link"] = child.findNext("p").find("a")["href"]
+        link = child.findNext("p").find("a")
+        if link is not None:
+            workshop["link"] = link["href"]
         workshops.append(workshop)
-        workshop_reference[child.text.split(" (")[0]] = reference_counter
+        workshop_reference[clean_title(child.text)] = reference_counter
         reference_counter += 1
 
     #url = "https://www.emnlp-ijcnlp2019.org/program/ischedule/"
@@ -56,19 +64,34 @@ def extract_workshops(workshops_url, schedule_url):
     for session in workshop_sessions:
         date = session.find("span", {"class" : "session-time"})["title"]
         for child in session.findChildren("span", {"class": "workshop-title"}):
-            title = child.find("strong").text.split(":")[0]
+            title = clean_title(child.find("strong").text)
             if (child.findNext("span", {"class" : "session-time"}) is not None):
                 time = child.findNext("span", {"class" : "session-time"}).text
             else:
                 time = child.find("strong").next_sibling.strip()
             location = child.findNext("span", {"class" : "btn"}).text
-            goal_index = workshop_reference[title]
-            workshops[goal_index]["datetime"] = date + ", " + time
-            workshops[goal_index]["location"] = location
+            try:
+                goal_index = workshop_reference[title]
+                workshops[goal_index]["datetime"] = date + ", " + time
+                workshops[goal_index]["location"] = location
+            except KeyError:
+                print("KeyException[ " + title + " ] not found in schedule!")
 
     #print(dumps(workshops, indent=1))
     return workshops
 
 def clean_organizers(organizers_string):
-    filter1 = sub(r'^\w+:\s?', "", organizers_string)
+    filter1 = sub(r'(^[\w\s]+:\s?|\s?[\w\s-]+:)', "", organizers_string)
     return filter1.replace(", and ", ", ").replace(" and ", ", ").split(", ")
+
+def pretty_title(title):
+    filter1 = sub(r'(^\s?\[\w+\]\s?|\s?\([\w\s]+\)\s?$|\.$)', "", title)
+    return filter1
+
+def clean_title(title):
+    filter1 = sub(r'(^\s?\[\w+\]\s?|\s?\([\w\s]+\)\s?|\.$|\s)', "", title.lower())
+    try:
+        filter2 = filter1.split(":")[0]
+    except KeyError:
+        return filter1
+    return filter2
