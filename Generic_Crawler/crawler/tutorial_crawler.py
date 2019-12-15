@@ -13,11 +13,14 @@ logger = logging.getLogger("tutorial_crawler")
 def extract_tutorials(tutorials_url=None, schedule_url=None):
     """
     Extracts basic information available for tutorials provided at
-    the tutorial site of the conference and tries to extract and merge with optional data for a
+    the tutorial site of the conference and extract and merge with data for a
     tutorial if interactive schedule of conference is specified.
-    :param: tutorials_url: the url where the tutorials are listed
-            (for example https://naacl2019.org/program/tutorials/ ,
-                         https://www.emnlp-ijcnlp2019.org/program/tutorials/ )
+    One url of the the two must be provided. If only one is specified, the crawler tries to
+    extract as much information as it can from this site. Its recommended to specify both urls,
+    then the crawler extracts all available data starting with the tutorials_url and afterwards
+    merges the data with results of the crawled data from the schedule url.
+    :param: tutorials_url: the url where the tutorials are listed (default None)
+            (for example https://www.emnlp-ijcnlp2019.org/program/tutorials/ )
     :param: schedule_url: the url of the interactive schedule if available (default None)
             (for example: https://www.emnlp-ijcnlp2019.org/program/ischedule/ )
     :return: list of dictionaries with a tutorial represented as one dictionary.
@@ -27,6 +30,7 @@ def extract_tutorials(tutorials_url=None, schedule_url=None):
     tutorial_reference = {} # we need this dictionary to merge existing tutorials with the
                             # schedule data
     author_reference = []
+
     if tutorials_url is not None:
         logger.info('Crawling data from: %s', tutorials_url)
         # extract information from tutorial site
@@ -69,7 +73,9 @@ def extract_tutorials(tutorials_url=None, schedule_url=None):
     try:
         page = request.urlopen(schedule_url)
     except:
-        print("Could not connect to url.")
+        logger.warning("URl could not be crawled!")
+        return tutorials
+
     tutorial_sessions = BeautifulSoup(page, 'html.parser')\
         .findAll("div", {"class": "session session-expandable session-tutorials"})
     for session in tutorial_sessions:
@@ -119,7 +125,7 @@ def extract_tutorials(tutorials_url=None, schedule_url=None):
                             tutorial["location"] = location_parent.text
                         tutorial["datetime"] = datetime
                         tutorials.append(tutorial)
-    logger.info('Crawling DONE')
+    logger.info('Crawling TUTORIALS DONE')
     return tutorials
 
 def pretty_title(title_string):

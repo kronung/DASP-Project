@@ -1,4 +1,4 @@
-"""Crawler to collect the EMNLP 2019 keynotes from interactive schedule"""
+"""Crawler to collect the keynotes data"""
 __author__ = "Lars Meister"
 
 from bs4 import BeautifulSoup
@@ -24,7 +24,7 @@ def extract_keynotes(keynotes_url=None, schedule_url=None):
             (for example https://naacl2019.org/program/keynotes/ )
     :param: schedule_url: the url of the interactive schedule if available (default None)
             (for example: https://www.emnlp-ijcnlp2019.org/program/ischedule/ )
-    :return: list of dictionaries with a tutorial represented as one dictionary.
+    :return: list of dictionaries with a keynote represented as one dictionary.
     """
     logger.info('Start crawling keynotes...')
     keynotes = []
@@ -117,7 +117,7 @@ def extract_keynotes(keynotes_url=None, schedule_url=None):
                     if abstract_parent is not None:
                         keynote["abstract"] = basic_string_clean(abstract_parent.text)
                     keynotes.append(keynote)
-    logger.info('Crawling DONE')
+    logger.info('Crawling KEYNOTES DONE')
     return keynotes
 
 def clean_title(title):

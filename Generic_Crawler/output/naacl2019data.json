@@ -6194,6 +6194,477 @@
       "link": "http://www.aclweb.org/anthology/N19-4022",
       "datetime": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "topic": "Phonology & Morphology, Speech and Text Mining (Posters & Demos) "
+    },
+    {
+      "title": "AudioCaps: Generating Captions for Audios in The Wild",
+      "authors": [
+        "Chris Dongjoo Kim",
+        "Byeongchang Kim",
+        "Hyunmin Lee",
+        "Gunhee Kim"
+      ],
+      "type": null,
+      "link": "http://www.aclweb.org/anthology/N19-1011",
+      "datetime": "Monday, June 03, 2019, 11:00 – 12:30",
+      "topic": "Generation"
+    },
+    {
+      "title": "[SRW] Is It Dish Washer Safe? Automatically Answering “Yes/No” Questions Using Customer Reviews",
+      "authors": [
+        "Daria Dzendzik",
+        "Carl Vogel",
+        "Jennifer Foster"
+      ],
+      "type": null,
+      "link": "http://www.aclweb.org/anthology/N19-3001",
+      "datetime": "Monday, June 03, 2019, 11:00 – 12:30",
+      "topic": "Question Answering, Sentiment, Machine Translation, Resources & Evaluation (Posters) "
+    },
+    {
+      "title": "Asking the Right Question: Inferring Advice-Seeking Intentions from Personal Narratives",
+      "authors": [
+        "Liye Fu",
+        "Jonathan P. Chang",
+        "Cristian Danescu-Niculescu-Mizil"
+      ],
+      "type": null,
+      "link": "http://www.aclweb.org/anthology/N19-1052",
+      "datetime": "Monday, June 03, 2019, 11:00 – 12:30",
+      "topic": "Question Answering, Sentiment, Machine Translation, Resources & Evaluation (Posters) "
+    },
+    {
+      "title": "[SRW] Identifying and Reducing Gender Bias in Word-Level Language Models",
+      "authors": [
+        "Shikha Bordia",
+        "Samuel R. Bowman"
+      ],
+      "type": null,
+      "link": "http://www.aclweb.org/anthology/N19-3002",
+      "datetime": "Monday, June 03, 2019, 15:00 – 16:30",
+      "topic": "Ethics, Bias & Fairness"
+    },
+    {
+      "title": "Combining Sentiment Lexica with a Multi-View Variational Autoencoder",
+      "authors": [
+        "Alexander Miserlis Hoyle",
+        "Lawrence Wolf-Sonkin",
+        "Hanna Wallach",
+        "Ryan Cotterell",
+        "Isabelle Augenstein"
+      ],
+      "type": null,
+      "link": "http://www.aclweb.org/anthology/N19-1065",
+      "datetime": "Monday, June 03, 2019, 15:00 – 16:30",
+      "topic": "Style & Sentiment"
+    },
+    {
+      "title": "[SRW] Emotion Impacts Speech Recognition Performance",
+      "authors": [
+        "Rushab Munot",
+        "Ani Nenkova"
+      ],
+      "type": null,
+      "link": "http://www.aclweb.org/anthology/N19-3003",
+      "datetime": "Monday, June 03, 2019, 15:00 – 16:30",
+      "topic": "Style & Sentiment"
+    },
+    {
+      "title": "[SRW] The Strength of the Weakest Supervision: Topic Classification Using Class Labels",
+      "authors": [
+        "Jiatong Li",
+        "Kai Zheng",
+        "Hua Xu",
+        "Qiaozhu Mei",
+        "Yue Wang"
+      ],
+      "type": null,
+      "link": "http://www.aclweb.org/anthology/N19-3004",
+      "datetime": "Monday, June 03, 2019, 15:00 – 16:30",
+      "topic": "Summarization & IR"
+    },
+    {
+      "title": "[SRW] Handling Noisy Labels for Robustly Learning from Self-Training Data for Low-Resource Sequence Labeling",
+      "authors": [
+        "Debjit Paul",
+        "Mittul Singh",
+        "Michael A. Hedderich",
+        "Dietrich Klakow"
+      ],
+      "type": null,
+      "link": "http://www.aclweb.org/anthology/N19-3005",
+      "datetime": "Monday, June 03, 2019, 15:00 – 16:30",
+      "topic": "Syntax"
+    },
+    {
+      "title": "[SRW] Opinion Mining with Deep Contextualized Embeddings",
+      "authors": [
+        "Wen-Bin Han",
+        "Noriko Kando"
+      ],
+      "type": null,
+      "link": "http://www.aclweb.org/anthology/N19-3006",
+      "datetime": "Monday, June 03, 2019, 15:00 – 16:30",
+      "topic": "Information Extraction, Generation  & Semantics (Posters & Demos) "
+    },
+    {
+      "title": "[SRW] A Bag-of-concepts Model Improves Relation Extraction in a Narrow Knowledge Domain with Limited Data",
+      "authors": [
+        "Jiyu Chen",
+        "Karin Verspoor",
+        "Zenan Zhai"
+      ],
+      "type": null,
+      "link": "http://www.aclweb.org/anthology/N19-3007",
+      "datetime": "Monday, June 03, 2019, 15:00 – 16:30",
+      "topic": "Information Extraction, Generation  & Semantics (Posters & Demos) "
+    },
+    {
+      "title": "[SRW] Generating Text through Adversarial Training Using Skip-Thought Vectors",
+      "authors": [
+        "Afroz Ahamad"
+      ],
+      "type": null,
+      "link": "http://www.aclweb.org/anthology/N19-3008",
+      "datetime": "Monday, June 03, 2019, 15:00 – 16:30",
+      "topic": "Information Extraction, Generation  & Semantics (Posters & Demos) "
+    },
+    {
+      "title": "[SRW] A Partially Rule-Based Approach to AMR Generation",
+      "authors": [
+        "Emma Manning"
+      ],
+      "type": null,
+      "link": "http://www.aclweb.org/anthology/N19-3009",
+      "datetime": "Monday, June 03, 2019, 15:00 – 16:30",
+      "topic": "Information Extraction, Generation  & Semantics (Posters & Demos) "
+    },
+    {
+      "title": "[SRW] Computational Investigations of Pragmatic Effects in Natural Language",
+      "authors": [
+        "Jad Kabbara"
+      ],
+      "type": null,
+      "link": "http://www.aclweb.org/anthology/N19-3010",
+      "datetime": "Monday, June 03, 2019, 15:00 – 16:30",
+      "topic": "Information Extraction, Generation  & Semantics (Posters & Demos) "
+    },
+    {
+      "title": "Disentangling Language and Knowledge in Task-Oriented Dialogs",
+      "authors": [
+        "Dinesh Raghu",
+        "Nikhil Gupta",
+        " Mausam"
+      ],
+      "type": null,
+      "link": "http://www.aclweb.org/anthology/N19-1126",
+      "datetime": "Monday, June 03, 2019, 17:00 – 18:30",
+      "topic": "Dialogue"
+    },
+    {
+      "title": "[TACL] DREAM: A Challenge Dataset and Models for Dialogue-Based Reading Comprehension",
+      "authors": [
+        "Kai Sun",
+        "Dian Yu",
+        "Jianshu Chen",
+        "Dong Yu",
+        "Yejin Choi",
+        "Claire Cardie"
+      ],
+      "type": null,
+      "link": null,
+      "datetime": "Monday, June 03, 2019, 17:00 – 18:30",
+      "topic": "Dialogue"
+    },
+    {
+      "title": "[SRW] SEDTWik: Segmentation-based Event Detection from Tweets Using Wikipedia",
+      "authors": [
+        "Keval Morabia",
+        "Neti Lalita Bhanu Murthy",
+        "Aruna Malapati",
+        "Surender Samant"
+      ],
+      "type": null,
+      "link": "http://www.aclweb.org/anthology/N19-3011",
+      "datetime": "Monday, June 03, 2019, 17:00 – 18:30",
+      "topic": "Applications, Social Media, Biomedical NLP & Clinical Text Processing (Posters & Demos) "
+    },
+    {
+      "title": "[SRW] Kickstarting NLP for the Whole-person Function Domain with Representation Learning and Data Analysis",
+      "authors": [
+        "Denis Newman-Griffis"
+      ],
+      "type": null,
+      "link": null,
+      "datetime": "Monday, June 03, 2019, 17:00 – 18:30",
+      "topic": "Applications, Social Media, Biomedical NLP & Clinical Text Processing (Posters & Demos) "
+    },
+    {
+      "title": "Fast Prototyping a Dialogue Comprehension System for Nurse-Patient Conversations on Symptom Monitoring",
+      "authors": [
+        "Zhengyuan Liu",
+        "Hazel Lim",
+        "Nur Farah Ain Suhaimi",
+        "Shao Chuen Tong",
+        "Sharon Ong",
+        "Angela Ng",
+        "Sheldon Lee",
+        "Michael R. Macdonald",
+        "Savitha Ramasamy",
+        "Pavitra Krishnaswamy",
+        "Wai Leng Chow",
+        "Nancy F. Chen"
+      ],
+      "type": null,
+      "link": "http://www.aclweb.org/anthology/N19-2004",
+      "datetime": "Tuesday, June 04, 2019, 9:00 – 10:30",
+      "topic": "Industry"
+    },
+    {
+      "title": "[TACL] Planning, Inference, and Pragmatics in Sequential Language Games",
+      "authors": [
+        "Fereshte Khani",
+        "Noah D. Goodman",
+        "Percy Liang"
+      ],
+      "type": null,
+      "link": null,
+      "datetime": "Tuesday, June 04, 2019, 9:00 – 10:30",
+      "topic": "Discourse, Information Retrieval, Machine Translation, Vision  & Robotics (Posters) "
+    },
+    {
+      "title": "[SRW] Multimodal Machine Translation with Embedding Prediction",
+      "authors": [
+        "Tosho Hirasawa",
+        "Hayahide Yamagishi",
+        "Yukio Matsumura",
+        "Mamoru Komachi"
+      ],
+      "type": null,
+      "link": "http://www.aclweb.org/anthology/N19-3012",
+      "datetime": "Tuesday, June 04, 2019, 11:00 – 12:30",
+      "topic": "Machine Translation"
+    },
+    {
+      "title": "[SRW] Word Polysemy Aware Document Vector Estimation",
+      "authors": [
+        "Vivek Gupta",
+        "Ankit Saw",
+        "Harshit Gupta",
+        "Pegah Nokhiz",
+        "Partha Talukdar"
+      ],
+      "type": null,
+      "link": null,
+      "datetime": "Tuesday, June 04, 2019, 11:00 – 12:30",
+      "topic": "Semantics"
+    },
+    {
+      "title": "[SRW] EQUATE : A Benchmark Evaluation Framework for Quantitative Reasoning in Natural Language Inference",
+      "authors": [
+        "Abhilasha Ravichander",
+        "Aakanksha Naik",
+        "Carolyn Rose",
+        "Eduard Hovy"
+      ],
+      "type": null,
+      "link": null,
+      "datetime": "Tuesday, June 04, 2019, 11:00 – 12:30",
+      "topic": "Semantics"
+    },
+    {
+      "title": "[TACL] Grammar Error Correction in Morphologically-Rich Languages: The Case of Russian",
+      "authors": [
+        "Alla Rozovskaya",
+        "Dan Roth"
+      ],
+      "type": null,
+      "link": null,
+      "datetime": "Tuesday, June 04, 2019, 15:30 – 17:00",
+      "topic": "Phonology & Morphology, Speech and Text Mining (Posters & Demos) "
+    },
+    {
+      "title": "[SRW] Deep Learning and Sociophonetics: Automatic Coding of Rhoticity Using Neural Networks",
+      "authors": [
+        "Sarah Gupta",
+        "Anthony DiPadova"
+      ],
+      "type": null,
+      "link": "http://www.aclweb.org/anthology/N19-3013",
+      "datetime": "Tuesday, June 04, 2019, 15:30 – 17:00",
+      "topic": "Phonology & Morphology, Speech and Text Mining (Posters & Demos) "
+    },
+    {
+      "title": "[SRW] Learn Languages First and Then Convert: towards Effective Simplified to Traditional Chinese Conversion",
+      "authors": [
+        "Pranav A",
+        "S.F. Hui",
+        "I-Tsun Cheng",
+        "Ishaan Batra",
+        "Chiu Yik Hei"
+      ],
+      "type": null,
+      "link": null,
+      "datetime": "Tuesday, June 04, 2019, 15:30 – 17:00",
+      "topic": "Phonology & Morphology, Speech and Text Mining (Posters & Demos) "
+    },
+    {
+      "title": "[SRW] Data Augmentation by Data Noising for Open-vocabulary Slots in Spoken Language Understanding",
+      "authors": [
+        "Hwa-Yeon Kim",
+        "Yoon-Hyung Roh",
+        "Young-Kil Kim"
+      ],
+      "type": null,
+      "link": "http://www.aclweb.org/anthology/N19-3014",
+      "datetime": "Tuesday, June 04, 2019, 15:30 – 17:00",
+      "topic": "Phonology & Morphology, Speech and Text Mining (Posters & Demos) "
+    },
+    {
+      "title": "[SRW] Expectation and Locality Effects in the Prediction of Disfluent Fillers and Repairs in English Speech",
+      "authors": [
+        "Samvit Dammalapati",
+        "Rajakrishnan Rajkumar",
+        "Sumeet Agarwal"
+      ],
+      "type": null,
+      "link": "http://www.aclweb.org/anthology/N19-3015",
+      "datetime": "Tuesday, June 04, 2019, 15:30 – 17:00",
+      "topic": "Phonology & Morphology, Speech and Text Mining (Posters & Demos) "
+    },
+    {
+      "title": "[TACL] CoQA: A Conversational Question Answering Challenge",
+      "authors": [
+        "Siva Reddy",
+        "Danqi Chen",
+        "Christopher D. Manning"
+      ],
+      "type": null,
+      "link": null,
+      "datetime": "Wednesday, June 05, 2019, 10:30 – 12:00",
+      "topic": "Question Answering"
+    },
+    {
+      "title": "[TACL] Mind the GAP: A Balanced Corpus of Gendered Ambiguous Pronouns",
+      "authors": [
+        "Kellie Webster",
+        "Marta Recasens",
+        "Vera Axelrod",
+        "Jason Baldridge"
+      ],
+      "type": null,
+      "link": null,
+      "datetime": "Wednesday, June 05, 2019, 10:30 – 12:00",
+      "topic": "Ethics, Bias & Fairness"
+    },
+    {
+      "title": "GenderQuant: Quantifying Mention-Level Genderedness",
+      "authors": [
+        "Ananya",
+        "Nitya Parthasarthi",
+        "Sameer Singh"
+      ],
+      "type": null,
+      "link": "http://www.aclweb.org/anthology/N19-1303",
+      "datetime": "Wednesday, June 05, 2019, 10:30 – 12:00",
+      "topic": "Ethics, Bias & Fairness"
+    },
+    {
+      "title": "[TACL] Data Statements for Natural Language Processing: Toward Mitigating System Bias and Enabling Better Science",
+      "authors": [
+        "Emily M. Bender",
+        "Batya Friedman"
+      ],
+      "type": null,
+      "link": null,
+      "datetime": "Wednesday, June 05, 2019, 10:30 – 12:00",
+      "topic": "Ethics, Bias & Fairness"
+    },
+    {
+      "title": "[TACL] Analysis Methods in Neural Language Processing: A Survey",
+      "authors": [
+        "Yonatan Belinkov",
+        "James Glass"
+      ],
+      "type": null,
+      "link": null,
+      "datetime": "Wednesday, June 05, 2019, 10:30 – 12:00",
+      "topic": "Machine Learning, Tagging, Chunking, Syntax  & Parsing  (Posters) "
+    },
+    {
+      "title": "[TACL] Attentive Convolution: Equipping CNNs with RNN-style Attention Mechanisms",
+      "authors": [
+        "Wenpeng Yin",
+        "Hinrich Schütze"
+      ],
+      "type": null,
+      "link": null,
+      "datetime": "Wednesday, June 05, 2019, 10:30 – 12:00",
+      "topic": "Machine Learning, Tagging, Chunking, Syntax  & Parsing  (Posters) "
+    },
+    {
+      "title": "[TACL] Rotational Unit of Memory: A Novel Representation Unit for RNNs with Scalable Applications",
+      "authors": [
+        "Rumen Dangovski",
+        "Li Jing",
+        "Preslav Nakov",
+        "Mićo Tatalović",
+        "Marin Soljačić"
+      ],
+      "type": null,
+      "link": null,
+      "datetime": "Wednesday, June 05, 2019, 10:30 – 12:00",
+      "topic": "Machine Learning, Tagging, Chunking, Syntax  & Parsing  (Posters) "
+    },
+    {
+      "title": "[SRW] Gating Mechanisms for Combining Character and Word-level Word Representations: an Empirical Study",
+      "authors": [
+        "Jorge Balazs",
+        "Yutaka Matsuo"
+      ],
+      "type": null,
+      "link": "http://www.aclweb.org/anthology/N19-3016",
+      "datetime": "Wednesday, June 05, 2019, 10:30 – 12:00",
+      "topic": "Machine Learning, Tagging, Chunking, Syntax  & Parsing  (Posters) "
+    },
+    {
+      "title": "[SRW] A Pregroup Representation of Word Order Alternation Using Hindi Syntax",
+      "authors": [
+        "Alok Debnath",
+        "Manish Shrivastava"
+      ],
+      "type": null,
+      "link": "http://www.aclweb.org/anthology/N19-3017",
+      "datetime": "Wednesday, June 05, 2019, 10:30 – 12:00",
+      "topic": "Machine Learning, Tagging, Chunking, Syntax  & Parsing  (Posters) "
+    },
+    {
+      "title": "[SRW] Speak up, Fight Back! Detection of Social Media Disclosures of Sexual Harassment",
+      "authors": [
+        "Arijit Ghosh Chowdhury",
+        "Ramit Sawhney",
+        "Puneet Mathur",
+        "Debanjan Mahata",
+        "Rajiv Ratn Shah"
+      ],
+      "type": null,
+      "link": "http://www.aclweb.org/anthology/N19-3018",
+      "datetime": "Wednesday, June 05, 2019, 15:30 – 16:30",
+      "topic": "Applications"
+    },
+    {
+      "title": "[SRW] SNAP-BATNET: Cascading Author Profiling and Social Network Graphs for Suicide Ideation Detection on Social Media",
+      "authors": [
+        "Rohan Mishra",
+        "Pradyumn Prakhar Sinha",
+        "Ramit Sawhney",
+        "Debanjan Mahata",
+        "Puneet Mathur",
+        "Rajiv Ratn Shah"
+      ],
+      "type": null,
+      "link": "http://www.aclweb.org/anthology/N19-3019",
+      "datetime": "Wednesday, June 05, 2019, 15:30 – 16:30",
+      "topic": "Cognitive  & Psycholinguistics"
     }
   ],
   "tutorials": [
@@ -6204,7 +6675,7 @@
         "Sameer Singh",
         "Jiwei Li"
       ],
-      "abstract": "Adversarial learning is a game-theoretic learning paradigm, which has achieved huge successes in the field of Computer Vision recently. Adversarial learning is also a general framework that enables a variety of learning models, including the popular Generative Adversarial Networks (GANs). Due to the discrete nature of language, designing adversarial learning models is still challenging for NLP problems.  In this tutorial, we provide a gentle introduction to the foundation of deep adversarial learning, as well as some practical problem formulations and solutions in NLP. We describe recent advances in deep adversarial learning for NLP, with a special focus on generation, adversarial examples & rules, and dialogue. We provide an overview of the research area, categorize different types of adversarial learning models, and discuss pros and cons, aiming at providing some practical perspectives on the future of adversarial learning for solving real-world NLP problems.",
+      "abstract": "Adversarial learning is a game-theoretic learning paradigm, which has achieved huge successes in the field of Computer Vision recently. Adversarial learning is also a general framework that enables a variety of learning models, including the popular Generative Adversarial Networks (GANs). Due to the discrete nature of language, designing adversarial learning models is still challenging for NLP problems. In this tutorial, we provide a gentle introduction to the foundation of deep adversarial learning, as well as some practical problem formulations and solutions in NLP. We describe recent advances in deep adversarial learning for NLP, with a special focus on generation, adversarial examples & rules, and dialogue. We provide an overview of the research area, categorize different types of adversarial learning models, and discuss pros and cons, aiming at providing some practical perspectives on the future of adversarial learning for solving real-world NLP problems.",
       "datetime": "Sunday, June 02, 2019, 9:00 – 12:30",
       "location": "Greenway DE/FG",
       "link": null
@@ -6225,7 +6696,7 @@
       "authors": [
         "Jacob Eisenstein"
       ],
-      "abstract": "This tutorial is designed to help researchers answer the following sorts of questions:\n        \n Are people happier on the weekend?\nWhat was 1861's word of the year?\nAre Democrats and Republicans more different than ever?\nWhen did gay stop meaning happy?\nAre gender stereotypes getting weaker, stronger, or just different?\nWho is a linguistic leader?\nHow can we get internet users to be more polite and objective?\n\n",
+      "abstract": "This tutorial is designed to help researchers answer the following sorts of questions:         Are people happier on the weekend?What was 1861's word of the year?Are Democrats and Republicans more different than ever?When did gay stop meaning happy?Are gender stereotypes getting weaker, stronger, or just different?Who is a linguistic leader?How can we get internet users to be more polite and objective?Such questions are fundamental to the social sciences and humanities, and scholars in these disciplines are increasingly turning to computational techniques for answers. Meanwhile, the ACL community is increasingly engaged with data that varies across time, and with the social insights that can be offered by analyzing temporal patterns and trends. The purpose of this tutorial is to facilitate this convergence in two main ways:         By synthesizing recent computational techniques for handling and modeling temporal data, such as dynamic word embeddings, the tutorial will provide a starting point for future computational research. It will also identify useful tools for social scientists and digital humanities scholars. The tutorial will provide an overview of techniques and datasets from the quantitative social sciences and the digital humanities, which are not well-known in the computational linguistics community. These techniques include vector autoregressive models, multiple comparisons corrections for hypothesis testing, and causal inference. Datasets include historical newspaper archives and corpora of contemporary political speech.",
       "datetime": "Sunday, June 02, 2019, 9:00 – 12:30",
       "location": "Greenway J",
       "link": null
@@ -6238,7 +6709,7 @@
         "Swabha Swayamdipta",
         "Thomas Wolf"
       ],
-      "abstract": "The classic supervised machine learning paradigm is based on learning in isolation, a single predictive model for a task using a single dataset. This approach requires a large number of training examples and performs best for well-defined and narrow tasks. Transfer learning refers to a set of methods that extend this approach by leveraging data from additional domains or tasks to train a model with better generalization properties. Over the last two years, the field of Natural Language Processing (NLP) has witnessed the emergence of several transfer learning methods and architectures which significantly improved upon the state-of-the-art on a wide range of NLP tasks. These improvements together with the wide availability and ease of integration of these methods are reminiscent of the factors that led to the success of pretrained word embeddings and ImageNet pretraining in computer vision, and indicate that these methods will likely become a common tool in the NLP landscape as well as an important research direction. We will present an overview of modern transfer learning methods in NLP, how models are pre-trained, what information the representations they learn capture, and review examples and case studies on how these models can be integrated and adapted in downstream NLP tasks.",
+      "abstract": "The classic supervised machine learning paradigm is based on learning in isolation, a single predictive model for a task using a single dataset. This approach requires a large number of training examples and performs best for well-defined and narrow tasks. Transfer learning refers to a set of methods that extend this approach by leveraging data from additional domains or tasks to train a model with better generalization properties.Over the last two years, the field of Natural Language Processing (NLP) has witnessed the emergence of several transfer learning methods and architectures which significantly improved upon the state-of-the-art on a wide range of NLP tasks.These improvements together with the wide availability and ease of integration of these methods are reminiscent of the factors that led to the success of pretrained word embeddings and ImageNet pretraining in computer vision, and indicate that these methods will likely become a common tool in the NLP landscape as well as an important research direction.We will present an overview of modern transfer learning methods in NLP, how models are pre-trained, what information the representations they learn capture, and review examples and case studies on how these models can be integrated and adapted in downstream NLP tasks.",
       "datetime": "Sunday, June 02, 2019, 14:00 – 17:30",
       "location": "Greenway DE/FG",
       "link": null
@@ -6263,7 +6734,7 @@
         "Sunghwan Sohn",
         "Rui Zhang"
       ],
-      "abstract": "Rapid growth in adoption of electronic health records (EHRs) has led to an unprecedented expansion in the availability of large longitudinal datasets. Large initiatives such as the Electronic Medical Records and Genomics (eMERGE) Network, the Patient-Centered Outcomes Research Network (PCORNet), and the Observational Health Data Science and Informatics (OHDSI) consortium, have been established and have reported successful applications of secondary use of EHRs in clinical research and practice. In these applications, natural language processing (NLP) technologies have played a crucial role as much of detailed patient information in EHRs is embedded in narrative clinical documents. Meanwhile, a number of clinical NLP systems, such as MedLEE, MetaMap/MetaMap Lite, cTAKES, and MedTagger have been developed and utilized to extract useful information from diverse types of clinical text, such as clinical notes, radiology reports, and pathology reports. Success stories in applying these tools have been reported widely. Despite the demonstrated success of NLP in the clinical domain, methodologies and tools developed for the clinical NLP are still under-known and under-utilized by students and experts in the general NLP domain, mainly due to the limited exposure to EHR data. Through this tutorial, we would like to introduce NLP methodologies and tools developed in the clinical domain, and showcase the real-world NLP applications in clinical research and practice at Mayo Clinic (the No. 1 national hospital ranked by the U.S. News \\& World Report) and the University of Minnesota (the No. 41 best global universities ranked by the U.S. News \\& World Report). We will review NLP techniques in solving clinical problems and facilitating clinical research, the state-of-the art clinical NLP tools, and share collaboration experience with clinicians, as well as publicly available EHR data and medical resources, and finally conclude the tutorial with vast opportunities and challenges of clinical NLP. The tutorial will provide an overview of clinical backgrounds, and does not presume knowledge in medicine or health care. The goal of this tutorial is to encourage NLP researchers in the general domain (as opposed to the specialized clinical domain) to contribute to this burgeoning area. In this tutorial, we will first present an overview of clinical NLP. We will then dive into two subareas of clinical NLP in clinical research, including big data infrastructure for large-scale clinical NLP and advances of NLP in clinical research, and two subareas in clinical practice, including clinical information extraction and patient cohort retrieval using EHRs. Around 70\\% of the tutorial will review clinical problems, cutting-edge methodologies, and real-world clinical NLP tools while another 30\\% introduce use cases at Mayo Clinic and the University of Minnesota. Finally, we will conclude the tutorial with challenges and opportunities in this rapidly developing domain.",
+      "abstract": "Rapid growth in adoption of electronic health records (EHRs) has led to an unprecedented expansion in the availability of large longitudinal datasets. Large initiatives such as the Electronic Medical Records and Genomics (eMERGE) Network, the Patient-Centered Outcomes Research Network (PCORNet), and the Observational Health Data Science and Informatics (OHDSI) consortium, have been established and have reported successful applications of secondary use of EHRs in clinical research and practice. In these applications, natural language processing (NLP) technologies have played a crucial role as much of detailed patient information in EHRs is embedded in narrative clinical documents. Meanwhile, a number of clinical NLP systems, such as MedLEE, MetaMap/MetaMap Lite, cTAKES, and MedTagger have been developed and utilized to extract useful information from diverse types of clinical text, such as clinical notes, radiology reports, and pathology reports. Success stories in applying these tools have been reported widely.Despite the demonstrated success of NLP in the clinical domain, methodologies and tools developed for the clinical NLP are still under-known and under-utilized by students and experts in the general NLP domain, mainly due to the limited exposure to EHR data. Through this tutorial, we would like to introduce NLP methodologies and tools developed in the clinical domain, and showcase the real-world NLP applications in clinical research and practice at Mayo Clinic (the No. 1 national hospital ranked by the U.S. News \\& World Report) and the University of Minnesota (the No. 41 best global universities ranked by the U.S. News \\& World Report). We will review NLP techniques in solving clinical problems and facilitating clinical research, the state-of-the art clinical NLP tools, and share collaboration experience with clinicians, as well as publicly available EHR data and medical resources, and finally conclude the tutorial with vast opportunities and challenges of clinical NLP. The tutorial will provide an overview of clinical backgrounds, and does not presume knowledge in medicine or health care. The goal of this tutorial is to encourage NLP researchers in the general domain (as opposed to the specialized clinical domain) to contribute to this burgeoning area.In this tutorial, we will first present an overview of clinical NLP. We will then dive into two subareas of clinical NLP in clinical research, including big data infrastructure for large-scale clinical NLP and advances of NLP in clinical research, and two subareas in clinical practice, including clinical information extraction and patient cohort retrieval using EHRs. Around 70\\% of the tutorial will review clinical problems, cutting-edge methodologies, and real-world clinical NLP tools while another 30\\% introduce use cases at Mayo Clinic and the University of Minnesota. Finally, we will conclude the tutorial with challenges and opportunities in this rapidly developing domain.",
       "datetime": "Sunday, June 02, 2019, 14:00 – 17:30",
       "location": "Greenway J",
       "link": null
@@ -6271,33 +6742,36 @@
   ],
   "keynotes": [
     {
-      "title": "Data as a Mirror of Society: Lessons from the Emerging Science of Fairness in Machine Learning",
-      "authors": "Arvind Narayanan (Princeton University)",
-      "abstract": "Language corpora reflect human society, including cultural stereotypes, prejudices, and historical patterns. By default, statistical language models will absorb these stereotypes. As a result, NLP systems for word analogy generation, toxicity detection, and many other tasks have been found to reflect racial and gender biases. Based on this observation, I will discuss two emerging research directions. First, a deeper understanding of human culture can help identify possible harmful stereotypes in algorithmic systems. The second research direction is the converse of the first: if data is a mirror of society, machine learning can be used as a magnifying lens to study human culture.",
-      "datetime": "Monday, June 03, 2019, 9:30 – 10:30",
-      "location": "Nicollet Ballroom",
-      "link": null
-    },
-    {
       "title": "When the Computers Spot the Lie (and People Don’t)",
       "authors": "Rada Mihalcea (University of Michigan)",
       "abstract": "Whether we like it or not, deception occurs everyday and everywhere: thousands of trials take place daily around the world; little white lies: “I’m busy that day!” even if your calendar is blank; news “with a twist” (a.k.a. fake news) meant to attract the readers attention or influence people in their future undertakings; misinformation in health social media posts; portrayed identities, on dating sites and elsewhere. Can a computer automatically detect deception in written accounts or in video recordings? In this talk, I will overview a decade of research in building linguistic and multimodal resources and algorithms for deception detection, targeting deceptive statements, trial videos, fake news, identity deception, and health misinformation. I will also show how these algorithms can provide insights into what makes a good lie - and thus teach us how we can spot a liar. As it turns out, computers can be trained to identify lies in many different contexts, and they can often do it better than humans do.",
       "datetime": "Tuesday, June 04, 2019, 14:00 – 15:00",
       "location": "Nicollet Ballroom",
-      "link": null
+      "link": null,
+      "author-bio": "Rada Mihalcea is a Professor of Computer Science and Engineering at the University of Michigan and the Director of the Michigan Artificial Intelligence Lab. Her research interests are in lexical semantics, multilingual NLP, and computational social sciences. She serves or has served on the editorial boards of the Journals of Computational Linguistics, Language Resources and Evaluations, Natural Language Engineering, Journal of Artificial Intelligence Research, IEEE Transactions on Affective Computing, and Transactions of the Association for Computational Linguistics. She was a program co-chair for EMNLP 2009 and ACL 2011, and a general chair for NAACL 2015 and *SEM 2019. She currently serves as the ACL Vice-President Elect. She is the recipient of an NSF CAREER award (2008) and a Presidential Early Career Award for Scientists and Engineers awarded by President Obama (2009). In 2013, she was made an honorary citizen of her hometown of Cluj-Napoca, Romania."
     },
     {
       "title": "Leaving the Lab: Building NLP Applications that Real People can Use",
       "authors": "Kieran Snyder (Textio)",
-      "abstract": "There is a chasm between an NLP technology that works well in the research lab and something that works for applications that real people use. Research conditions are often theoretical or idealized. The first time they contribute to industry projects, many theoretical researchers are surprised to discover how much goes into building outside the lab, and how hard it is to build data products for real people ethically and transparently. This talk explores my NLP journey in three stages: working as an academic NLP researcher, learning to be a practical creator of NLP products in industry, and becoming the founding CEO of an NLP business. While each role has used my background in computational linguistics in essential ways, every step has also required me to learn and unlearn new things along the way. The further I have gone in my industry career, the more critical it has become to define and work within a well-established set of principles for data ethics. This talk is for academic researchers considering industry careers or collaborations, for people in industry who started out in academia, and for anyone on either side of the divide who wants to make NLP products that real people can use.",
+      "abstract": "There is a chasm between an NLP technology that works well in the research lab and something that works for applications that real people use. Research conditions are often theoretical or idealized. The first time they contribute to industry projects, many theoretical researchers are surprised to discover how much goes into building outside the lab, and how hard it is to build data products for real people ethically and transparently. This talk explores my NLP journey in three stages: working as an academic NLP researcher, learning to be a practical creator of NLP products in industry, and becoming the founding CEO of an NLP business. While each role has used my background in computational linguistics in essential ways, every step has also required me to learn and unlearn new things along the way. The further I have gone in my industry career, the more critical it has become to define and work within a well-established set of principles for data ethics. This talk is for academic researchers considering industry careers or collaborations, for people in industry who started out in academia, and for anyone on either side of the divide who wants to make NLP products that real people can use",
       "datetime": "Wednesday, June 05, 2019, 9:00 – 10:00",
       "location": "Nicollet Ballroom",
-      "link": null
+      "link": null,
+      "author-bio": "Kieran Snyder is the CEO and Co-Founder of Textio, the augmented writing platform. For anything you write, Textio tells you ahead of time who’s going to respond based on the language you’ve used. Textio’s augmented writing engine is designed to attach to any large text corpus with outcomes to find the patterns that work. Prior to founding Textio, Kieran held product leadership roles at Microsoft and Amazon. Kieran has a PhD in linguistics from the University of Pennsylvania. Her work has appeared in Fortune, Re/code, Slate, and the Washington Post."
+    },
+    {
+      "title": "Data as a Mirror of Society: Lessons from the Emerging Science of Fairness in Machine Learning",
+      "authors": "Arvind Narayanan (Princeton University)",
+      "abstract": "Language corpora reflect human society, including cultural stereotypes, prejudices, and historical patterns. By default, statistical language models will absorb these stereotypes. As a result, NLP systems for word analogy generation, toxicity detection, and many other tasks have been found to reflect racial and gender biases. Based on this observation, I will discuss two emerging research directions. First, a deeper understanding of human culture can help identify possible harmful stereotypes in algorithmic systems. The second research direction is the converse of the first: if data is a mirror of society, machine learning can be used as a magnifying lens to study human culture.",
+      "datetime": "Monday, June 03, 2019, 9:30 – 10:30",
+      "location": "Nicollet Ballroom",
+      "link": null,
+      "author-bio": "Arvind Narayanan is an Associate Professor of Computer Science at Princeton. His research has shown how state-of-the-art word embeddings reflect racial, gender, and other cultural stereotypes. He leads the Princeton Web Transparency and Accountability Project to uncover how companies collect and use our personal information. His doctoral research showed the fundamental limits of de-identification, for which he received the Privacy Enhancing Technologies Award. Narayanan also co-created a Massive Open Online Course as well as a textbook on Bitcoin and cryptocurrency technologies."
     }
   ],
   "workshops": [
     {
-      "title": "SemEval The 13th International Workshop on Semantic Evaluation",
+      "title": "SemEval",
       "authors": [
         "Jonathan May",
         "Ekaterina Shutova",
@@ -6312,9 +6786,10 @@
       "link": "http://alt.qcri.org/semeval2019/"
     },
     {
-      "title": "*SEM 8th Joint Conference on Lexical and Computational Semantics",
+      "title": "*SEM",
       "authors": [
-        "General Chair: Rada Mihalcea"
+        " Lun-Wei Ku",
+        "Ekaterina Shutova"
       ],
       "abstract": "The 8th Joint Conference on Lexical and Computational Semantics brings together researchers interested in the semantics of natural languages and its computational modelling. The conference embraces symbolic and probabilistic approaches, and everything in between; theoretical contributions as well as practical applications are welcome in the form of long and short papers.General Chair: Rada Mihalcea, Program Co-Chairs: Lun-Wei Ku and Ekaterina Shutova",
       "datetime": null,
@@ -6322,7 +6797,7 @@
       "link": "https://starsem.org/2019/"
     },
     {
-      "title": "CLPsych 6th Annual Computational Linguistics and Clinical Psychology Workshop",
+      "title": "CLPsych",
       "authors": [
         "Kate Niederhoffer",
         "Kate Loveys",
@@ -6336,7 +6811,7 @@
       "link": "http://clpsych.org/"
     },
     {
-      "title": "DISRPT Workshop on Discourse Relation Parsing and Treebanking",
+      "title": "DISRPT",
       "authors": [
         "Amir Zeldes",
         "Debopam Das",
@@ -6350,7 +6825,7 @@
       "link": "https://sites.google.com/view/disrpt2019/"
     },
     {
-      "title": "ESSP Workshop on Extracting Structured Knowledge from Scientific Publications",
+      "title": "ESSP",
       "authors": [
         "Vivi Nastase",
         "Benjamin Roth",
@@ -6363,7 +6838,7 @@
       "link": "https://scientific-knowledge.github.io"
     },
     {
-      "title": "NeuralGen Workshop on Methods for Optimizing and Evaluating Neural Language Generation",
+      "title": "NeuralGen",
       "authors": [
         "Antoine Bosselut",
         "Marjan Ghazvininejad",
@@ -6379,7 +6854,7 @@
       "link": "https://neuralgen2019.github.io"
     },
     {
-      "title": "NLP+CSS 3rd Workshop on NLP and Computational Social Science",
+      "title": "NLP+CSS",
       "authors": [
         "Svitlana Volkova",
         "David Jurgens",
@@ -6393,7 +6868,7 @@
       "link": "https://sites.google.com/site/nlpandcss/home"
     },
     {
-      "title": "RepEval 3rd Workshop on Evaluating Vector Space Representations for NLP",
+      "title": "RepEval",
       "authors": [
         "Anna Rogers",
         "Aleksandr Drozd",
@@ -6406,7 +6881,7 @@
       "link": "https://repeval2019.github.io"
     },
     {
-      "title": "SiVL Workshop on Shortcomings in Vision and Language",
+      "title": "SiVL",
       "authors": [
         "Kushal Kafle",
         "Spandana Gella",
@@ -6422,7 +6897,7 @@
       "link": "https://sites.google.com/view/sivl2019/"
     },
     {
-      "title": "SpLU-RoboNLP Combined Workshop on Spatial Language Understanding and Grounded Communication for Robotics",
+      "title": "SpLU-RoboNLP",
       "authors": [
         "James F. Allen",
         "Jacob Andreas",
@@ -6442,7 +6917,7 @@
       "link": "https://splu-robonlp.github.io/"
     },
     {
-      "title": "WASSA 10th Workshop on Computational Approaches to Subjectivity, Sentiment and Social Media Analysis",
+      "title": "WASSA",
       "authors": [
         "Alexandra Balahur",
         "Roman Klinger",
@@ -6456,7 +6931,7 @@
       "link": "https://wt-public.emm4u.eu/wassa2019/index.htm"
     },
     {
-      "title": "Clinical NLP The Clinical Natural Language Processing Workshop",
+      "title": "Clinical NLP",
       "authors": [
         "Anna Rumshisky",
         "Kirk Roberts",
@@ -6469,7 +6944,7 @@
       "link": "https://clinical-nlp.github.io/2019/"
     },
     {
-      "title": "CMCL Workshop on Cognitive Modeling and Computational Linguistics",
+      "title": "CMCL",
       "authors": [
         "Emmanuele Chersoni",
         "Cassandra L. Jacobs",
@@ -6484,7 +6959,7 @@
       "link": "https://cmclorg.github.io/"
     },
     {
-      "title": "CRAC 2nd Workshop on Computational Models of Reference, Anaphora and Coreference",
+      "title": "CRAC",
       "authors": [
         "Maciej Ogrodniczuk",
         "Sameer Pradhan",
@@ -6497,7 +6972,7 @@
       "link": "https://sites.google.com/view/crac2019/"
     },
     {
-      "title": "LaTECH-ClFl 3rd Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature",
+      "title": "LaTECH-ClFl",
       "authors": [
         "Beatrice Alex",
         "Stefania Degaetano-Ortlieb",
@@ -6511,7 +6986,7 @@
       "link": "https://sighum.wordpress.com/events/latech-clfl-2019/"
     },
     {
-      "title": "Narrative Understanding Workshop on Narrative Understanding",
+      "title": "Narrative Understanding",
       "authors": [
         "David Bamman",
         "Snigdha Chaturvedi",
@@ -6525,7 +7000,7 @@
       "link": "https://sites.google.com/view/narrativeunderstanding/"
     },
     {
-      "title": "NLLP Workshop in Natural Legal Language Processing",
+      "title": "NLLP",
       "authors": [
         "Nikolaos Aletras",
         "Elliott Ash",
@@ -6542,7 +7017,7 @@
       "link": "https://sites.google.com/view/nllp/"
     },
     {
-      "title": "SLPAT Workshop on Speech and Language Processing for Assistive Technologies",
+      "title": "SLPAT",
       "authors": [
         "Heidi Christensen",
         "Kristy Hollingshead",
@@ -6556,7 +7031,7 @@
       "link": "http://www.slpat.org"
     },
     {
-      "title": "SPNLP 3rd Workshop on Structured Prediction for NLP",
+      "title": "SPNLP",
       "authors": [
         "André F. T. Martins",
         "Andreas Vlachos",
@@ -6572,7 +7047,7 @@
       "link": "http://structuredprediction.github.io/SPNLP19"
     },
     {
-      "title": "VarDial 6th Workshop on NLP for Similar Languages, Varieties and Dialects",
+      "title": "VarDial",
       "authors": [
         "Marcos Zampieri",
         "Preslav Nakov",
