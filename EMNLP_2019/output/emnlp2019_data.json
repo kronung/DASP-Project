@@ -6,39 +6,39 @@
     "submission_deadlines": [
       {
         "name": "Anonymity period begins",
-        "date": "April 21, 2019"
+        "datetime": "April 21, 2019"
       },
       {
         "name": "Abstracts due (long & short)",
-        "date": "May 15, 2019"
+        "datetime": "May 15, 2019"
       },
       {
         "name": "Submissions due (long & short)",
-        "date": "May 21, 2019"
+        "datetime": "May 21, 2019"
       },
       {
         "name": "Author response period starts",
-        "date": "July 9, 2019"
+        "datetime": "July 9, 2019"
       },
       {
         "name": "Author responses due",
-        "date": "July 15, 2019"
+        "datetime": "July 15, 2019"
       },
       {
         "name": "Notification of acceptance",
-        "date": "August 12, 2019"
+        "datetime": "August 12, 2019"
       },
       {
         "name": "Camera-ready due",
-        "date": "August 30, 2019"
+        "datetime": "August 30, 2019"
       },
       {
         "name": "Workshops & tutorials",
-        "date": "November 3–4, 2019"
+        "datetime": "November 3–4, 2019"
       },
       {
         "name": "Main conference",
-        "date": "November 5–7, 2019"
+        "datetime": "November 5–7, 2019"
       }
     ],
     "topics": [

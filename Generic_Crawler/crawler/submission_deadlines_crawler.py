@@ -6,13 +6,13 @@ import requests
 from bs4 import BeautifulSoup
 import json
 
-def extract_submission_deadlines():
+def extract_submission_deadlines(smd_url):
     """
        Extracts all information available for submission important dates at
        https://www.emnlp-ijcnlp2019.org/calls/papers .
        :return: a list of a dictionaries with a deadline represented as one dictionary.
        """
-    page = requests.get("https://www.emnlp-ijcnlp2019.org/calls/papers")
+    page = requests.get(smd_url)
     soup = BeautifulSoup(page.content, 'html.parser')
 
     submission_deadlines = []

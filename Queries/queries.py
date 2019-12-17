@@ -2,12 +2,14 @@
 
 __author__ = "Lars Meister"
 
+from dateutil import parser as dateparser
 
 class Conference:
     """Provides methods for querying a conference."""
 
     paper_attributes = ["title", "link", "authors", "type", "datetime", "topic"]
     other_attributes = ["title", "link", "authors", "abstract", "datetime", "location"]
+    conf_domains = ["submission_deadlines", "papers", "workshops", "tutorials", "keynotes"]
 
     def __init__(self, conference):
         """
@@ -60,7 +62,7 @@ class Conference:
         """Returns all the keynotes with all available information."""
         return self.conference["keynotes"]
 
-    def keynote_search(self, search_name, search_by, show=None):
+    def keynote_search(self, search_value, search_key, show=None):
         """
         Return keynotes where given search_value matches information
         specified in search_key attribute in a keynote.
@@ -69,8 +71,8 @@ class Conference:
         :param show: optional, allows to only show the specified attribute of a keynote
         :return: list of matching keynotes
         """
-        keynotes = [keynote for keynote in self.conference["keynotes"] if search_name in keynote[
-            search_by]]
+        keynotes = [keynote for keynote in self.conference["keynotes"] if search_value in keynote[
+            search_key]]
         if not keynotes:
             return None
         if show is None or show not in self.other_attributes:
@@ -81,7 +83,7 @@ class Conference:
         """Returns all the workshops with all available information."""
         return self.conference["workshops"]
 
-    def workshop_search(self, search_name, search_by, show=None):
+    def workshop_search(self, search_value, search_key, show=None):
         """
         Return workshops where given search_value matches information
         specified in search_key attribute in a workshop.
@@ -90,9 +92,8 @@ class Conference:
         :param show: optional, allows to only show the specified attribute of a workshop
         :return: list of matching workshops
         """
-        workshops = [workshop for workshop in self.conference["workshops"] if search_name in
-                     workshop[
-                         search_by]]
+        workshops = [workshop for workshop in self.conference["workshops"] if search_value in
+                     workshop[search_key]]
         if not workshops:
             return None
         if show is None or show not in self.other_attributes:
@@ -103,7 +104,7 @@ class Conference:
         """Returns all the tutorials with all available information."""
         return self.conference["tutorials"]
 
-    def tutorial_search(self, search_name, search_by, show=None):
+    def tutorial_search(self, search_value, search_key, show=None):
         """
         Return tutorials where given search_value matches information
         specified in search_key attribute in a tutorial.
@@ -112,11 +113,55 @@ class Conference:
         :param show: optional, allows to only show the specified attribute of a tutorial
         :return: list of matching tutorials
         """
-        tutorials = [tutorial for tutorial in self.conference["tutorials"] if search_name in
-                     tutorial[
-                         search_by]]
+        tutorials = [tutorial for tutorial in self.conference["tutorials"] if search_value in
+                     tutorial[search_key]]
         if not tutorials:
             return None
         if show is None or show not in self.other_attributes:
             return tutorials
         return [tutorial[show] for tutorial in tutorials]
+
+    def get_Sessions_by_date(self, search_date, search_domain, show=None):
+        """
+        Returns all items of a given search_domain (papers, workshops, tutorials,
+        submission_deadlines, keynotes) which take place at given search_date.
+        :param search_date: String of date in english format (11/04/2019 or 4 November 2019 etc.)
+        :param search_domain: see conf_domains for available choices
+        :param show: optional, allows to only show the specified attribute of a item
+        :return: list of matching items
+        """
+        if search_domain not in self.conf_domains:
+            print("Not a valid search domain, must be one of: ", self.conf_domains)
+            return None
+        search_date = dateparser.parse(search_date)
+        items = []
+        for item in self.conference[search_domain]:
+            try:
+                found_datetime = dateparser.parse(','.join(item["datetime"].split(',')[:-1]))
+            except:
+                continue
+            if search_date == found_datetime:
+                items.append(item)
+
+        if not items:
+            return None
+
+        if show is None:
+            return items
+
+        if search_domain == "papers" and show not in self.paper_attributes:
+            print("Specified show attribute not valid for papers. Must be one of: ",
+                  self.paper_attributes)
+            return items
+
+        if search_domain != "papers" and show not in self.other_attributes:
+            print("Specified show attribute not valid for " + search_domain + ". Must be one of: ",
+                  self.other_attributes)
+            return items
+
+        return [item[show] for item in items]
+
+
+
+
+
