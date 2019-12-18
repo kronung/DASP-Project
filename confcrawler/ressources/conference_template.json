@@ -1,0 +1,54 @@
+{
+  "name": "",
+  "location": "",
+  "datetime": "",
+  "submission_deadlines": [
+    {
+      "name": "",
+      "datetime": ""
+    }
+  ],
+  "topics": [],
+  "organizers": [],
+  "papers": [
+    {
+      "authors": [],
+      "title": "",
+      "topic": "",
+      "link": "",
+      "type": "",
+      "datetime": ""
+    }
+  ],
+  "tutorials": [
+    {
+      "title": "",
+      "authors": [],
+      "abstract": "",
+      "datetime": "",
+      "location": "",
+      "link": ""
+    }
+  ],
+  "keynotes": [
+    {
+      "title": "",
+      "authors": [],
+      "author-bio": "",
+      "abstract": "",
+      "datetime": "",
+      "location": "",
+      "link": ""
+    }
+  ],
+  "workshops": [
+    {
+      "title": "",
+      "authors": [],
+      "abstract": "",
+      "datetime": "",
+      "location": "",
+      "link": ""
+    }
+  ]
+}
