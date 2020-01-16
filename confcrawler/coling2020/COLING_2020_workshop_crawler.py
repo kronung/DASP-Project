@@ -6,14 +6,14 @@ from urllib import request
 import json
 
 
-def extract_workshops():
+def extract_workshops(url):
     """
     Extracts all information available for workshops provided at
     https://coling2020.org/pages/workshops
     :return: list of dictionaries with a workshop represented as one dictionary.
     """
     workshops = []
-    url = "https://coling2020.org/pages/workshops"
+    # url = "https://coling2020.org/pages/workshops"
 
     try:
         page = request.urlopen(url)
@@ -35,3 +35,11 @@ def extract_workshops():
     return workshops
 
 
+def get_workshops():
+    workshops_info = extract_workshops("https://coling2020.org/pages/workshops")
+    # for t in workshops_info:
+    #     print(t)
+    return workshops_info
+
+
+get_workshops()

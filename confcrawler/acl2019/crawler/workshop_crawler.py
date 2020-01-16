@@ -28,9 +28,9 @@ def get_timestamp_for_event(datetimes, date_tuple):
     return rdate
 
 
-def extract_tutorial_info(url):
-    tutorial_dummy = {attribute: None for attribute in ["title", "authors", "location", "link"]}
-    tutorial_info_list = []
+def extract_workshop_info(url):
+    workshop_dummy = {attribute: None for attribute in ["title", "authors", "location", "link"]}
+    workshop_info_list = []
     try:
         page = request.urlopen(url)
     except ConnectionError:
@@ -41,16 +41,18 @@ def extract_tutorial_info(url):
     workshop_div = BeautifulSoup(page, 'html.parser').findAll("div", class_="workshops")[0]
     workshops = workshop_div.findAll("h3")
     for workshop in workshops:
-        tutorial_dummy["title"] = workshop.text
+        workshop_dummy["title"] = workshop.text
         current_date = get_timestamp_for_event(datetimes, (current_date, workshop.text))
-        tutorial_dummy["datetime"] = current_date
-        tutorial_dummy["link"] = workshop.contents[0]["href"]
-        tutorial_dummy["authors"] = workshop.findNext("p", {"class": "tutorials-tutors"}).text
-        tutorial_dummy["location"] = workshop.findNext("p", {"class": "tutorials-room"}).text.split('.')[1].strip()
-        tutorial_info_list.append(copy.copy(tutorial_dummy))
-    return tutorial_info_list
+        workshop_dummy["datetime"] = current_date
+        workshop_dummy["link"] = workshop.contents[0]["href"]
+        workshop_dummy["authors"] = workshop.findNext("p", {"class": "tutorials-tutors"}).text
+        workshop_dummy["location"] = workshop.findNext("p", {"class": "tutorials-room"}).text.split('.')[1].strip()
+        workshop_info_list.append(copy.copy(workshop_dummy))
+    return workshop_info_list
 
 
-tutorials_info = extract_tutorial_info("http://www.acl2019.org/EN/workshops.xhtml")
-for t in tutorials_info:
-    print(t)
+def get_workshops():
+    workshop_info = extract_workshop_info("http://www.acl2019.org/EN/workshops.xhtml")
+    # for t in workshop_info:
+    #     print(t)
+    return workshop_info

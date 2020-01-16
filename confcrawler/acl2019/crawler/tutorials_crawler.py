@@ -45,6 +45,9 @@ def extract_tutorial_info(url):
     return tutorial_info_list
 
 
-tutorials_info = extract_tutorial_info("http://www.acl2019.org/EN/tutorials.xhtml")
-for t in tutorials_info:
-    print(t)
+def get_tutorials():
+    tutorials_info = extract_tutorial_info("http://www.acl2019.org/EN/tutorials.xhtml")
+    # for t in tutorials_info:
+    #     print(t)
+    return tutorials_info
+
