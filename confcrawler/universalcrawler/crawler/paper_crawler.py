@@ -1,10 +1,9 @@
-"""Crawler to collect the EMNLP 2019 papers"""
-__author__ = "Lars Meister"
+"""Crawler to collect the papers"""
+__author__ = "Lars Meister, Samaun Ibna Faiz"
 
 from bs4 import BeautifulSoup
 from urllib import request
 import re
-import json
 import logging
 
 logger = logging.getLogger("paper_crawler")

@@ -1,0 +1,9 @@
+conf_name = NAACL 2019
+topics_url = 
+organizers_url = 
+schedule_url = https://naacl2019.org/schedule/
+papers_url = https://naacl2019.org/program/accepted/
+workshops_url = https://naacl2019.org/program/workshops/
+tutorials_url = https://naacl2019.org/program/tutorials/
+keynotes_url = https://naacl2019.org/program/keynotes/
+smd_url = https://naacl2019.org/

@@ -26,7 +26,7 @@ conf_naacl19 = {
 conf_emnlp19 = {
     'conf_name' : "EMNLP 2019",
     'topics_url' : "https://www.emnlp-ijcnlp2019.org/calls/papers",
-    'organizers_url' : "https://www.emnlp-ijcnlp2019.org/calls/papers",
+    'organizers_url' : "https://www.emnlp-ijcnlp2019.org/organization",
     'schedule_url': "https://www.emnlp-ijcnlp2019.org/program/ischedule/",
     'papers_url': "https://www.emnlp-ijcnlp2019.org/program/accepted/",
     'workshops_url': "https://www.emnlp-ijcnlp2019.org/program/workshops/",
@@ -38,7 +38,7 @@ conf_emnlp19 = {
 conf_acl20 = {
     'conf_name' : "ACL 2020",
     'topics_url' : "https://acl2020.org/calls/demos/",
-    'organizers_url' : "https://acl2020.org/organization",
+    'organizers_url' : "",
     'schedule_url': "",
     'papers_url': "",
     'workshops_url': "https://acl2020.org/program/workshops/",
@@ -48,7 +48,7 @@ conf_acl20 = {
     }
 
 
-def collect_data(conf_file):
+def collect_data(conf_file, folder):
     """Collects the crawled data for a conf_file and saves it to a file."""
 
     conf_dict = util.generate_empty_conf_dict()
@@ -93,31 +93,27 @@ def collect_data(conf_file):
     except Exception:
         logging.exception("Fatal error in papers_crawler!")
 
-    util.save_conference_data(conf_file["conf_name"], conf_dict)
+    util.save_conference_data(conf_file["conf_name"], conf_dict, folder)
 
 
-def main(conf_file_list):
+def start_crawling(conf_file, folder):
     """Routine to crawl data."""
     # initialise logger
     logging.basicConfig(format='%(asctime)s %(name)s %(levelname)s:%(message)s',
                         level=logging.DEBUG,
                         datefmt='%H:%M:%S',
-                        handlers=[logging.FileHandler('logs/confCrawler.log', 'w', 'utf-8')])
+                        handlers=[logging.FileHandler('confcrawler/logs/confcrawler.log', 'w',
+                                                      'utf-8')])
     console = logging.StreamHandler()
     console.setLevel(logging.INFO)
     logging.getLogger('').addHandler(console)
 
     logging.info('Start conference crawling...')
-    for conf_file in conf_file_list:
-        logging.info('---------- Conference to crawl: %s', conf_file["conf_name"])
-        start = time.time()
-        collect_data(conf_file)
-        end = time.time()
-        logging.info('--- %s DONE, data crawled in %s seconds', conf_file["conf_name"],
-                     round(end-start, 3))
+    logging.info('---------- Conference to crawl: %s', conf_file["conf_name"])
+    start = time.time()
+    collect_data(conf_file, folder)
+    end = time.time()
+    logging.info('--- %s DONE, data crawled in %s seconds', conf_file["conf_name"],
+                 round(end-start, 3))
 
     logging.info('Completed crawling')
-
-
-if __name__ == "__main__":
-    main([conf_acl20])

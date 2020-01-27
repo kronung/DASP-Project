@@ -9,7 +9,12 @@
     }
   ],
   "topics": [],
-  "organizers": [],
+  "organizers": [
+    {
+    "position": "",
+    "members": ""
+    }
+  ],
   "papers": [
     {
       "authors": [],
