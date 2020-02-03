@@ -50,14 +50,14 @@ def extract_papers(papers_url=None, schedule_url=None):
             logger.debug('Content tag where data is in: <p>')
 
             for paper_entry in soup.findAll("p"):
-                paper = {attribute: None for attribute in ["title", "authors", "type", "link",
-                                                                   "datetime", "topic"]}
+                paper = {attribute: None for attribute in ["paper_title", "paper_authors", "paper_type", "paper_link",
+                                                                   "paper_time", "paper_keywords"]}
                 paper_parent = paper_entry.strong
                 if paper_parent is not None:
-                    paper["title"] = pretty_title(paper_parent.text)
+                    paper["paper_title"] = pretty_title(paper_parent.text)
                     author_parent = paper_parent.next_sibling
                     if author_parent is not None:
-                        paper["authors"] = pretty_organizers(author_parent.next)
+                        paper["paper_authors"] = pretty_organizers(author_parent.next)
                         author_reference.append(
                             set(clean_authors(author_parent.next)))
                     papers.append(paper)
@@ -70,15 +70,15 @@ def extract_papers(papers_url=None, schedule_url=None):
             for child in soup.findAll("h2"):
                 paper_type = child.text
                 for paper_entry in child.findNext('ul').findChildren("li"):
-                    paper = {attribute: None for attribute in ["title", "authors", "type", "link",
-                                                               "datetime", "topic"]}
-                    paper["type"] = paper_type
+                    paper = {attribute: None for attribute in ["paper_title", "paper_authors", "paper_type", "paper_link",
+                                                               "paper_time", "paper_keywords"]}
+                    paper["paper_type"] = paper_type
                     paper_parent = paper_entry.span
                     if paper_parent is not None:
-                        paper["title"] = pretty_title(paper_parent.text)
+                        paper["paper_title"] = pretty_title(paper_parent.text)
                         author_parent = paper_entry.i
                         if author_parent is not None:
-                            paper["authors"] = pretty_organizers(author_parent.text)
+                            paper["paper_authors"] = pretty_organizers(author_parent.text)
                             author_reference.append(set(clean_authors(author_parent.text)))
                         papers.append(paper)
                         paper_reference[clean_title(paper_parent.text)] = \
@@ -137,25 +137,25 @@ def extract_papers(papers_url=None, schedule_url=None):
                         except KeyError:
                             existing_index = author_reference.index(search_authors)
 
-                        papers[existing_index]["datetime"] = datetime
-                        papers[existing_index]["topic"] = topic
+                        papers[existing_index]["paper_time"] = datetime
+                        papers[existing_index]["paper_keywords"] = topic
                         link_parent = paper.find('i')
                         if link_parent is not None:
-                            papers[existing_index]["link"] = link_parent['data']
+                            papers[existing_index]["paper_link"] = link_parent['data']
 
                     # if paper does not exist add new keynote
                     else:
                         logger.debug('Paper does not exist already: Create new: *%s', title)
-                        paper_ = {attribute: None for attribute in ["title", "authors", "type",
-                                                                    "link",
-                                                                   "datetime", "topic"]}
-                        paper_["title"] = pretty_title(title)
-                        paper_["authors"] = pretty_organizers(authors)
-                        paper_["topic"] = topic
+                        paper_ = {attribute: None for attribute in ["paper_title", "paper_authors", "paper_type",
+                                                                    "paper_link",
+                                                                   "paper_time", "paper_keywords"]}
+                        paper_["paper_title"] = pretty_title(title)
+                        paper_["paper_authors"] = pretty_organizers(authors)
+                        paper_["paper_keywords"] = topic
                         link_parent = paper.find('i')
                         if link_parent is not None:
-                            paper_["link"] = link_parent['data']
-                        paper_["datetime"] = datetime
+                            paper_["paper_link"] = link_parent['data']
+                        paper_["paper_time"] = datetime
                         papers.append(paper_)
 
     logger.info('Crawling PAPERS DONE')

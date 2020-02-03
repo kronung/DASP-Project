@@ -44,10 +44,10 @@ def extract_tutorials(tutorials_url=None, schedule_url=None):
         reference_counter = 0
         # tutorials can either be in <h2> or <h3> tags
         for item in soup.find_all(['h2', 'h3'], id= re.compile("^t\d+")):
-            tutorial = {attribute: None for attribute in ["title", "authors", "abstract", "datetime",
-                                                          "location", "link"]}
-            tutorial["title"] = pretty_title(item.text)
-            tutorial["authors"] = pretty_organizers(item.findNext("p").text)
+            tutorial = {attribute: None for attribute in ["tutorial_name", "tutorial_author", "tutorial_abstract", "tutorial_time",
+                                                          "tutorial_location", "tutorial_link"]}
+            tutorial["tutorial_name"] = pretty_title(item.text)
+            tutorial["tutorial_author"] = pretty_organizers(item.findNext("p").text)
             next_node = item.findNext("p")
             tagbreak = item.name
             abstract = ""
@@ -56,7 +56,7 @@ def extract_tutorials(tutorials_url=None, schedule_url=None):
                     break
                 elif tag.name in ["p", "div", "ul"]:
                     abstract += tag.text
-            tutorial["abstract"] = basic_string_clean(abstract)
+            tutorial["tutorial_abstract"] = basic_string_clean(abstract)
             tutorials.append(tutorial)
             tutorial_reference[clean_title(item.text)] = reference_counter
             author_reference.append(set(clean_authors(item.findNext("p").text)))
@@ -103,26 +103,26 @@ def extract_tutorials(tutorials_url=None, schedule_url=None):
                         location = None
                         if location_parent is not None:
                             location = location_parent.text
-                        if tutorials[existing_index]["datetime"] is None:
-                            tutorials[existing_index]["datetime"] = datetime
-                            tutorials[existing_index]["location"] = location
+                        if tutorials[existing_index]["tutorial_time"] is None:
+                            tutorials[existing_index]["tutorial_time"] = datetime
+                            tutorials[existing_index]["tutorial_location"] = location
                         else:
-                            cur_datetime = tutorials[existing_index]["datetime"] + ", " + time.text
-                            tutorials[existing_index]["datetime"] = cur_datetime
+                            cur_datetime = tutorials[existing_index]["tutorial_time"] + ", " + time.text
+                            tutorials[existing_index]["tutorial_time"] = cur_datetime
 
                     # if tutorial does not exist add to tutorials
                     else:
                         logger.debug('Tutorial does not exist already: Create new: *%s', title)
                         tutorial = {attribute: None for attribute in
-                                    ["title", "authors", "abstract", "datetime",
-                                     "location", "link"]}
-                        tutorial["title"] = pretty_title(title)
-                        tutorial["authors"] = pretty_organizers(authors)
+                                    ["tutorial_name", "tutorial_author", "tutorial_abstract", "tutorial_time",
+                                     "tutorial_location", "tutorial_link"]}
+                        tutorial["tutorial_name"] = pretty_title(title)
+                        tutorial["tutorial_author"] = pretty_organizers(authors)
 
                         location_parent = child.findNext(class_="btn")
                         if location_parent is not None:
-                            tutorial["location"] = location_parent.text
-                        tutorial["datetime"] = datetime
+                            tutorial["tutorial_location"] = location_parent.text
+                        tutorial["tutorial_time"] = datetime
                         tutorials.append(tutorial)
     logger.info('Crawling TUTORIALS DONE')
     return tutorials

@@ -12,7 +12,7 @@ Add all your code here guys, so we can use the same data structure and stuff.
 [First presentation](https://docs.google.com/presentation/d/15QHucPB7vOlxxqTh7_59tIPKPIw8nK8uY5EHov2GAXQ/edit#slide=id.g6e23f894b7_0_12)
 
 ## How to use the program:
---- confcrawler version 1.0 UKP Lab TU Darmstadt python3 ---
+--- confcrawler version 1.0 UKP Lab TU Darmstadt python3 ---  
 Confcrawler help instructions:
 confcrawler lets you crawl data for specific nlp conference websites,
 which have the same html template than emnlp2019 or naacl2019.

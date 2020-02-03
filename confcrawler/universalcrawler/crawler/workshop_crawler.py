@@ -42,9 +42,9 @@ def extract_workshops(workshops_url=None, schedule_url=None):
 
         reference_counter = 0
         for child in soup.findChildren("h3"):
-            workshop = {attribute: None for attribute in ["title", "authors", "abstract", "datetime",
-                                                               "location", "link"]}
-            workshop["title"] = pretty_title(child.text)
+            workshop = {attribute: None for attribute in ["workshop_name", "workshop_organizer", "workshop_description", "workshop_day",
+                                                               "workshop_location", "workshop_link"]}
+            workshop["workshop_name"] = pretty_title(child.text)
             next_node = child
             abstract = ""
 
@@ -54,11 +54,11 @@ def extract_workshops(workshops_url=None, schedule_url=None):
                 elif tag.name in ["p", "div", "ul"]:
                     abstract += tag.text
                 elif tag.name == "a":
-                    workshop["link"] = tag["href"]
+                    workshop["workshop_link"] = tag["href"]
                 elif tag.name == "em":
-                    workshop["authors"] = clean_organizers(tag.text)
+                    workshop["workshop_organizer"] = clean_organizers(tag.text)
 
-            workshop["abstract"] = basic_string_clean(abstract)
+            workshop["workshop_description"] = basic_string_clean(abstract)
             workshops.append(workshop)
             workshop_reference[clean_title(child.text)] = reference_counter
             reference_counter += 1
@@ -97,16 +97,16 @@ def extract_workshops(workshops_url=None, schedule_url=None):
                     time = child.find("strong").next_sibling.strip()
                 location_parent = child.findNext(class_="btn")
                 if location_parent is not None:
-                    workshops[existing_index]["location"] = location_parent.text
-                    workshops[existing_index]["datetime"] = date + ", " + time
+                    workshops[existing_index]["workshop_location"] = location_parent.text
+                    workshops[existing_index]["workshop_day"] = date + ", " + time
 
             # if workshop does not exist add to tutorials
             else:
                 logger.debug('Workshop does not exist already: Create new: *%s', title)
                 workshop = {attribute: None for attribute in
-                            ["title", "authors", "abstract", "datetime",
-                             "location", "link"]}
-                workshop["title"] = pretty_title(title)
+                            ["workshop_name", "workshop_organizer", "workshop_description", "workshop_day",
+                             "workshop_location", "workshop_link"]}
+                workshop["workshop_name"] = pretty_title(title)
                 time_parent = child.findNext("span", {"class": "session-time"})
                 if time_parent is not None:
                     time = time_parent.text
@@ -114,8 +114,8 @@ def extract_workshops(workshops_url=None, schedule_url=None):
                     time = child.find("strong").next_sibling.strip()
                 location_parent = child.findNext(class_="btn")
                 if location_parent is not None:
-                    workshops["location"] = location_parent.text
-                    workshops["datetime"] = date + ", " + time
+                    workshops["workshop_location"] = location_parent.text
+                    workshops["workshop_day"] = date + ", " + time
                 workshops.append(workshop)
 
     logger.info('Crawling WORKSHOPS DONE')

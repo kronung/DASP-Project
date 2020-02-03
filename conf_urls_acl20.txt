@@ -1,0 +1,9 @@
+conf_name = ACL 2020
+topics_url = https://acl2020.org/calls/demos/
+organizers_url = 
+schedule_url= 
+papers_url= 
+workshops_url= https://acl2020.org/program/workshops/
+tutorials_url= https://acl2020.org/program/tutorials/
+keynotes_url = 
+smd_url= https://acl2020.org/

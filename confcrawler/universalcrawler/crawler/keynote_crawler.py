@@ -46,8 +46,8 @@ def extract_keynotes(keynotes_url=None, schedule_url=None):
         items = soup.find_all(class_="archive__item-body")
 
         for item in items:
-            keynote = {attribute: None for attribute in ["title", "authors", "abstract", "datetime",
-                                                          "location", "link", "author-bio"]}
+            keynote = {attribute: None for attribute in ["keynote_title", "keynote_speaker", "keynote_abstract", "keynote_time",
+                                                          "keynote_location", "keynote_link", "keynote_speaker_bio"]}
             title_parent = item.find(class_="archive__item-excerpt").find("strong",
                                                     text=re.compile("^\s?[Tt]itle\s?:\s?"))
             abstract_parent = item.find(class_="archive__item-excerpt").find("strong",
@@ -55,11 +55,11 @@ def extract_keynotes(keynotes_url=None, schedule_url=None):
             author_bio = item.find(class_="archive__item-small-excerpt")
             if title_parent is not None:
                 title = basic_string_clean(str(title_parent.next_sibling))
-                keynote["title"] = title
+                keynote["keynote_title"] = title
                 if abstract_parent is not None:
-                    keynote["abstract"] = basic_string_clean(str(abstract_parent.next_sibling))
+                    keynote["keynote_abstract"] = basic_string_clean(str(abstract_parent.next_sibling))
                 if author_bio is not None:
-                    keynote["author-bio"] = basic_string_clean(author_bio.text)
+                    keynote["keynote_speaker_bio"] = basic_string_clean(author_bio.text)
 
                 keynotes.append(keynote)
                 keynote_reference[clean_title(title)] = reference_counter
@@ -90,32 +90,32 @@ def extract_keynotes(keynotes_url=None, schedule_url=None):
                 authors = session.find("span", {"class": "session-people"})
                 if authors is None:
                     authors = session.find("span", {"class": "session-person"})
-                keynotes[existing_index]["authors"] = authors.text
+                keynotes[existing_index]["keynote_speaker"] = authors.text
                 time = session.find("span", {"class": "session-time"})
-                keynotes[existing_index]["datetime"] = time["title"] + ", " + time.text
-                keynotes[existing_index]["location"] = session.findNext("span", {"class": "btn"}).text
+                keynotes[existing_index]["keynote_time"] = time["title"] + ", " + time.text
+                keynotes[existing_index]["keynote_location"] = session.findNext("span", {"class": "btn"}).text
 
             # if keynote does not exist add new keynote
             else:
                 logger.debug('Keynote does not exist already: Create new: *%s', title)
                 keynote = {attribute: None for attribute in
-                           ["title", "authors", "abstract", "datetime",
-                            "location", "link", "author-bio"]}
+                           ["keynote_title", "keynote_speaker", "keynote_abstract", "keynote_time",
+                            "keynote_location", "keynote_link", "keynote_speaker_bio"]}
                 if title:
-                    keynote["title"] = pretty_title(title)
+                    keynote["keynote_title"] = pretty_title(title)
                     authors = session.find("span", {"class": "session-people"})
                     if authors is None:
                         authors = session.find("span", {"class": "session-person"})
-                    keynote["authors"] = authors.text
+                    keynote["keynote_speaker"] = authors.text
                     time_parent = session.find("span", {"class": "session-time"})
                     if time_parent is not None:
-                        keynote["datetime"] = time_parent["title"] + ", " + time_parent.text
+                        keynote["keynote_time"] = time_parent["title"] + ", " + time_parent.text
                     location_parent = session.findNext("span", {"class": "btn"})
                     if location_parent is not None:
-                        keynote["location"] = location_parent.text
+                        keynote["keynote_location"] = location_parent.text
                     abstract_parent = session.findNext("div", {"class": "session-abstract"})
                     if abstract_parent is not None:
-                        keynote["abstract"] = basic_string_clean(abstract_parent.text)
+                        keynote["keynote_abstract"] = basic_string_clean(abstract_parent.text)
                     keynotes.append(keynote)
     logger.info('Crawling KEYNOTES DONE')
     return keynotes
