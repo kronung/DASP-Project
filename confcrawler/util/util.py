@@ -3,9 +3,7 @@ __author__ = "Lars Meister, Samaun Ibna Faiz"
 
 import json
 from re import sub
-from typing import List, Dict, Any
 
-from bs4 import Tag
 
 def generate_empty_conf_dict():
     """Generates an empty dictionary according to the conference template."""
@@ -30,7 +28,7 @@ def basic_string_clean(string):
     return sub(r'([\n\t]|^\s+|\s+$)', "", string)
 
 
-def find_next_sibling_line(element: Tag, tag_type: str) -> int:
+def find_next_sibling_line(element, tag_type):
     """
     Gets current elements next sibling's (chosen by provided tag_type) actual line number in html document
 
@@ -42,7 +40,7 @@ def find_next_sibling_line(element: Tag, tag_type: str) -> int:
     return float("inf") if nxt_sib is None else nxt_sib.sourceline
 
 
-def find_next_sibling_position(element: Tag, tag_type: str) -> int:
+def find_next_sibling_position(element, tag_type):
     """
     Gets current elements next sibling's (chosen by provided tag_type) actual character position in html document
 
@@ -54,7 +52,7 @@ def find_next_sibling_position(element: Tag, tag_type: str) -> int:
     return float("inf") if nxt_sib is None else nxt_sib.sourcepos
 
 
-def pre_process_types(elements: List[Tag]) -> List[Dict[str, Any]]:
+def pre_process_types(elements):
     """
     Enhances the given list of tags(elements) with sentinel information and returns the result
 
@@ -71,7 +69,7 @@ def pre_process_types(elements: List[Tag]) -> List[Dict[str, Any]]:
     ]
 
 
-def is_proper_sibling(element: Tag, parent: Dict[str, Any]) -> bool:
+def is_proper_sibling(element, parent):
     """
     Checks if the element(sibling) should be considered as a sibling of parent's['elem'] or not
 
@@ -86,7 +84,7 @@ def is_proper_sibling(element: Tag, parent: Dict[str, Any]) -> bool:
            ) < 0
 
 
-def get_proper_siblings(parent_tag: Dict[str, Any], sibling_tag_name: str) -> List[Tag]:
+def get_proper_siblings(parent_tag, sibling_tag_name):
     """
     Prunes out improper siblings and gives back the appropriate ones.
 
