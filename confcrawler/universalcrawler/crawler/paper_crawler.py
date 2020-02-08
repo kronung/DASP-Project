@@ -6,6 +6,8 @@ from urllib import request
 import re
 import logging
 
+from confcrawler.util.util import pre_process_types, get_proper_siblings
+
 logger = logging.getLogger("paper_crawler")
 
 def extract_papers(papers_url=None, schedule_url=None):
@@ -49,20 +51,24 @@ def extract_papers(papers_url=None, schedule_url=None):
         if content_determine is not None:
             logger.debug('Content tag where data is in: <p>')
 
-            for paper_entry in soup.findAll("p"):
-                paper = {attribute: None for attribute in ["paper_title", "paper_authors", "paper_type", "paper_link",
-                                                                   "paper_time", "paper_keywords"]}
-                paper_parent = paper_entry.strong
-                if paper_parent is not None:
-                    paper["paper_title"] = pretty_title(paper_parent.text)
-                    author_parent = paper_parent.next_sibling
-                    if author_parent is not None:
-                        paper["paper_authors"] = pretty_organizers(author_parent.next)
-                        author_reference.append(
-                            set(clean_authors(author_parent.next)))
-                    papers.append(paper)
-                    paper_reference[clean_title(paper_entry.strong.text)] = reference_counter
-                    reference_counter += 1
+            for child in pre_process_types(soup.findAll("h2")):
+                paper_type = child['elem'].text
+                for paper_entry in get_proper_siblings(child, 'p'):
+                    paper = {attribute: None for attribute in
+                             ["paper_title", "paper_authors", "paper_type", "paper_link",
+                              "paper_time", "paper_keywords"]}
+                    paper["paper_type"] = paper_type
+                    paper_parent = paper_entry.strong
+                    if paper_parent is not None:
+                        paper["paper_title"] = pretty_title(paper_parent.text)
+                        author_parent = paper_parent.next_sibling
+                        if author_parent is not None:
+                            paper["paper_authors"] = pretty_organizers(author_parent.next)
+                            author_reference.append(
+                                set(clean_authors(author_parent.next)))
+                        papers.append(paper)
+                        paper_reference[clean_title(paper_entry.strong.text)] = reference_counter
+                        reference_counter += 1
 
         # if papers are in table <ul> <li>
         else:
