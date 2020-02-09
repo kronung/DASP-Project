@@ -4,7 +4,6 @@ __author__ = "Lars Meister, Samaun Ibna Faiz"
 import json
 from re import sub
 
-
 def generate_empty_conf_dict():
     """Generates an empty dictionary according to the conference template."""
     with open("confcrawler/ressources/conference_template.json", "r") as template:
@@ -25,7 +24,8 @@ def save_conference_data(conf_name, conf_data, folder):
 
 def basic_string_clean(string):
     """Basic string cleaning."""
-    return sub(r'([\n\t]|^\s+|\s+$)', "", string)
+    filter1 = sub(r'([\n\t]|^\s+|\s+$)', "", string)
+    return filter1.replace("\"", "'")
 
 
 def find_next_sibling_line(element, tag_type):

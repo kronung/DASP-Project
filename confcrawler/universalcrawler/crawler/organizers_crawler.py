@@ -1,5 +1,5 @@
 """Crawler to collect the NAACL2019, ACL2019, ACL2020, EMNLP2019 and COLING2020 organizers """
-__author__ = "Yuqing_Xu"
+__author__ = "Yuqing Xu"
 
 
 import requests

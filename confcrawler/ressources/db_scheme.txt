@@ -1,0 +1,76 @@
+DROP DATABASE IF EXISTS conferenceData;
+CREATE DATABASE conferenceData;
+USE conferenceData;
+CREATE TABLE Conference (
+    conf_name varchar(256) NOT NULL,
+    time varchar(256),
+    organizers varchar(256),
+    location varchar(256),
+    CONSTRAINT PK_conf PRIMARY KEY (conf_name)
+);
+CREATE TABLE Author (
+    family_name varchar(256) NOT NULL,
+    given_name varchar(256) NOT NULL,
+    CONSTRAINT PK_author PRIMARY KEY (family_name, given_name)
+);
+
+CREATE TABLE Paper (
+    PK_conf varchar(256),
+    paper_title varchar(512) NOT NULL,
+    paper_keywords varchar(1024),
+    paper_link varchar(1024),
+    paper_type varchar(1024),
+    paper_time varchar(1024),
+    CONSTRAINT PK_paper PRIMARY KEY (paper_title),
+    CONSTRAINT FK_confPaper FOREIGN KEY (PK_conf)
+    REFERENCES Conference(conf_name)
+);
+CREATE TABLE Paper_Author_Rel (
+    PK_author_fn varchar(256),
+    PK_author_gn varchar(256),
+    PK_paper varchar(256),
+    CONSTRAINT FK_author_family FOREIGN KEY (PK_author_fn, PK_author_gn)
+    REFERENCES Author(family_name, given_name),
+    CONSTRAINT FK_paper FOREIGN KEY (PK_paper)
+    REFERENCES Paper(paper_title)
+);
+CREATE TABLE Tutorial (
+	tutorial_id int NOT NULL AUTO_INCREMENT,
+    PK_conf varchar(256),
+    tutorial_author varchar(256),
+    tutorial_name varchar(1024),
+    tutorial_abstract TEXT(10000),
+    tutorial_location varchar(1024),
+    tutorial_time varchar(1024),
+    tutorial_link varchar(1024),
+    CONSTRAINT PK_Tutorial PRIMARY KEY (tutorial_id),
+    CONSTRAINT FK_ConfTutorial FOREIGN KEY (PK_conf)
+    REFERENCES Conference(conf_name)
+);
+CREATE TABLE Keynote (
+	keynote_id int NOT NULL AUTO_INCREMENT,
+    PK_conf varchar(256),
+    keynote_title varchar(1024),
+    keynote_speaker varchar(1024),
+    keynote_speaker_bio varchar(1024),
+    keynote_abstract TEXT(10000),
+    keynote_time varchar(1024),
+    keynote_location varchar(1024),
+    keynote_link varchar(1024),
+    CONSTRAINT PK_Keynote PRIMARY KEY (keynote_id),
+    CONSTRAINT FK_ConfKeynote FOREIGN KEY (PK_conf)
+    REFERENCES Conference(conf_name)
+);
+CREATE TABLE Workshop (
+	workshop_id int NOT NULL AUTO_INCREMENT,
+    PK_conf varchar(256),
+    workshop_name varchar(1024),
+    workshop_organizer varchar(1024),
+    workshop_description TEXT(10000),
+    workshop_day varchar(1024),
+    workshop_location varchar(1024),
+    workshop_link varchar(1024),
+    CONSTRAINT PK_Workshop PRIMARY KEY (workshop_id),
+    CONSTRAINT FK_ConfWorkshop FOREIGN KEY (PK_conf)
+    REFERENCES Conference(conf_name)
+);
