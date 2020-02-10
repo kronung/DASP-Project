@@ -88,9 +88,9 @@ Default folder DASP-Project --> data/ (needs to be specified in any case).
           python3 create_database_dump.py data
           python3 create_database_dump.py data /user/folder1/folder2
           
-# Functionality
+## Functionality
 
-## Crawler
+### Crawler
 Main crawler at  ```confcrawler -> conference_crawler.py``` which calls the
 entity crawlers located at ```confcrawler -> universalcrawler -> crawler/``` . 
 The crawler only works if the html structure corresponds to the expected one.  
@@ -138,7 +138,7 @@ The json data files can be found at
 
  
 
-### Contact
+## Contact
 Aron Kaufmann <kaufmann.aron@gmail.com>  
 Lars Meister <meista95@googlemail.com>  
 Samaun Ibna Faiz <samaun.xiii@gmail.com>  
