@@ -9,45 +9,6 @@ from confcrawler.util import util
 from confcrawler.universalcrawler.crawler import organizers_crawler, keynote_crawler, paper_crawler, \
     workshop_crawler, topics_crawler, submission_deadlines_crawler, tutorial_crawler
 
-# URLS dict just for testing
-
-conf_naacl19 = {
-    'conf_name' : "NAACL 2019",
-    'topics_url' : "",
-    'organizers_url' : "",
-    'schedule_url': "https://naacl2019.org/schedule/",
-    'papers_url': "https://naacl2019.org/program/accepted/",
-    'workshops_url': "https://naacl2019.org/program/workshops/",
-    'tutorials_url': "https://naacl2019.org/program/tutorials/",
-    'keynotes_url' : "https://naacl2019.org/program/keynotes/",
-    'smd_url': "https://naacl2019.org/"
-    }
-
-conf_emnlp19 = {
-    'conf_name' : "EMNLP 2019",
-    'topics_url' : "https://www.emnlp-ijcnlp2019.org/calls/papers",
-    'organizers_url' : "https://www.emnlp-ijcnlp2019.org/organization",
-    'schedule_url': "https://www.emnlp-ijcnlp2019.org/program/ischedule/",
-    'papers_url': "https://www.emnlp-ijcnlp2019.org/program/accepted/",
-    'workshops_url': "https://www.emnlp-ijcnlp2019.org/program/workshops/",
-    'tutorials_url': "https://www.emnlp-ijcnlp2019.org/program/tutorials/",
-    'keynotes_url' : "https://www.emnlp-ijcnlp2019.org/program/keynotes/",
-    'smd_url': "https://www.emnlp-ijcnlp2019.org/calls/papers"
-    }
-
-conf_acl20 = {
-    'conf_name' : "ACL 2020",
-    'topics_url' : "https://acl2020.org/calls/demos/",
-    'organizers_url' : "",
-    'schedule_url': "",
-    'papers_url': "",
-    'workshops_url': "https://acl2020.org/program/workshops/",
-    'tutorials_url': "https://acl2020.org/program/tutorials/",
-    'keynotes_url' : "",
-    'smd_url': "https://acl2020.org/"
-    }
-
-
 def collect_data(conf_file, folder):
     """Collects the crawled data for a conf_file and saves it to a file."""
 

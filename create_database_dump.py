@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Script to create database sql file from json data files."""
+"""Script to create sql dump file from json data files."""
 
 __author__ = "Lars Meister, Samaun Ibna Faiz, Aron Kaufmann, Yuqing Xu"
 
@@ -25,15 +25,38 @@ def run():
                     path = argv[1] + "/" + file
                     output.write(read_file(path))
                 output.close()
+                print("DONE: data.sql file created! at {} folder!".format(output_folder))
             else:
                 print("Given directory does not exist!")
 
         except Exception:
             traceback.print_exc()
-            print("Could not read conf_file!")
+            print("Could not read data files!")
+def help():
+    print("--- confcrawler sql generator version 1.0 UKP Lab TU Darmstadt python3 ---\n\n"
+          "Confcrawler sql generator help instructions:\n\n"
+          "Lets you generate a sql dump file to create a sql database \n"
+          "from the conference json data files."
+          " How to use this program:\n"
+          "Open terminal, navigate to the root folder of the programm 'DASP-Project'\n"
+          "Type via Terminal:\n"
+          "python3 create_database_dump.py YOUR_FILEPATH_TO_THE_DATA_FOLDER "
+          "OUTPUT_FOLDER_FILEPATH\n\n"
+          "Parameter:\n"
+          "-THE_DATA_FOLDER - filepath to folder where the conference data files are stored:\n\n"
+          "The folder must only contain .json data files of crwaled conferences. See conf crawler\n"
+          " README for details on the json files. Default folder DASP-Project -> data\n"
+          "needs to be specified in any case.\n\n"
+          "- OUTPUT_FOLFER_FILEPATH (optional, default output is saved to sql folder of "
+          "program).\n\n\n"
+          "Example calls:\n\n"
+          "python3 create_database_dump.py data\n"
+          "python3 create_database_dump.py data /user/folder1/folder2"
+          )
 
 
 def read_file(file):
+    """Reads in a data file and """
     rs = ""
     with open(file, "r", encoding='utf-8') as f:
         data = json.load(f)

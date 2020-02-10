@@ -10,6 +10,7 @@ from sys import argv
 
 # python3 confcrawler.py conf_file (output_location)
 # python3 confcrawler.py -help
+
 def help():
     print("--- confcrawler version 1.0 UKP Lab TU Darmstadt python3 ---\n\n"
           "Confcrawler help instructions:\n\n"
