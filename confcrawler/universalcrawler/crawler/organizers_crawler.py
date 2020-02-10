@@ -113,10 +113,3 @@ def clear_organizers(org_list):
         if i['position'] == None or i['members'] == []:
             org_list.remove(i)
     return org_list
-
-
-#print(extract_organizers("https://naacl2019.org/organization"))
-#print(extract_organizers("http://www.acl2019.org/EN/committees.xhtml"))
-#print(extract_organizers("https://acl2020.org/organization"))
-#print(extract_organizers("https://www.emnlp-ijcnlp2019.org/organization"))
-#print(extract_organizers("https://coling2020.org/pages/organization"))

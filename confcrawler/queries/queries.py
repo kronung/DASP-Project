@@ -1,4 +1,4 @@
-"""Class to represent a conference. Consists only of conf dict and methods."""
+"""Class to represent a conference. Consists only of conf dict and methods for queries."""
 
 __author__ = "Lars Meister"
 
@@ -7,8 +7,15 @@ from dateutil import parser as dateparser
 class Conference:
     """Provides methods for querying a conference."""
 
-    paper_attributes = ["title", "link", "authors", "type", "datetime", "topic"]
-    other_attributes = ["title", "link", "authors", "abstract", "datetime", "location"]
+    paper_attributes = ["paper_title", "paper_link", "paper_authors", "paper_type", "paper_time",
+                        "paper_keywords"]
+    tutorial_attributes = ["tutorial_name", "tutorial_link", "tutorial_author", "tutorial_abstract",
+                           "tutorial_time", "tutorial_location"]
+    keynote_attributes = ["keynote_title", "keynote_speaker", "keynote_speaker_bio", "keynote_abstract",
+                           "keynote_time", "keynote_location", "keynote_link"]
+    workshop_attributes = ["workshop_name", "workshop_organizer", "workshop_description",
+                          "workshop_day", "keynote_time", "workshop_location", "workshop_link"]
+
     conf_domains = ["submission_deadlines", "papers", "workshops", "tutorials", "keynotes"]
 
     def __init__(self, conference):
@@ -28,7 +35,7 @@ class Conference:
 
     def deadlines(self):
         """Returns the deadlines."""
-        return self.conference["deadlines"]
+        return self.conference["submission_deadlines"]
 
     def topics(self):
         """Returns the topics."""
@@ -67,7 +74,7 @@ class Conference:
         Return keynotes where given search_value matches information
         specified in search_key attribute in a keynote.
         :param search_value: String
-        :param search_key: see other_attributes for available choices
+        :param search_key: see keynote_attributes for available choices
         :param show: optional, allows to only show the specified attribute of a keynote
         :return: list of matching keynotes
         """
@@ -75,7 +82,7 @@ class Conference:
             search_key]]
         if not keynotes:
             return None
-        if show is None or show not in self.other_attributes:
+        if show is None or show not in self.keynote_attributes:
             return keynotes
         return [keynote[show] for keynote in keynotes]
 
@@ -88,7 +95,7 @@ class Conference:
         Return workshops where given search_value matches information
         specified in search_key attribute in a workshop.
         :param search_value: String
-        :param search_key: see other_attributes for available choices
+        :param search_key: see workshop_attributes for available choices
         :param show: optional, allows to only show the specified attribute of a workshop
         :return: list of matching workshops
         """
@@ -96,7 +103,7 @@ class Conference:
                      workshop[search_key]]
         if not workshops:
             return None
-        if show is None or show not in self.other_attributes:
+        if show is None or show not in self.workshop_attributes:
             return workshops
         return [workshop[show] for workshop in workshops]
 
@@ -109,7 +116,7 @@ class Conference:
         Return tutorials where given search_value matches information
         specified in search_key attribute in a tutorial.
         :param search_value: String
-        :param search_key: see other_attributes for available choices
+        :param search_key: see tutorial_attributes for available choices
         :param show: optional, allows to only show the specified attribute of a tutorial
         :return: list of matching tutorials
         """
@@ -117,7 +124,7 @@ class Conference:
                      tutorial[search_key]]
         if not tutorials:
             return None
-        if show is None or show not in self.other_attributes:
+        if show is None or show not in self.tutorial_attributes:
             return tutorials
         return [tutorial[show] for tutorial in tutorials]
 

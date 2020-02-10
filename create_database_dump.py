@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """Script to create sql dump file from json data files."""
 
-__author__ = "Lars Meister, Samaun Ibna Faiz, Aron Kaufmann, Yuqing Xu"
+__author__ = "Lars Meister, Aron Kaufmann"
 
 import os
 from sys import argv
 import traceback
 import json
+
 
 def run():
     if len(argv) == 1 or argv[1] in ["help", "-help"]:
@@ -32,8 +33,10 @@ def run():
         except Exception:
             traceback.print_exc()
             print("Could not read data files!")
+
+
 def help():
-    print("--- confcrawler sql generator version 1.0 UKP Lab TU Darmstadt python3 ---\n\n"
+    print("--- confcrawler SQL generator version 1.0 UKP Lab TU Darmstadt python3 ---\n\n"
           "Confcrawler sql generator help instructions:\n\n"
           "Lets you generate a sql dump file to create a sql database \n"
           "from the conference json data files."
@@ -56,7 +59,7 @@ def help():
 
 
 def read_file(file):
-    """Reads in a data file and """
+    """Reads in a data file and generates insert statements for the sql dump."""
     rs = "\n"
     with open(file, "r", encoding='utf-8') as f:
         data = json.load(f)
@@ -77,7 +80,7 @@ def read_file(file):
                     family_name = author
                     given_name = None
 
-                ps += """INSERT IGNORE INTO Author (family_name, given_name) VALUES ("{}", "{}");\n"""\
+                ps += """INSERT IGNORE INTO Author (family_name, given_name) VALUES ("{}", "{}");\n""" \
                     .format(family_name, given_name)
 
                 ps += """INSERT INTO Paper_Author_Rel (PK_author_fn, PK_author_gn, PK_paper) 
@@ -95,7 +98,8 @@ def read_file(file):
             ts += """INSERT INTO Tutorial (PK_conf, tutorial_author, tutorial_name, tutorial_abstract, tutorial_location, tutorial_time, tutorial_link)
              VALUES ("{}", "{}", "{}", "{}", "{}", "{}", "{}");\n""" \
                 .format(data["name"], tutorial_author,
-                        tutorial["tutorial_name"], tutorial["tutorial_abstract"], tutorial["tutorial_location"],
+                        tutorial["tutorial_name"], tutorial["tutorial_abstract"],
+                        tutorial["tutorial_location"],
                         tutorial["tutorial_time"], tutorial["tutorial_link"])
 
             rs += ts.replace("\"None\"", "NULL")
@@ -113,7 +117,7 @@ def read_file(file):
                 .format(data["name"], workshop["workshop_name"],
                         workshop_organizer, workshop["workshop_description"],
                         workshop["workshop_day"], workshop["workshop_location"],
-                                  workshop["workshop_link"])
+                        workshop["workshop_link"])
 
             rs += ws.replace("\"None\"", "NULL")
 
@@ -122,14 +126,15 @@ def read_file(file):
             ks = ""
             ks += """INSERT INTO Keynote (PK_conf, keynote_title, keynote_speaker, keynote_speaker_bio, keynote_abstract, keynote_time, keynote_location, keynote_link) 
             VALUES ("{}", "{}", "{}", "{}", "{}", "{}", "{}", "{}");\n""" \
-            .format(data["name"], keynote["keynote_title"],
-                    keynote["keynote_speaker"], keynote["keynote_speaker_bio"],
-                              keynote["keynote_abstract"], keynote["keynote_time"],
-                              keynote["keynote_location"], keynote["keynote_link"])
+                .format(data["name"], keynote["keynote_title"],
+                        keynote["keynote_speaker"], keynote["keynote_speaker_bio"],
+                        keynote["keynote_abstract"], keynote["keynote_time"],
+                        keynote["keynote_location"], keynote["keynote_link"])
 
             rs += ks.replace("\"None\"", "NULL")
 
     return rs
+
 
 def create_db_scheme():
     with open("confcrawler/ressources/db_scheme.txt", "r") as f:
