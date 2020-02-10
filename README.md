@@ -1,5 +1,5 @@
 # README DASP-Project
-##Assisting with Information on NLP Conferences: Conference Website Crawler
+## Assisting with Information on NLP Conferences: Conference Website Crawler
 
 This software is the result of the Data Analysis Software Project at TU Darmstadt 
 offered by the UKP lab (2019/20).  
@@ -35,13 +35,13 @@ on the crawling process see part **Functionality**
 For the json template structure see ```conference_template.json``` in the 
 folder ```ressources```.
 
-###How to run the crawler:  
+### How to run the crawler:  
 Open terminal, navigate to the root folder of the program 'DASP-Project'  
 Type via Terminal:  
 
 ```python3 confcrawler.py YOUR_FILEPATH_TO_CONF_FILE.TXT OUTPUT_FOLDER_FILEPATH```
   
-####Parameter:
+#### Parameter:
 - CONF_FILE.txt - filepath to txt file of the form (example NAACL 2019):  
 ```
 conf_name = NAACL 2019
@@ -61,7 +61,7 @@ of collecting all the available information.
 - OUTPUT_FOLFER_FILEPATH (optional, default output is saved to **data** folder of 
 program)
 
-###How to generate SQL Dump from data files:
+### How to generate SQL Dump from data files:
 Lets you generate a sql dump file to create a sql database from the conference 
 json data files. For the database scheme see ```db_scheme.txt``` in the 
 folder ```ressources```.
@@ -70,7 +70,7 @@ Open terminal, navigate to the root folder of the program 'DASP-Project'
 Type via Terminal:  
 
 ```python3 create_database_dump.py YOUR_FILEPATH_TO_THE_DATA_FOLDER OUTPUT_FOLDER_FILEPATH```
-####Parameter:  
+#### Parameter:  
 - THE_DATA_FOLDER - filepath to folder where the conference data files are stored:  
 The folder must only contain .json data files of crawled conferences.  
 Default folder DASP-Project --> data/ (needs to be specified in any case).
@@ -82,9 +82,9 @@ Default folder DASP-Project --> data/ (needs to be specified in any case).
           python3 create_database_dump.py data
           python3 create_database_dump.py data /user/folder1/folder2
           
-##Functionality
+## Functionality
 
-##Crawler
+## Crawler
 Main crawler at  ```confcrawler -> conference_crawler.py``` which calls the
 entity crawlers located at ```confcrawler -> universalcrawler -> crawler/``` . 
 The crawler only works if the html structure corresponds to the expected one.  
@@ -107,18 +107,18 @@ to get the maximum data specify both urls.
 **Warning**: If the html structure of specific parts differ from the expected one,
 the crawler is not able to collect the data and needs to be adjusted.    
 
-###Queries
+### Queries
 It is possible to query the json data files:
 To make some queries see   
 ```confcrawler -> queries -> queries.py``` documentation. 
 These queries are only an interface, so that another python script can collect
 specific information of the data file an further process it.
 
-###Logging
+### Logging
 The crawling process is logged to the console and to the logging file, 
 which can be found at ```confcrawler -> logs -> confcrawler.log``` 
 
-##Obtained Data
+## Obtained Data
 The obtained data consists of five conference data:  
   
 **NAACL 2019**   
@@ -132,7 +132,7 @@ The json data files can be found at
 
  
 
-###Contact
+### Contact
 Aron Kaufmann <kaufmann.aron@gmail.com>  
 Lars Meister <meista95@googlemail.com>  
 Samaun Ibna Faiz <samaun.xiii@gmail.com>  
