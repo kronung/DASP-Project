@@ -7,7 +7,7 @@ The problem: Multiple international NLP conferences every year. As mentioned in 
 blogpost [here](https://naacl2019.org/blog/digital-and-collaborative-materials/) the NLP
 community tries to publish a uniform website structure for future NLP conferences. 
 Unfortunately there is no API or uniform structure/ interface to collect the data of a 
-conference. The data consist of information about the papers, tutorials, workhops, keynotes
+conference. The data consist of information about the papers, tutorials, workshops, keynotes
 and general information of a conference.    
 
 Have a look at the following NLP conference websites:  
