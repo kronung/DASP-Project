@@ -11,6 +11,7 @@ conference. The data consists of information about the papers, tutorials, worksh
 and general information of a conference.    
 
 Have a look at the following NLP conference websites:  
+  
 [NAACL 2019](https://naacl2019.org/)  
 [EMNLP 2019](https://www.emnlp-ijcnlp2019.org/)  
 [ACL 2020](https://acl2020.org/)
@@ -42,7 +43,7 @@ Type via Terminal:
 ```python3 confcrawler.py YOUR_FILEPATH_TO_CONF_FILE.TXT OUTPUT_FOLDER_FILEPATH```
   
 #### Parameter:
-- CONF_FILE.txt - filepath to txt file of the form (example NAACL 2019):  
+- **CONF_FILE.txt** - filepath to txt file of the form (example NAACL 2019):  
 ```
 conf_name = NAACL 2019
 topics_url = 
@@ -58,8 +59,13 @@ Only change the urls, not the the property names, if no url leave empty.
 Specify as much urls as you can identify on the website to increase the chance
 of collecting all the available information.
 
-- OUTPUT_FOLFER_FILEPATH (optional, default output is saved to **data** folder of 
-program)
+- **OUTPUT_FOLFER_FILEPATH** (optional, default output is saved to **data** folder of 
+program)  
+
+Example call:  
+
+```python3 confcrawler.py conf_urls_emnlp19.txt```
+
 
 ### How to generate SQL Dump from data files:
 Lets you generate a sql dump file to create a sql database from the conference 
@@ -71,18 +77,18 @@ Type via Terminal:
 
 ```python3 create_database_dump.py YOUR_FILEPATH_TO_THE_DATA_FOLDER OUTPUT_FOLDER_FILEPATH```
 #### Parameter:  
-- THE_DATA_FOLDER - filepath to folder where the conference data files are stored:  
+- **THE_DATA_FOLDER** - filepath to folder where the conference data files are stored:  
 The folder must only contain .json data files of crawled conferences.  
 Default folder DASP-Project --> data/ (needs to be specified in any case).
 
- - OUTPUT_FOLFER_FILEPATH (optional, default output is saved to sql folder of program)
+ - **OUTPUT_FOLFER_FILEPATH** (optional, default output is saved to sql folder of program)
  
  Example calls:  
  
           python3 create_database_dump.py data
           python3 create_database_dump.py data /user/folder1/folder2
           
-## Functionality
+# Functionality
 
 ## Crawler
 Main crawler at  ```confcrawler -> conference_crawler.py``` which calls the
