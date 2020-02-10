@@ -57,7 +57,7 @@ def help():
 
 def read_file(file):
     """Reads in a data file and """
-    rs = ""
+    rs = "\n"
     with open(file, "r", encoding='utf-8') as f:
         data = json.load(f)
         rs += "INSERT INTO Conference (conf_name) VALUES ('{}');\n".format(data["name"])
@@ -65,8 +65,8 @@ def read_file(file):
         # Insert paper
         for paper in data["papers"]:
             ps = ""
-            ps += """INSERT INTO Paper (PK_conf, paper_title, paper_keywords, paper_link, 
-            paper_type, paper_time) VALUES ("{}", "{}", "{}", "{}", "{}", "{}");\n""" \
+            ps += """INSERT INTO Paper (PK_conf, paper_title, paper_keywords, paper_link, paper_type, paper_time)
+             VALUES ("{}", "{}", "{}", "{}", "{}", "{}");\n""" \
                 .format(data["name"], paper["paper_title"],
                         paper["paper_keywords"], paper["paper_link"], paper["paper_type"],
                         paper["paper_time"])
@@ -77,13 +77,11 @@ def read_file(file):
                     family_name = author
                     given_name = None
 
-                ps += """INSERT IGNORE INTO Author (family_name, given_name) VALUES ("{}", 
-                "{}");\n"""\
+                ps += """INSERT IGNORE INTO Author (family_name, given_name) VALUES ("{}", "{}");\n"""\
                     .format(family_name, given_name)
 
                 ps += """INSERT INTO Paper_Author_Rel (PK_author_fn, PK_author_gn, PK_paper) 
-                VALUES ("{}", 
-                                "{}", "{}");\n""" \
+                VALUES ("{}", "{}", "{}");\n""" \
                     .format(family_name, given_name, paper["paper_title"])
             rs += ps.replace("\"None\"", "NULL")
 
@@ -94,9 +92,8 @@ def read_file(file):
             except TypeError:
                 tutorial_author = None
             ts = ""
-            ts += """INSERT INTO Tutorial (PK_conf, tutorial_author, tutorial_name, 
-            tutorial_abstract, tutorial_location, tutorial_time, tutorial_link) VALUES 
-            ("{}", "{}", "{}", "{}", "{}", "{}", "{}");\n""" \
+            ts += """INSERT INTO Tutorial (PK_conf, tutorial_author, tutorial_name, tutorial_abstract, tutorial_location, tutorial_time, tutorial_link)
+             VALUES ("{}", "{}", "{}", "{}", "{}", "{}", "{}");\n""" \
                 .format(data["name"], tutorial_author,
                         tutorial["tutorial_name"], tutorial["tutorial_abstract"], tutorial["tutorial_location"],
                         tutorial["tutorial_time"], tutorial["tutorial_link"])
@@ -111,8 +108,7 @@ def read_file(file):
                 workshop_organizer = None
 
             ws = ""
-            ws += """INSERT INTO Workshop (PK_conf, workshop_name, workshop_organizer,
-            workshop_description, workshop_day, workshop_location, workshop_link) 
+            ws += """INSERT INTO Workshop (PK_conf, workshop_name, workshop_organizer, workshop_description, workshop_day, workshop_location, workshop_link) 
             VALUES ("{}", "{}", "{}", "{}", "{}", "{}", "{}");\n""" \
                 .format(data["name"], workshop["workshop_name"],
                         workshop_organizer, workshop["workshop_description"],
@@ -124,8 +120,7 @@ def read_file(file):
         # Insert keynotes
         for keynote in data["keynotes"]:
             ks = ""
-            ks += """INSERT INTO Keynote (PK_conf, keynote_title, keynote_speaker,
-            keynote_speaker_bio, keynote_abstract, keynote_time, keynote_location, keynote_link) 
+            ks += """INSERT INTO Keynote (PK_conf, keynote_title, keynote_speaker, keynote_speaker_bio, keynote_abstract, keynote_time, keynote_location, keynote_link) 
             VALUES ("{}", "{}", "{}", "{}", "{}", "{}", "{}", "{}");\n""" \
             .format(data["name"], keynote["keynote_title"],
                     keynote["keynote_speaker"], keynote["keynote_speaker_bio"],
