@@ -117,7 +117,7 @@ the crawler is not able to collect the data and needs to be adjusted.
 For the main entites (papers, workshops, tutorials, keynotes) two data locations can be identified.
 The entity crawlers reflect this fact and offer to specify these two locations.    
 In the end we have to merge the results of these two data locations together.  
-This is done by the following priority: 
+This is done with the following priority: 
  1. Preprocess the titles and authors (string cleaning, lower-casing etc.) 
  2. **Match titles** (paper_title, tutorial_name, keynote_title, workshop_name)  
     If no match:  
