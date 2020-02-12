@@ -115,7 +115,7 @@ the crawler is not able to collect the data and needs to be adjusted.
 
 #### Merging Mechanism:
 For the main entites (papers, workshops, tutorials, keynotes) two data locations can be identified.
-The entity crawlers reflect this fact and offer two specify these two locations.    
+The entity crawlers reflect this fact and offer to specify these two locations.    
 In the end we have to merge the results of these two data locations together.  
 This is done by the following priority: 
  1. Preprocess the titles and authors (string cleaning, lower-casing etc.) 
