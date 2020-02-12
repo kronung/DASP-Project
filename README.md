@@ -111,7 +111,56 @@ there are optional information attributes available on one of the locations, so
 to get the maximum data specify both urls.
 
 **Warning**: If the html structure of specific parts differ from the expected one,
-the crawler is not able to collect the data and needs to be adjusted.    
+the crawler is not able to collect the data and needs to be adjusted. 
+
+#### Merging Mechanism:
+For the main entites (papers, workshops, tutorials, keynotes) two data locations can be identified.
+The entity crawlers reflect this fact and offer two specify these two locations.    
+In the end we have to merge the results of these two data locations together.  
+This is done by the following priority: 
+ 1. Preprocess the titles and authors (string cleaning, lower-casing etc.) 
+ 2. **Match titles** (paper_title, tutorial_name, keynote_title, workshop_name)  
+    If no match:  
+ 3. **Match authors** (only in case of papers and tutorials)   
+ 
+ If no match is found we create a new entity entry (then we say they are different).  
+ For some reasons sometimes the same entity has two different titles in the entity page and the 
+ interactive schedule, therefore we matching the authors as well. But in special cases even that 
+ is not enough, therefore some entities get two entries in the final json data file. (The 
+ question is when are two papers for example actually the same?)    
+ **Statistic**: NAACL 19: 38 / 511 not matching -> 7.4 %
+ 
+ **Note**:  
+ The matching can be extended to do fuzzy matching or substring matching, but keep in mind that 
+ you increase the chance to merge two originally different entities into one and therefore loose 
+ data by those strategies.
+ We decided to go with the explained approach!
+
+#### How to add new entities to the crawler:
+One can easily add new entities. Just add the new entity to the JSON 
+template (new property with corresponding attributes) and call your crawler in the main crawler. 
+Keep in mind that your crawler must return a list and the attributes must correspond 
+to the attributes in the template.
+
+#### How to extend/adjust existing entity crawler:
+If you want to adjust an existing crawler, e.g ```paper_crawler.py```, because a new website
+structure has been published (sometimes differences can be very small in the DOM) try to find
+a unique determiner which differentiate this new HTML structure from the existing one.
+Then add a new if clause to the crawler based on that determiner, where you extract your desired 
+data fields from the DOM. If you want to merge the data with the schedule data include a 
+reference dictionary (sometimes two), where you store the merging data field (in case of the paper 
+crawler this will be the cleaned title and the cleaned authors). Always check the documentation 
+in the entity crawler to understand how this specific crawler works.   
+ 
+**Keep in mind**:   
+We tried to make the crawler as robust as possible to handle different conferences. In our case 
+we had two examples (NAACL 2019 and EMNLP 2019), which had quiet some differences in their 
+sepcific form of the DOM, although they both used the proposed uniform HTML template mentioned in 
+the blogpost. Obviously, we have no influence on how future conferences website publisher will 
+publish their specific form of that website template, therefore it is hard for any general 
+crawler to prepare for a future case. Therefore it could be necessary to adjust the crawler or 
+write a new entity.     
+     
 
 ### Queries
 It is possible to query the json data files:
@@ -119,6 +168,16 @@ To make some queries see
 ```confcrawler -> queries -> queries.py``` documentation. 
 These queries are only an interface, so that another python script can collect
 specific information of the data file an further process it.
+
+### SQL Database scheme
+For a figure of the database scheme see final report.  
+```data.sql``` script tested on MySQL Workbench.  
+
+#### How to change the database sheme:
+```ressources -> db_scheme.txt```  
+Change table declarations, datatypes and relations.  
+Afterwards adjust the ```craete_database_dump.py``` script:  
+Change the INSERT statements in the```read_file()``` function to fit your needs. 
 
 ### Logging
 The crawling process is logged to the console and to the logging file, 

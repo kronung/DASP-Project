@@ -41,6 +41,8 @@ def extract_workshops(workshops_url=None, schedule_url=None):
         soup = BeautifulSoup(page, 'html.parser').find("section", {"class": "page__content"})
 
         reference_counter = 0
+
+        # Cases
         for child in soup.findChildren("h3"):
             workshop = {attribute: None for attribute in ["workshop_name", "workshop_organizer", "workshop_description", "workshop_day",
                                                                "workshop_location", "workshop_link"]}
