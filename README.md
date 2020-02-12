@@ -189,7 +189,7 @@ The obtained data consists of five conference data:
 **NAACL 2019**   
 **ACL 2020**  
 **EMNLP 2019**  
-**COLING 2019**  
+**COLING 2020**  
 **ACL 2019**
 
 The json data files can be found at   
