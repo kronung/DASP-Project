@@ -24,6 +24,7 @@ def run():
                 output.write(create_db_scheme())
                 for file in os.listdir(argv[1]):
                     path = argv[1] + "/" + file
+                    print("Read in file: {}".format(path))
                     output.write(read_file(path))
                 output.close()
                 print("DONE: data.sql file created! at {} folder!".format(output_folder))
@@ -63,7 +64,8 @@ def read_file(file):
     rs = "\n"
     with open(file, "r", encoding='utf-8') as f:
         data = json.load(f)
-        rs += "INSERT INTO Conference (conf_name) VALUES ('{}');\n".format(data["name"])
+        rs += '''INSERT INTO Conference (conf_name, time, location) VALUES ("{}", "{}", "{}");\n'''\
+            .format(data["name"], data["datetime"], data["location"])
 
         # Insert paper
         for paper in data["papers"]:
