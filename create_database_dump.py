@@ -64,6 +64,7 @@ def read_file(file):
     rs = "\n"
     with open(file, "r", encoding='utf-8') as f:
         data = json.load(f)
+        # Insert conf
         rs += '''INSERT INTO Conference (conf_name, time, location) VALUES ("{}", "{}", "{}");\n'''\
             .format(data["name"], data["datetime"], data["location"])
 
