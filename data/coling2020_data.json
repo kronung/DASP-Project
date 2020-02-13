@@ -1,7 +1,7 @@
 {
   "name": "COLING 2020",
   "location": "Barcelona, Spain",
-  "datetime": "September 13 to 18, 2020",
+  "datetime": "September 13, 2020 - September 18, 2020",
   "submission_deadlines": [
     {
       "name": "Final submissions due",
@@ -127,28 +127,9 @@
       "link": "https://coling2020.org/assets/images/team/joana_clotet.jpeg"
     }
   ],
-  "papers": [
-    {
-      "paper_authors": [],
-      "paper_title": "",
-      "paper_keywords": "",
-      "paper_link": "",
-      "paper_type": "",
-      "paper_time": ""
-    }
-  ],
+  "papers": [],
   "tutorials": [],
-  "keynotes": [
-    {
-      "keynote_title": "",
-      "keynote_speaker": [],
-      "keynote_speaker_bio": "",
-      "keynote_abstract": "",
-      "keynote_time": "",
-      "keynote_location": "",
-      "keynote_link": ""
-    }
-  ],
+  "keynotes": [],
   "workshops": [
     {
       "workshop_name": "International Workshop on Semantic Evaluation (SemEval)",

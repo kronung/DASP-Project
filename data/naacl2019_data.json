@@ -1,7 +1,7 @@
 {
-  "name": "NAACL 2019",
-  "location": "",
-  "datetime": "",
+  "name": "NAACL-HLT 2019",
+  "location": "Minneapolis, USA",
+  "datetime": "June 2, 2019 - June 7, 2019",
   "submission_deadlines": [
     {
       "name": "Abstract & keywords due(long, short, & industry track)",
@@ -66,7 +66,7 @@
         "John Krumm",
         "Michael Gamon"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1012",
       "paper_time": "Monday, June 03, 2019, 11:00 – 12:30",
       "paper_keywords": "Generation"
@@ -80,7 +80,7 @@
         "Dat Quoc Nguyen",
         "Dinh Phung"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1226",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Information Retrieval, Generation, Question Answering & Syntax (Posters & Demos) "
@@ -92,7 +92,7 @@
         "Benyou Wang",
         "Massimo Melucci"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": null,
       "paper_time": null,
       "paper_keywords": null
@@ -105,7 +105,7 @@
         "Gerard de Melo",
         "Matthew Stone"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1056",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Dialogue & Discourse"
@@ -120,7 +120,7 @@
         "Alexandra Uma",
         "Udo Kruschwitz"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1176",
       "paper_time": "Tuesday, June 04, 2019, 9:00 – 10:30",
       "paper_keywords": "Discourse, Information Retrieval, Machine Translation, Vision  & Robotics (Posters) "
@@ -132,7 +132,7 @@
         "Lora Aroyo",
         "Chris Welty"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1224",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Semantics"
@@ -144,7 +144,7 @@
         "Hao Fang",
         "Mari Ostendorf"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1284",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Phonology & Morphology, Speech and Text Mining (Posters & Demos) "
@@ -156,7 +156,7 @@
         "Saif Mohammad",
         "Svetlana Kiritchenko"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1050",
       "paper_time": "Monday, June 03, 2019, 11:00 – 12:30",
       "paper_keywords": "Question Answering, Sentiment, Machine Translation, Resources & Evaluation (Posters) "
@@ -171,7 +171,7 @@
         "Mari Ostendorf",
         "Hannaneh Hajishirzi"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1308",
       "paper_time": "Wednesday, June 05, 2019, 10:30 – 12:00",
       "paper_keywords": "Information Extraction"
@@ -184,7 +184,7 @@
         "Heng Ji",
         "Jonathan May"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1252",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Information Retrieval, Generation, Question Answering & Syntax (Posters & Demos) "
@@ -194,7 +194,7 @@
       "paper_authors": [
         "Marcel Bollmann"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1389",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Dialogue, Multilingual NLP & Summarization (Posters) "
@@ -207,7 +207,7 @@
         "Sam Wiseman",
         "Kevin Gimpel"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1254",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Information Retrieval, Generation, Question Answering & Syntax (Posters & Demos) "
@@ -220,7 +220,7 @@
         "Ryan Cotterell",
         "Isabelle Augenstein"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1156",
       "paper_time": "Tuesday, June 04, 2019, 9:00 – 10:30",
       "paper_keywords": "Phonology  & Morphology"
@@ -230,7 +230,7 @@
       "paper_authors": [
         "Mark Yatskar"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1241",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Information Retrieval, Generation, Question Answering & Syntax (Posters & Demos) "
@@ -243,7 +243,7 @@
         "Quang-Thuy Ha",
         "Nigel Collier"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1298",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Phonology & Morphology, Speech and Text Mining (Posters & Demos) "
@@ -255,7 +255,7 @@
         "Boya Song",
         "Kathy McKeown"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1204",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Multilingual NLP"
@@ -267,7 +267,7 @@
         "Andre Lamurias",
         "Francisco M Couto"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1152",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "Applications, Social Media, Biomedical NLP & Clinical Text Processing (Posters & Demos) "
@@ -281,7 +281,7 @@
         "Helen Yannakoudakis",
         "Anders Søgaard"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1251",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Information Retrieval, Generation, Question Answering & Syntax (Posters & Demos) "
@@ -293,7 +293,7 @@
         "Shijie Wu",
         "Ryan Cotterell"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1155",
       "paper_time": "Tuesday, June 04, 2019, 9:00 – 10:30",
       "paper_keywords": "Phonology  & Morphology"
@@ -305,7 +305,7 @@
         "Maria Sukhareva",
         "Iryna Gurevych"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1177",
       "paper_time": "Tuesday, June 04, 2019, 9:00 – 10:30",
       "paper_keywords": "Discourse, Information Retrieval, Machine Translation, Vision  & Robotics (Posters) "
@@ -319,7 +319,7 @@
         "Ruslan Salakhutdinov",
         "Louis-Philippe Morency"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1267",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Vision"
@@ -330,7 +330,7 @@
         "John Hewitt",
         "Christopher D. Manning"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1419",
       "paper_time": "Wednesday, June 05, 2019, 15:30 – 16:30",
       "paper_keywords": "Machine Learning"
@@ -343,7 +343,7 @@
         "Moshe ChaiBarukh",
         "Shayan Zamanirad"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1026",
       "paper_time": "Monday, June 03, 2019, 11:00 – 12:30",
       "paper_keywords": "Question Answering, Sentiment, Machine Translation, Resources & Evaluation (Posters) "
@@ -354,7 +354,7 @@
         "Iryna Haponchyk",
         "Alessandro Moschitti"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1183",
       "paper_time": "Tuesday, June 04, 2019, 9:00 – 10:30",
       "paper_keywords": "Discourse, Information Retrieval, Machine Translation, Vision  & Robotics (Posters) "
@@ -367,7 +367,7 @@
         "Pascale Fung",
         "Hamid R. Rabiee"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1106",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "IE & IR"
@@ -379,7 +379,7 @@
         "Ivan Vulić",
         "Anna Korhonen"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1097",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Information Extraction, Generation  & Semantics (Posters & Demos) "
@@ -392,7 +392,7 @@
         "Xin Liu",
         "Yangqiu Song"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1036",
       "paper_time": "Monday, June 03, 2019, 11:00 – 12:30",
       "paper_keywords": "Question Answering, Sentiment, Machine Translation, Resources & Evaluation (Posters) "
@@ -404,7 +404,7 @@
         "Hyunwoo Kim",
         "Gunhee Kim"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1260",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Summarization"
@@ -417,7 +417,7 @@
         "Helen Yannakoudakis",
         "Ekaterina Shutova"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1221",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Text Analysis"
@@ -428,7 +428,7 @@
         "Kazuma Hashimoto",
         "Yoshimasa Tsuruoka"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1315",
       "paper_time": "Wednesday, June 05, 2019, 10:30 – 12:00",
       "paper_keywords": "Machine Translation"
@@ -439,7 +439,7 @@
         "Suyoun Kim",
         "Florian Metze"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1283",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Phonology & Morphology, Speech and Text Mining (Posters & Demos) "
@@ -451,7 +451,7 @@
         "Thanh Nguyen",
         "Shafiq Joty"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1134",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "Applications, Social Media, Biomedical NLP & Clinical Text Processing (Posters & Demos) "
@@ -464,7 +464,7 @@
         "Virgil Pavlu",
         "Javed Aslam"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1321",
       "paper_time": "Wednesday, June 05, 2019, 10:30 – 12:00",
       "paper_keywords": "Machine Learning, Tagging, Chunking, Syntax  & Parsing  (Posters) "
@@ -476,7 +476,7 @@
         "Quan Wang",
         "Bin Wang"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1103",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "IE & IR"
@@ -488,7 +488,7 @@
         "Jun-Hyung Park",
         "SangKeun Lee"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1256",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Sentiment Analysis"
@@ -500,7 +500,7 @@
         "Anoop Kunchukuttan",
         "Pushpak Bhattacharyya"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1387",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Dialogue, Multilingual NLP & Summarization (Posters) "
@@ -514,7 +514,7 @@
         "Yang Yang",
         "Pan Zhou"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1258",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Sentiment Analysis"
@@ -527,7 +527,7 @@
         "Anna Rogers",
         "David Donahue"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1088",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Information Extraction, Generation  & Semantics (Posters & Demos) "
@@ -539,7 +539,7 @@
         "Heike Adel",
         "Roman Klinger"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1069",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Style & Sentiment"
@@ -553,7 +553,7 @@
         "Maosong Sun",
         "Peng Li"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1105",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "IE & IR"
@@ -567,7 +567,7 @@
         "James Kennedy",
         "Mubbasir Kapadia"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1374",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Dialogue, Multilingual NLP & Summarization (Posters) "
@@ -579,7 +579,7 @@
         "Jacob Goldberger",
         "Yoav Goldberg"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1045",
       "paper_time": "Monday, June 03, 2019, 11:00 – 12:30",
       "paper_keywords": "Question Answering, Sentiment, Machine Translation, Resources & Evaluation (Posters) "
@@ -591,7 +591,7 @@
         "Steven Bethard",
         "Mihai Surdeanu"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1274",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Question Answering"
@@ -603,7 +603,7 @@
         "Sejal Popat",
         "Sheng Shen"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1220",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Text Analysis"
@@ -616,7 +616,7 @@
         "Brian Lester",
         "Matthew Nokleby"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1328",
       "paper_time": "Wednesday, June 05, 2019, 10:30 – 12:00",
       "paper_keywords": "Machine Learning, Tagging, Chunking, Syntax  & Parsing  (Posters) "
@@ -628,7 +628,7 @@
         "Christos Baziotis",
         "Alexandros Potamianos"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1213",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Social Media"
@@ -640,7 +640,7 @@
         "Chris Dyer",
         "Taylor Berg-Kirkpatrick"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1171",
       "paper_time": "Tuesday, June 04, 2019, 9:00 – 10:30",
       "paper_keywords": "Generation"
@@ -654,7 +654,7 @@
         "Jiayu Song",
         "Yueran Zu"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1247",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Information Retrieval, Generation, Question Answering & Syntax (Posters & Demos) "
@@ -668,7 +668,7 @@
         "Lidong Bing",
         "Irwin King"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1292",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Phonology & Morphology, Speech and Text Mining (Posters & Demos) "
@@ -684,7 +684,7 @@
         "Matthew Gentzkow",
         "Dan Jurafsky"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1304",
       "paper_time": "Wednesday, June 05, 2019, 10:30 – 12:00",
       "paper_keywords": "Ethics, Bias & Fairness"
@@ -697,7 +697,7 @@
         "Graham Mueller",
         "Evan Wright"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1140",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "Applications, Social Media, Biomedical NLP & Clinical Text Processing (Posters & Demos) "
@@ -708,7 +708,7 @@
         "Sudha Rao",
         "Hal Daumé III"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1013",
       "paper_time": "Monday, June 03, 2019, 11:00 – 12:30",
       "paper_keywords": "Generation"
@@ -721,7 +721,7 @@
         "Nikhil Badugu",
         "Lu Wang"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1219",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Text Analysis"
@@ -732,7 +732,7 @@
         "Sarthak Jain",
         "Byron C. Wallace"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1357",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Applications"
@@ -743,7 +743,7 @@
         "Timo Schick",
         "Hinrich Schütze"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1048",
       "paper_time": "Monday, June 03, 2019, 11:00 – 12:30",
       "paper_keywords": "Question Answering, Sentiment, Machine Translation, Resources & Evaluation (Posters) "
@@ -756,7 +756,7 @@
         "Avirup Saha",
         "Niloy Ganguly"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1230",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Information Retrieval, Generation, Question Answering & Syntax (Posters & Demos) "
@@ -769,7 +769,7 @@
         "Hyunmin Lee",
         "Gunhee Kim"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": null,
       "paper_time": null,
       "paper_keywords": null
@@ -780,7 +780,7 @@
         "Akshay Budhkar",
         "Frank Rudzicz"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1414",
       "paper_time": "Wednesday, June 05, 2019, 15:30 – 16:30",
       "paper_keywords": "Cognitive  & Psycholinguistics"
@@ -792,7 +792,7 @@
         "Ekaterina Kochmar",
         "Ted Briscoe"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1261",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Summarization"
@@ -804,7 +804,7 @@
         "Ramakanth Pasunuru",
         "Mohit Bansal"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1355",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Machine Learning"
@@ -816,7 +816,7 @@
         "Meng Fang",
         "Dacheng Tao"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1032",
       "paper_time": "Monday, June 03, 2019, 11:00 – 12:30",
       "paper_keywords": "Question Answering, Sentiment, Machine Translation, Resources & Evaluation (Posters) "
@@ -827,7 +827,7 @@
         "Shudong Hao",
         "Michael J. Paul"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1158",
       "paper_time": "Tuesday, June 04, 2019, 9:00 – 10:30",
       "paper_keywords": "Multilingual NLP"
@@ -841,7 +841,7 @@
         "Roi Reichart",
         "Anna Korhonen"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1354",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Machine Learning"
@@ -857,7 +857,7 @@
         "Peter Clark",
         "Claire Cardie"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1244",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Information Retrieval, Generation, Question Answering & Syntax (Posters & Demos) "
@@ -868,7 +868,7 @@
         "Lifu Tu",
         "Kevin Gimpel"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1335",
       "paper_time": "Wednesday, June 05, 2019, 10:30 – 12:00",
       "paper_keywords": "Machine Learning, Tagging, Chunking, Syntax  & Parsing  (Posters) "
@@ -881,7 +881,7 @@
         "Karl Pichotta",
         "Yejin Choi"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1412",
       "paper_time": "Wednesday, June 05, 2019, 15:30 – 16:30",
       "paper_keywords": "Generation"
@@ -894,7 +894,7 @@
         "Kenton Lee",
         "Kristina Toutanova"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": null,
       "paper_time": null,
       "paper_keywords": null
@@ -908,7 +908,7 @@
         "Ruixue Ding",
         "Linlin Li"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1079",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Syntax"
@@ -920,7 +920,7 @@
         "Matteo Pagliardini",
         "Martin Jaggi"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1098",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Information Extraction, Generation  & Semantics (Posters & Demos) "
@@ -932,7 +932,7 @@
         "Mostafa Abdou",
         "Anders Søgaard"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1341",
       "paper_time": "Wednesday, June 05, 2019, 10:30 – 12:00",
       "paper_keywords": "Machine Learning, Tagging, Chunking, Syntax  & Parsing  (Posters) "
@@ -948,7 +948,7 @@
         "Raffaella Bernardi",
         "Raquel Fernández"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1265",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Vision"
@@ -960,7 +960,7 @@
         "Weijia Xu",
         "Marine Carpuat"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1043",
       "paper_time": "Monday, June 03, 2019, 11:00 – 12:30",
       "paper_keywords": "Question Answering, Sentiment, Machine Translation, Resources & Evaluation (Posters) "
@@ -972,7 +972,7 @@
         "Lingfei Wu",
         "Mohammed Zaki"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1299",
       "paper_time": "Wednesday, June 05, 2019, 10:30 – 12:00",
       "paper_keywords": "Question Answering"
@@ -985,7 +985,7 @@
         "Heng Ji",
         "Jiawei Han"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1145",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "Applications, Social Media, Biomedical NLP & Clinical Text Processing (Posters & Demos) "
@@ -998,7 +998,7 @@
         "Alan W Black",
         "Yulia Tsvetkov"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1062",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Ethics, Bias & Fairness"
@@ -1013,7 +1013,7 @@
         "Michael Collins",
         "Kristina Toutanova"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1300",
       "paper_time": "Wednesday, June 05, 2019, 10:30 – 12:00",
       "paper_keywords": "Question Answering"
@@ -1027,7 +1027,7 @@
         "Le An Ha",
         "Ruslan Mitkov"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1275",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Phonology & Morphology, Speech and Text Mining (Posters & Demos) "
@@ -1039,7 +1039,7 @@
         "Helen Yannakoudakis",
         "Ekaterina Shutova"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1059",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Dialogue & Discourse"
@@ -1050,7 +1050,7 @@
         "Shufan Wang",
         "Mohit Iyyer"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1130",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "Applications, Social Media, Biomedical NLP & Clinical Text Processing (Posters & Demos) "
@@ -1061,7 +1061,7 @@
         "Miloš Stanojević",
         "Mark Steedman"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1020",
       "paper_time": "Monday, June 03, 2019, 11:00 – 12:30",
       "paper_keywords": "Syntax"
@@ -1072,7 +1072,7 @@
         "Yuying Zhu",
         "Guoxin Wang"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1342",
       "paper_time": "Wednesday, June 05, 2019, 10:30 – 12:00",
       "paper_keywords": "Machine Learning, Tagging, Chunking, Syntax  & Parsing  (Posters) "
@@ -1086,7 +1086,7 @@
         "Dhruv Batra",
         "Marcus Rohrbach"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1058",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Dialogue & Discourse"
@@ -1101,7 +1101,7 @@
         "Kun Wang",
         "Min Zhang"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1044",
       "paper_time": "Monday, June 03, 2019, 11:00 – 12:30",
       "paper_keywords": "Question Answering, Sentiment, Machine Translation, Resources & Evaluation (Posters) "
@@ -1112,7 +1112,7 @@
         "Michael Roth",
         "Shyam Upadhyay"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1390",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Dialogue, Multilingual NLP & Summarization (Posters) "
@@ -1126,7 +1126,7 @@
         "Ryan Cotterell",
         "Isabelle Augenstein"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": null,
       "paper_time": null,
       "paper_keywords": null
@@ -1138,7 +1138,7 @@
         "Kyle Lo",
         "Waleed Ammar"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1184",
       "paper_time": "Tuesday, June 04, 2019, 9:00 – 10:30",
       "paper_keywords": "Discourse, Information Retrieval, Machine Translation, Vision  & Robotics (Posters) "
@@ -1151,7 +1151,7 @@
         "Nicholas Lourie",
         "Jonathan Berant"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": null,
       "paper_time": null,
       "paper_keywords": null
@@ -1165,7 +1165,7 @@
         "Barnabas Poczos",
         "Tom Mitchell"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1119",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "Machine Translation"
@@ -1181,7 +1181,7 @@
         "Eleni Miltsakaki",
         "Chris Callison-Burch"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1317",
       "paper_time": "Wednesday, June 05, 2019, 10:30 – 12:00",
       "paper_keywords": "Text Analysis"
@@ -1194,7 +1194,7 @@
         "Mohamed Yahya",
         "Gerhard Weikum"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1027",
       "paper_time": "Monday, June 03, 2019, 11:00 – 12:30",
       "paper_keywords": "Question Answering, Sentiment, Machine Translation, Resources & Evaluation (Posters) "
@@ -1205,7 +1205,7 @@
         "Peng Xu",
         "Denilson Barbosa"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1323",
       "paper_time": "Wednesday, June 05, 2019, 10:30 – 12:00",
       "paper_keywords": "Machine Learning, Tagging, Chunking, Syntax  & Parsing  (Posters) "
@@ -1216,7 +1216,7 @@
         "Maruan Al-Shedivat",
         "Ankur Parikh"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1121",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "Machine Translation"
@@ -1228,7 +1228,7 @@
         "Omri Abend",
         "Ari Rappoport"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1047",
       "paper_time": "Monday, June 03, 2019, 11:00 – 12:30",
       "paper_keywords": "Question Answering, Sentiment, Machine Translation, Resources & Evaluation (Posters) "
@@ -1239,7 +1239,7 @@
         "Hanan Aldarmaki",
         "Mona Diab"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1391",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Dialogue, Multilingual NLP & Summarization (Posters) "
@@ -1253,7 +1253,7 @@
         "Timothy Baldwin",
         "Jason Eisner"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1203",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Multilingual NLP"
@@ -1265,7 +1265,7 @@
         "Lyle Ungar",
         "Joao Sedoc"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1331",
       "paper_time": "Wednesday, June 05, 2019, 10:30 – 12:00",
       "paper_keywords": "Machine Learning, Tagging, Chunking, Syntax  & Parsing  (Posters) "
@@ -1279,7 +1279,7 @@
         "Ruhi Sarikaya",
         "Young-Bum Kim"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1379",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Dialogue, Multilingual NLP & Summarization (Posters) "
@@ -1290,7 +1290,7 @@
         "Satoshi Akasaki",
         "Nobuhiro Kaji"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1400",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Dialogue, Multilingual NLP & Summarization (Posters) "
@@ -1302,7 +1302,7 @@
         "Donghyun Kim",
         "Alice Oh"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1148",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "Applications, Social Media, Biomedical NLP & Clinical Text Processing (Posters & Demos) "
@@ -1316,7 +1316,7 @@
         "Lidia S. Chao",
         "Zhaopeng Tu"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1407",
       "paper_time": "Wednesday, June 05, 2019, 15:30 – 16:30",
       "paper_keywords": "Applications"
@@ -1328,7 +1328,7 @@
         "Germán Kruszewski",
         "Armand Joulin"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1115",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "Parsing"
@@ -1343,7 +1343,7 @@
         "Niki Parmar",
         "Simon Tong"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1333",
       "paper_time": "Wednesday, June 05, 2019, 10:30 – 12:00",
       "paper_keywords": "Machine Learning, Tagging, Chunking, Syntax  & Parsing  (Posters) "
@@ -1356,7 +1356,7 @@
         "April Shen",
         "Nils Hammerla"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1100",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Information Extraction, Generation  & Semantics (Posters & Demos) "
@@ -1369,7 +1369,7 @@
         "Asif Ekbal",
         "Pushpak Bhattacharyya"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1091",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Information Extraction, Generation  & Semantics (Posters & Demos) "
@@ -1383,7 +1383,7 @@
         "Ryo Nagata",
         "Kentaro Inui"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1132",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "Applications, Social Media, Biomedical NLP & Clinical Text Processing (Posters & Demos) "
@@ -1396,7 +1396,7 @@
         "Regina Barzilay",
         "Amir Globerson"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1162",
       "paper_time": "Tuesday, June 04, 2019, 9:00 – 10:30",
       "paper_keywords": "Multilingual NLP"
@@ -1406,7 +1406,7 @@
       "paper_authors": [
         "Kilian Evang"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1160",
       "paper_time": "Tuesday, June 04, 2019, 9:00 – 10:30",
       "paper_keywords": "Multilingual NLP"
@@ -1418,7 +1418,7 @@
         "Heng Ji",
         "Jonathan May"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1383",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Dialogue, Multilingual NLP & Summarization (Posters) "
@@ -1431,7 +1431,7 @@
         "Rushin Shah",
         "Mike Lewis"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1380",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Dialogue, Multilingual NLP & Summarization (Posters) "
@@ -1443,7 +1443,7 @@
         "Desmond Elliott",
         "Frank Keller"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1200",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Multilingual NLP"
@@ -1458,7 +1458,7 @@
         "Emily Hales",
         "Kevin Seppi"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1399",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Dialogue, Multilingual NLP & Summarization (Posters) "
@@ -1470,7 +1470,7 @@
         "Nikos Athanasiou",
         "Alexandros Potamianos"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1110",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "Semantics"
@@ -1487,7 +1487,7 @@
         "Yael Amsterdamer",
         "Ido Dagan"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1072",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Summarization & IR"
@@ -1502,7 +1502,7 @@
         "Marine Carpuat",
         "Kevin Duh"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1189",
       "paper_time": "Tuesday, June 04, 2019, 9:00 – 10:30",
       "paper_keywords": "Discourse, Information Retrieval, Machine Translation, Vision  & Robotics (Posters) "
@@ -1518,7 +1518,7 @@
         "Md. Yasin Ali Khan",
         "Mohammad Zuberul Islam"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1322",
       "paper_time": "Wednesday, June 05, 2019, 10:30 – 12:00",
       "paper_keywords": "Machine Learning, Tagging, Chunking, Syntax  & Parsing  (Posters) "
@@ -1533,7 +1533,7 @@
         "Asli Celikyilmaz",
         "Lawrence Carin"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1021",
       "paper_time": "Monday, June 03, 2019, 11:00 – 12:30",
       "paper_keywords": "Theory"
@@ -1544,7 +1544,7 @@
         "Avinesh PVS",
         "Christian M. Meyer"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1262",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Summarization"
@@ -1555,7 +1555,7 @@
         "Jonggu Kim",
         "Jong-Hyeok Lee"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1372",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Dialogue, Multilingual NLP & Summarization (Posters) "
@@ -1567,7 +1567,7 @@
         "Hiroyuki Shindo",
         "Yuji Matsumoto"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1343",
       "paper_time": "Wednesday, June 05, 2019, 10:30 – 12:00",
       "paper_keywords": "Machine Learning, Tagging, Chunking, Syntax  & Parsing  (Posters) "
@@ -1580,7 +1580,7 @@
         "Di Wang",
         "Graham Neubig"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1161",
       "paper_time": "Tuesday, June 04, 2019, 9:00 – 10:30",
       "paper_keywords": "Multilingual NLP"
@@ -1593,7 +1593,7 @@
         "Hamed Shahbazi",
         "Prasad Tadepalli"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1087",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Information Extraction, Generation  & Semantics (Posters & Demos) "
@@ -1605,7 +1605,7 @@
         "Jekaterina Novikova",
         "Frank Rudzicz"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1146",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "Applications, Social Media, Biomedical NLP & Clinical Text Processing (Posters & Demos) "
@@ -1621,7 +1621,7 @@
         "Azmi Yuksel",
         "Emin Islam Tatli"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1138",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "Applications, Social Media, Biomedical NLP & Clinical Text Processing (Posters & Demos) "
@@ -1633,7 +1633,7 @@
         "Yi-Te Hsu",
         "Frank Rudzicz"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1199",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Multilingual NLP"
@@ -1645,7 +1645,7 @@
         "Maximilian Wolf",
         "Josef Ruppenhofer"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1211",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Social Media"
@@ -1658,7 +1658,7 @@
         "Luis Carlos Gonzalez Gurrola",
         "Manuel Montes-y-Gomez"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1151",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "Applications, Social Media, Biomedical NLP & Clinical Text Processing (Posters & Demos) "
@@ -1670,7 +1670,7 @@
         "Josef Ruppenhofer",
         "Thomas Kleinbauer"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1060",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Ethics, Bias & Fairness"
@@ -1681,7 +1681,7 @@
         "Vipul Raheja",
         "Joel Tetreault"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1373",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Dialogue, Multilingual NLP & Summarization (Posters) "
@@ -1693,7 +1693,7 @@
         "Xing Niu",
         "Marine Carpuat"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1207",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Machine Translation"
@@ -1706,7 +1706,7 @@
         "Idan Szpektor",
         "Jonathan Berant"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1348",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Discourse"
@@ -1717,7 +1717,7 @@
         "Maximin Coavoux",
         "Shay B. Cohen"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1018",
       "paper_time": "Monday, June 03, 2019, 11:00 – 12:30",
       "paper_keywords": "Syntax"
@@ -1729,7 +1729,7 @@
         "Nikhil Gupta",
         "Mausam -"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": null,
       "paper_time": null,
       "paper_keywords": null
@@ -1740,7 +1740,7 @@
         "Zhi-Xiu Ye",
         "Zhen-Hua Ling"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1288",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Phonology & Morphology, Speech and Text Mining (Posters & Demos) "
@@ -1753,7 +1753,7 @@
         "Qiaoming Zhu",
         "Guodong Zhou"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1287",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Phonology & Morphology, Speech and Text Mining (Posters & Demos) "
@@ -1765,7 +1765,7 @@
         "Cliff Wong",
         "Hoifung Poon"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1370",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Bio & Clinical"
@@ -1779,7 +1779,7 @@
         "Iryna Gurevych",
         "Yusuke Miyao"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1129",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "Applications, Social Media, Biomedical NLP & Clinical Text Processing (Posters & Demos) "
@@ -1791,7 +1791,7 @@
         "Dietrich Trautmann",
         "Benjamin Roth"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1345",
       "paper_time": "Wednesday, June 05, 2019, 10:30 – 12:00",
       "paper_keywords": "Machine Learning, Tagging, Chunking, Syntax  & Parsing  (Posters) "
@@ -1806,7 +1806,7 @@
         "Sameer Singh",
         "Matt Gardner"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1246",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Information Retrieval, Generation, Question Answering & Syntax (Posters & Demos) "
@@ -1819,7 +1819,7 @@
         "Binyang Li",
         "Jey Han Lau"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1163",
       "paper_time": "Tuesday, June 04, 2019, 9:00 – 10:30",
       "paper_keywords": "Social Media"
@@ -1832,7 +1832,7 @@
         "Yansong Feng",
         "Zhiguo Wang"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1301",
       "paper_time": "Wednesday, June 05, 2019, 10:30 – 12:00",
       "paper_keywords": "Question Answering"
@@ -1844,7 +1844,7 @@
         "Peili Liang",
         "Guohong Fu"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1066",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Style & Sentiment"
@@ -1858,7 +1858,7 @@
         "Ashish Sabharwal",
         "Niranjan Balasubramanian"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1302",
       "paper_time": "Wednesday, June 05, 2019, 10:30 – 12:00",
       "paper_keywords": "Question Answering"
@@ -1869,7 +1869,7 @@
         "Nora Hollenstein",
         "Ce Zhang"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1001",
       "paper_time": "Monday, June 03, 2019, 11:00 – 12:30",
       "paper_keywords": "Cognitive"
@@ -1881,7 +1881,7 @@
         "Wei Wei",
         "Cho-Jui Hsieh"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1336",
       "paper_time": "Wednesday, June 05, 2019, 10:30 – 12:00",
       "paper_keywords": "Machine Learning, Tagging, Chunking, Syntax  & Parsing  (Posters) "
@@ -1894,7 +1894,7 @@
         "Kory Mathewson",
         "Osmar Zaiane"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1381",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Dialogue, Multilingual NLP & Summarization (Posters) "
@@ -1905,7 +1905,7 @@
         "Gijs Wijnholds",
         "Mehrnoosh Sadrzadeh"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1023",
       "paper_time": "Monday, June 03, 2019, 11:00 – 12:30",
       "paper_keywords": "Theory"
@@ -1916,7 +1916,7 @@
         "Tom Hosking",
         "Sebastian Riedel"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1237",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Information Retrieval, Generation, Question Answering & Syntax (Posters & Demos) "
@@ -1929,7 +1929,7 @@
         "Nick Obradovich",
         "Iyad Rahwan"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1049",
       "paper_time": "Monday, June 03, 2019, 11:00 – 12:30",
       "paper_keywords": "Question Answering, Sentiment, Machine Translation, Resources & Evaluation (Posters) "
@@ -1942,7 +1942,7 @@
         "Vered Shwartz",
         "Jonathan Berant"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1233",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Information Retrieval, Generation, Question Answering & Syntax (Posters & Demos) "
@@ -1956,7 +1956,7 @@
         "Yang Tao",
         "Zhou Xinpeng"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1080",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Information Extraction, Generation  & Semantics (Posters & Demos) "
@@ -1970,7 +1970,7 @@
         "Shujian Huang",
         "Jiajun CHEN"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1325",
       "paper_time": "Wednesday, June 05, 2019, 10:30 – 12:00",
       "paper_keywords": "Machine Learning, Tagging, Chunking, Syntax  & Parsing  (Posters) "
@@ -1982,7 +1982,7 @@
         "Xin Wang",
         "William Yang Wang"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1120",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "Machine Translation"
@@ -1997,7 +1997,7 @@
         "André F. T. Martins",
         "Shay B. Cohen"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1397",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Dialogue, Multilingual NLP & Summarization (Posters) "
@@ -2010,7 +2010,7 @@
         "zarana parekh",
         "Alexander Hauptmann"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1198",
       "paper_time": "Tuesday, June 04, 2019, 9:00 – 10:30",
       "paper_keywords": "Discourse, Information Retrieval, Machine Translation, Vision  & Robotics (Posters) "
@@ -2023,7 +2023,7 @@
         "Zhiyuan Liu",
         "Wai Lam"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1297",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Phonology & Morphology, Speech and Text Mining (Posters & Demos) "
@@ -2034,7 +2034,7 @@
         "Kris Cao",
         "Stephen Clark"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1223",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Semantics"
@@ -2047,7 +2047,7 @@
         "Robert Calderbank",
         "Nikos Deligiannis"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1141",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "Applications, Social Media, Biomedical NLP & Clinical Text Processing (Posters & Demos) "
@@ -2058,7 +2058,7 @@
         "Tobias Falke",
         "Iryna Gurevych"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1074",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Summarization & IR"
@@ -2069,7 +2069,7 @@
         "Christopher Hidey",
         "Kathy McKeown"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1174",
       "paper_time": "Tuesday, June 04, 2019, 9:00 – 10:30",
       "paper_keywords": "Discourse, Information Retrieval, Machine Translation, Vision  & Robotics (Posters) "
@@ -2081,7 +2081,7 @@
         "Matthias Sperber",
         "Alexander Waibel"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1285",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Phonology & Morphology, Speech and Text Mining (Posters & Demos) "
@@ -2093,7 +2093,7 @@
         "Dekun Wu",
         "Hui Jiang"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1028",
       "paper_time": "Monday, June 03, 2019, 11:00 – 12:30",
       "paper_keywords": "Question Answering, Sentiment, Machine Translation, Resources & Evaluation (Posters) "
@@ -2105,7 +2105,7 @@
         "Tobias Horsmann",
         "Torsten Zesch"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1135",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "Applications, Social Media, Biomedical NLP & Clinical Text Processing (Posters & Demos) "
@@ -2116,7 +2116,7 @@
         "Evgeny Kim",
         "Roman Klinger"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1067",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Style & Sentiment"
@@ -2129,7 +2129,7 @@
         "Weijia Jia",
         "Hai Zhao"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1307",
       "paper_time": "Wednesday, June 05, 2019, 10:30 – 12:00",
       "paper_keywords": "Information Extraction"
@@ -2144,7 +2144,7 @@
         "Vicente Ordonez",
         "Kai-Wei Chang"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1064",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Ethics, Bias & Fairness"
@@ -2157,7 +2157,7 @@
         "Matthias Hagen",
         "Martin Potthast"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1068",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Style & Sentiment"
@@ -2169,7 +2169,7 @@
         "Mohammad Taher Pilehvar",
         "Nigel Collier"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1196",
       "paper_time": "Tuesday, June 04, 2019, 9:00 – 10:30",
       "paper_keywords": "Discourse, Information Retrieval, Machine Translation, Vision  & Robotics (Posters) "
@@ -2182,7 +2182,7 @@
         "Christos Christodoulopoulos",
         "Arpit Mittal"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1101",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Information Extraction, Generation  & Semantics (Posters & Demos) "
@@ -2193,7 +2193,7 @@
         "Victoria Zayats",
         "Mari Ostendorf"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1008",
       "paper_time": "Monday, June 03, 2019, 11:00 – 12:30",
       "paper_keywords": "Speech"
@@ -2204,7 +2204,7 @@
         "Animesh Prasad",
         "Min-Yen Kan"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1182",
       "paper_time": "Tuesday, June 04, 2019, 9:00 – 10:30",
       "paper_keywords": "Discourse, Information Retrieval, Machine Translation, Vision  & Robotics (Posters) "
@@ -2215,7 +2215,7 @@
         "Takuma Ebisu",
         "Ryutaro Ichise"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1104",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "IE & IR"
@@ -2229,7 +2229,7 @@
         "Jiang Guo",
         "Regina Barzilay"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1082",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Information Extraction, Generation  & Semantics (Posters & Demos) "
@@ -2240,7 +2240,7 @@
         "Kristjan Arumae",
         "Fei Liu"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1264",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Summarization"
@@ -2251,7 +2251,7 @@
         "David Vilares",
         "Carlos Gómez-Rodríguez"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1218",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Text Analysis"
@@ -2265,7 +2265,7 @@
         "Younes Samih",
         "Kareem Darwish"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1248",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Information Retrieval, Generation, Question Answering & Syntax (Posters & Demos) "
@@ -2278,7 +2278,7 @@
         "Irwin King",
         "Michael R. Lyu"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1037",
       "paper_time": "Monday, June 03, 2019, 11:00 – 12:30",
       "paper_keywords": "Question Answering, Sentiment, Machine Translation, Resources & Evaluation (Posters) "
@@ -2289,7 +2289,7 @@
         "Guillaume Wisniewski",
         "François Yvon"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1019",
       "paper_time": "Monday, June 03, 2019, 11:00 – 12:30",
       "paper_keywords": "Syntax"
@@ -2304,7 +2304,7 @@
         "Xifeng Yan",
         "William Yang Wang"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1352",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Machine Learning"
@@ -2315,7 +2315,7 @@
         "Zhiwei Yu",
         "Xiaojun Wan"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1092",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Information Extraction, Generation  & Semantics (Posters & Demos) "
@@ -2327,7 +2327,7 @@
         "Christopher Hidey",
         "Kathy McKeown"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1054",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Dialogue & Discourse"
@@ -2338,7 +2338,7 @@
         "Thomas Ruprecht",
         "Tobias Denkinger"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1016",
       "paper_time": "Monday, June 03, 2019, 11:00 – 12:30",
       "paper_keywords": "Syntax"
@@ -2354,7 +2354,7 @@
         "Xiaoxiao Guo",
         "William Yang Wang"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1084",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Information Extraction, Generation  & Semantics (Posters & Demos) "
@@ -2370,7 +2370,7 @@
         "Matt Post",
         "Benjamin Van Durme"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1090",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Information Extraction, Generation  & Semantics (Posters & Demos) "
@@ -2384,7 +2384,7 @@
         "Likun Qiu",
         "Jian Sun"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1279",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Phonology & Morphology, Speech and Text Mining (Posters & Demos) "
@@ -2396,7 +2396,7 @@
         "Prafulla Kumar Choubey",
         "Ruihong Huang"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1057",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Dialogue & Discourse"
@@ -2412,7 +2412,7 @@
         "Yueting Zhuang",
         "Xiang Ren"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1294",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Phonology & Morphology, Speech and Text Mining (Posters & Demos) "
@@ -2424,7 +2424,7 @@
         "Yang Feng",
         "Qun Liu"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1312",
       "paper_time": "Wednesday, June 05, 2019, 10:30 – 12:00",
       "paper_keywords": "Machine Translation"
@@ -2437,7 +2437,7 @@
         "Sadao Kurohashi",
         "Vincent Ng"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1085",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Information Extraction, Generation  & Semantics (Posters & Demos) "
@@ -2451,7 +2451,7 @@
         "Ruoyu Jia",
         "Jingming Liu"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1014",
       "paper_time": "Monday, June 03, 2019, 11:00 – 12:30",
       "paper_keywords": "Generation"
@@ -2463,7 +2463,7 @@
         "Steven Layne",
         "Franck Dernoncourt"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1168",
       "paper_time": "Tuesday, June 04, 2019, 9:00 – 10:30",
       "paper_keywords": "Generation"
@@ -2475,7 +2475,7 @@
         "Ákos Kádár",
         "Mike Kestemont"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1153",
       "paper_time": "Tuesday, June 04, 2019, 9:00 – 10:30",
       "paper_keywords": "Phonology  & Morphology"
@@ -2488,7 +2488,7 @@
         "Dong Yu",
         "Claire Cardie"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1270",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Question Answering"
@@ -2499,7 +2499,7 @@
         "Nikhil Mehta",
         "Dan Goldwasser"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1195",
       "paper_time": "Tuesday, June 04, 2019, 9:00 – 10:30",
       "paper_keywords": "Discourse, Information Retrieval, Machine Translation, Vision  & Robotics (Posters) "
@@ -2513,7 +2513,7 @@
         "Eiichiro Sumita",
         "Tiejun Zhao"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1205",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Machine Translation"
@@ -2526,7 +2526,7 @@
         "Craig Stewart",
         "Graham Neubig"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1190",
       "paper_time": "Tuesday, June 04, 2019, 9:00 – 10:30",
       "paper_keywords": "Discourse, Information Retrieval, Machine Translation, Vision  & Robotics (Posters) "
@@ -2538,7 +2538,7 @@
         "Yan Song",
         "Yangqiu Song"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1093",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Information Extraction, Generation  & Semantics (Posters & Demos) "
@@ -2550,7 +2550,7 @@
         "Eduardo Blanco",
         "Wei Jin"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1214",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Social Media"
@@ -2566,7 +2566,7 @@
         "Yohei Sakamoto",
         "Isaac Okada"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1276",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Phonology & Morphology, Speech and Text Mining (Posters & Demos) "
@@ -2578,7 +2578,7 @@
         "Jonathan Chang",
         "Cristian Danescu-Niculescu-Mizil"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": null,
       "paper_time": null,
       "paper_keywords": null
@@ -2591,7 +2591,7 @@
         "Regina Barzilay",
         "Byron C. Wallace"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1371",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Bio & Clinical"
@@ -2606,7 +2606,7 @@
         "Michael R. Lyu",
         "Zhaopeng Tu"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1359",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Applications"
@@ -2618,7 +2618,7 @@
         "Roy Schwartz",
         "Noah A. Smith"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1225",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Semantics"
@@ -2630,7 +2630,7 @@
         "Piyawat Lertvittayakumjorn",
         "Yike Guo"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1108",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "Semantics"
@@ -2643,7 +2643,7 @@
         "Ping Li",
         "Jingyuan Zhang"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1099",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Information Extraction, Generation  & Semantics (Posters & Demos) "
@@ -2655,7 +2655,7 @@
         "Yuhao Cheng",
         "Hai Zhao"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1340",
       "paper_time": "Wednesday, June 05, 2019, 10:30 – 12:00",
       "paper_keywords": "Machine Learning, Tagging, Chunking, Syntax  & Parsing  (Posters) "
@@ -2667,7 +2667,7 @@
         "Yifan Tian",
         "Sameer Singh"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1337",
       "paper_time": "Wednesday, June 05, 2019, 10:30 – 12:00",
       "paper_keywords": "Machine Learning, Tagging, Chunking, Syntax  & Parsing  (Posters) "
@@ -2680,7 +2680,7 @@
         "Isabelle Augenstein",
         "Anders Søgaard"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1142",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "Applications, Social Media, Biomedical NLP & Clinical Text Processing (Posters & Demos) "
@@ -2694,7 +2694,7 @@
         "Luke Zettlemoyer",
         "Eduard Hovy"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1273",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Question Answering"
@@ -2705,7 +2705,7 @@
         "Yanyan Zou",
         "Wei Lu"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1217",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Text Analysis"
@@ -2719,7 +2719,7 @@
         "Hassane Essafi",
         "Fatiha Sadat"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1416",
       "paper_time": "Wednesday, June 05, 2019, 15:30 – 16:30",
       "paper_keywords": "Machine Learning"
@@ -2732,7 +2732,7 @@
         "Kaizhu Huang",
         "Frans Coenen"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1136",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "Applications, Social Media, Biomedical NLP & Clinical Text Processing (Posters & Demos) "
@@ -2743,7 +2743,7 @@
         "Rashmi Gangadharaiah",
         "Balakrishnan Narayanaswamy"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1055",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Dialogue & Discourse"
@@ -2756,7 +2756,7 @@
         "Lei Shu",
         "Philip Yu"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1242",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Information Retrieval, Generation, Question Answering & Syntax (Posters & Demos) "
@@ -2772,7 +2772,7 @@
         "Jianfeng Gao",
         "Bill Dolan"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1125",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "Dialogue"
@@ -2783,7 +2783,7 @@
         "Erion Çano",
         "Ondřej Bojar"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1070",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Summarization & IR"
@@ -2795,7 +2795,7 @@
         "Jingfei Du",
         "Veselin Stoyanov"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1117",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "Parsing"
@@ -2808,7 +2808,7 @@
         "Alan Do Omri",
         "Ahmad Rashid"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1234",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Information Retrieval, Generation, Question Answering & Syntax (Posters & Demos) "
@@ -2819,7 +2819,7 @@
         "Yanlin Feng",
         "Xiaojun Wan"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1040",
       "paper_time": "Monday, June 03, 2019, 11:00 – 12:30",
       "paper_keywords": "Question Answering, Sentiment, Machine Translation, Resources & Evaluation (Posters) "
@@ -2830,7 +2830,7 @@
         "Yifei Zhang",
         "hao zhu"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1232",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Information Retrieval, Generation, Question Answering & Syntax (Posters & Demos) "
@@ -2841,7 +2841,7 @@
         "Hamid Karimi",
         "Jiliang Tang"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1347",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Discourse"
@@ -2853,7 +2853,7 @@
         "Stefan Feuerriegel",
         "Dirk Neumann"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1038",
       "paper_time": "Monday, June 03, 2019, 11:00 – 12:30",
       "paper_keywords": "Question Answering, Sentiment, Machine Translation, Resources & Evaluation (Posters) "
@@ -2867,7 +2867,7 @@
         "Nicolas Fauceglia",
         "Michael Glass"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1327",
       "paper_time": "Wednesday, June 05, 2019, 10:30 – 12:00",
       "paper_keywords": "Machine Learning, Tagging, Chunking, Syntax  & Parsing  (Posters) "
@@ -2880,7 +2880,7 @@
         "Weizhu Chen",
         "Julian McAuley"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1030",
       "paper_time": "Monday, June 03, 2019, 11:00 – 12:30",
       "paper_keywords": "Question Answering, Sentiment, Machine Translation, Resources & Evaluation (Posters) "
@@ -2893,7 +2893,7 @@
         "Elizabeth Belding",
         "William Yang Wang"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1305",
       "paper_time": "Wednesday, June 05, 2019, 10:30 – 12:00",
       "paper_keywords": "Ethics, Bias & Fairness"
@@ -2904,7 +2904,7 @@
         "Yasumasa Onoe",
         "Greg Durrett"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1250",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Information Retrieval, Generation, Question Answering & Syntax (Posters & Demos) "
@@ -2920,7 +2920,7 @@
         "Masashi Toyoda",
         "Masaru Kitsuregawa"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1350",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Discourse"
@@ -2932,7 +2932,7 @@
         "Licheng Yu",
         "Mohit Bansal"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1268",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Vision"
@@ -2944,7 +2944,7 @@
         "Renjie Zheng",
         "Liang Huang"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1187",
       "paper_time": "Tuesday, June 04, 2019, 9:00 – 10:30",
       "paper_keywords": "Discourse, Information Retrieval, Machine Translation, Vision  & Robotics (Posters) "
@@ -2957,7 +2957,7 @@
         "Ivan Vulić",
         "Marie-Francine Moens"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1188",
       "paper_time": "Tuesday, June 04, 2019, 9:00 – 10:30",
       "paper_keywords": "Discourse, Information Retrieval, Machine Translation, Vision  & Robotics (Posters) "
@@ -2968,7 +2968,7 @@
         "Daniel Fernández-González",
         "Carlos Gómez-Rodríguez"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1076",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Syntax"
@@ -2982,7 +2982,7 @@
         "Dan Jurafsky",
         "Eduard Hovy"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1364",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Semantics"
@@ -2996,7 +2996,7 @@
         "Matthew Peters",
         "Noah A. Smith"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1112",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "Semantics"
@@ -3008,7 +3008,7 @@
         "Greg Durrett",
         "Junyi Jessy Li"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1349",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Discourse"
@@ -3019,7 +3019,7 @@
         "Hila Gonen",
         "Yoav Goldberg"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1061",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Ethics, Bias & Fairness"
@@ -3035,7 +3035,7 @@
         "Wei Zhang",
         "Huajun Chen"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1306",
       "paper_time": "Wednesday, June 05, 2019, 10:30 – 12:00",
       "paper_keywords": "Information Extraction"
@@ -3047,7 +3047,7 @@
         "Craig Stewart",
         "Graham Neubig"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1010",
       "paper_time": "Monday, June 03, 2019, 11:00 – 12:30",
       "paper_keywords": "Speech"
@@ -3058,7 +3058,7 @@
         "Reuben Cohn-Gordon",
         "Noah Goodman"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1042",
       "paper_time": "Monday, June 03, 2019, 11:00 – 12:30",
       "paper_keywords": "Question Answering, Sentiment, Machine Translation, Resources & Evaluation (Posters) "
@@ -3069,7 +3069,7 @@
         "Mohammad Sadegh Rasooli",
         "Michael Collins"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1385",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Dialogue, Multilingual NLP & Summarization (Posters) "
@@ -3082,7 +3082,7 @@
         "Shinji Watanabe",
         "David Yarowsky"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1009",
       "paper_time": "Monday, June 03, 2019, 11:00 – 12:30",
       "paper_keywords": "Speech"
@@ -3094,7 +3094,7 @@
         "Melvin Johnson",
         "Orhan Firat"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1388",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Dialogue, Multilingual NLP & Summarization (Posters) "
@@ -3106,7 +3106,7 @@
         "Joern Wuebker",
         "John DeNero"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1206",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Machine Translation"
@@ -3117,7 +3117,7 @@
         "Cory Shain",
         "Micha Elsner"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1007",
       "paper_time": "Monday, June 03, 2019, 11:00 – 12:30",
       "paper_keywords": "Speech"
@@ -3131,7 +3131,7 @@
         "Michael R. Lyu",
         "Shuming Shi"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1164",
       "paper_time": "Tuesday, June 04, 2019, 9:00 – 10:30",
       "paper_keywords": "Social Media"
@@ -3144,7 +3144,7 @@
         "Camille Pradel",
         "Philippe Muller"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1351",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Discourse"
@@ -3159,7 +3159,7 @@
         "Rui Ferreira",
         "Fabrizio Silvestri"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1326",
       "paper_time": "Wednesday, June 05, 2019, 10:30 – 12:00",
       "paper_keywords": "Machine Learning, Tagging, Chunking, Syntax  & Parsing  (Posters) "
@@ -3172,7 +3172,7 @@
         "ChangTien Lu",
         "Naren Ramakrishnan"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1316",
       "paper_time": "Wednesday, June 05, 2019, 10:30 – 12:00",
       "paper_keywords": "Text Analysis"
@@ -3184,7 +3184,7 @@
         "Prafulla Kumar Choubey",
         "Ruihong Huang"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1179",
       "paper_time": "Tuesday, June 04, 2019, 9:00 – 10:30",
       "paper_keywords": "Discourse, Information Retrieval, Machine Translation, Vision  & Robotics (Posters) "
@@ -3198,7 +3198,7 @@
         "Satoshi Akasaki",
         "Masashi Toyoda"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1215",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Social Media"
@@ -3213,7 +3213,7 @@
         "Jinfeng Zhang",
         "Zhaopeng Tu"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1122",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "Machine Translation"
@@ -3226,7 +3226,7 @@
         "Tingting Mu",
         "Sophia Ananiadou"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1295",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Phonology & Morphology, Speech and Text Mining (Posters & Demos) "
@@ -3238,7 +3238,7 @@
         "Robert Mercer",
         "Lu Xiao"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1137",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "Applications, Social Media, Biomedical NLP & Clinical Text Processing (Posters & Demos) "
@@ -3251,7 +3251,7 @@
         "Dinesh Raghu",
         "Sachindra Joshi"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1375",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Dialogue, Multilingual NLP & Summarization (Posters) "
@@ -3262,7 +3262,7 @@
         "Hikaru Omori",
         "Mamoru Komachi"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1344",
       "paper_time": "Wednesday, June 05, 2019, 10:30 – 12:00",
       "paper_keywords": "Machine Learning, Tagging, Chunking, Syntax  & Parsing  (Posters) "
@@ -3277,7 +3277,7 @@
         "Asif Ekbal",
         "Pushpak Bhattacharyya"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1034",
       "paper_time": "Monday, June 03, 2019, 11:00 – 12:30",
       "paper_keywords": "Question Answering, Sentiment, Machine Translation, Resources & Evaluation (Posters) "
@@ -3291,7 +3291,7 @@
         "Jingjing Liu",
         "Jianfeng Gao"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "https://github.com/xycforgithub/MultiTask-MRC",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Question Answering"
@@ -3305,7 +3305,7 @@
         "James Glass",
         "Preslav Nakov"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1216",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Text Analysis"
@@ -3323,7 +3323,7 @@
         "Philippe Robert",
         "Dimitrios Kokkinakis"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1367",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Bio & Clinical"
@@ -3335,7 +3335,7 @@
         "Verónica Pérez-Rosas",
         "Rada Mihalcea"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1175",
       "paper_time": "Tuesday, June 04, 2019, 9:00 – 10:30",
       "paper_keywords": "Discourse, Information Retrieval, Machine Translation, Vision  & Robotics (Posters) "
@@ -3349,7 +3349,7 @@
         "Matteo Negri",
         "Marco Turchi"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1202",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Multilingual NLP"
@@ -3359,7 +3359,7 @@
       "paper_authors": [
         "Karl Stratos"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1113",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "Parsing"
@@ -3372,7 +3372,7 @@
         "Pengjun Xie",
         "Linlin Li"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1346",
       "paper_time": "Wednesday, June 05, 2019, 10:30 – 12:00",
       "paper_keywords": "Machine Learning, Tagging, Chunking, Syntax  & Parsing  (Posters) "
@@ -3384,7 +3384,7 @@
         "Yufei Wang",
         "Mark Johnson"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1282",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Phonology & Morphology, Speech and Text Mining (Posters & Demos) "
@@ -3397,7 +3397,7 @@
         "Matthew R. Gormley",
         "Jason Eisner"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1024",
       "paper_time": "Monday, June 03, 2019, 11:00 – 12:30",
       "paper_keywords": "Theory"
@@ -3409,7 +3409,7 @@
         "Christopher Bryant",
         "Bill Byrne"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1406",
       "paper_time": "Wednesday, June 05, 2019, 15:30 – 16:30",
       "paper_keywords": "Applications"
@@ -3424,7 +3424,7 @@
         "Miguel Ballesteros",
         "Roger Levy"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1004",
       "paper_time": "Monday, June 03, 2019, 11:00 – 12:30",
       "paper_keywords": "Cognitive"
@@ -3437,7 +3437,7 @@
         "Toan Q. Nguyen",
         "David Chiang"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1311",
       "paper_time": "Wednesday, June 05, 2019, 10:30 – 12:00",
       "paper_keywords": "Machine Translation"
@@ -3447,7 +3447,7 @@
       "paper_authors": [
         "Hadi Amiri"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1003",
       "paper_time": "Monday, June 03, 2019, 11:00 – 12:30",
       "paper_keywords": "Cognitive"
@@ -3459,7 +3459,7 @@
         "Heike Adel",
         "Hinrich Schütze"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1280",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Phonology & Morphology, Speech and Text Mining (Posters & Demos) "
@@ -3472,7 +3472,7 @@
         "Michael Wayne Goodman",
         "Emily M. Bender"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1235",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Information Retrieval, Generation, Question Answering & Syntax (Posters & Demos) "
@@ -3485,7 +3485,7 @@
         "Ulli Waltinger",
         "Hinrich Schütze"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1398",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Dialogue, Multilingual NLP & Summarization (Posters) "
@@ -3497,7 +3497,7 @@
         "Luke Maffey",
         "Bridget McInnes"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1369",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Bio & Clinical"
@@ -3509,7 +3509,7 @@
         "Eunsol Choi",
         "Chenhao Tan"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1167",
       "paper_time": "Tuesday, June 04, 2019, 9:00 – 10:30",
       "paper_keywords": "Social Media"
@@ -3520,7 +3520,7 @@
         "Ankur Bapna",
         "Orhan Firat"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1191",
       "paper_time": "Tuesday, June 04, 2019, 9:00 – 10:30",
       "paper_keywords": "Discourse, Information Retrieval, Machine Translation, Vision  & Robotics (Posters) "
@@ -3536,7 +3536,7 @@
         "Jens Lehmann",
         "Sören Auer"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1243",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Information Retrieval, Generation, Question Answering & Syntax (Posters & Demos) "
@@ -3551,7 +3551,7 @@
         "Kai-Wei Chang",
         "Nanyun Peng"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1253",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Information Retrieval, Generation, Question Answering & Syntax (Posters & Demos) "
@@ -3564,7 +3564,7 @@
         "Graham Neubig",
         "Juan Pino"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1314",
       "paper_time": "Wednesday, June 05, 2019, 10:30 – 12:00",
       "paper_keywords": "Machine Translation"
@@ -3576,7 +3576,7 @@
         "Mitesh M. Khapra",
         "Harish G. Ramaswamy"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1382",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Dialogue, Multilingual NLP & Summarization (Posters) "
@@ -3590,7 +3590,7 @@
         "Samuel R. Bowman",
         "Rachel Rudinger"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1063",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Ethics, Bias & Fairness"
@@ -3603,7 +3603,7 @@
         "Adina Williams",
         "Ryan Cotterell"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1415",
       "paper_time": "Wednesday, June 05, 2019, 15:30 – 16:30",
       "paper_keywords": "Cognitive  & Psycholinguistics"
@@ -3613,7 +3613,7 @@
       "paper_authors": [
         "Mohammad Taher Pilehvar"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1222",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Semantics"
@@ -3627,7 +3627,7 @@
         "Yonatan Belinkov",
         "Preslav Nakov"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1154",
       "paper_time": "Tuesday, June 04, 2019, 9:00 – 10:30",
       "paper_keywords": "Phonology  & Morphology"
@@ -3641,7 +3641,7 @@
         "XIN-YU DAI",
         "Jiajun CHEN"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1192",
       "paper_time": "Tuesday, June 04, 2019, 9:00 – 10:30",
       "paper_keywords": "Discourse, Information Retrieval, Machine Translation, Vision  & Robotics (Posters) "
@@ -3655,7 +3655,7 @@
         "Alon Halevy",
         "H V Jagadish"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1239",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Information Retrieval, Generation, Question Answering & Syntax (Posters & Demos) "
@@ -3669,7 +3669,7 @@
         "Luna Dong",
         "Andrew McCallum"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1083",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Information Extraction, Generation  & Semantics (Posters & Demos) "
@@ -3687,7 +3687,7 @@
         "Lingjia Tang",
         "Jason Mars"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1051",
       "paper_time": "Monday, June 03, 2019, 11:00 – 12:30",
       "paper_keywords": "Question Answering, Sentiment, Machine Translation, Resources & Evaluation (Posters) "
@@ -3701,7 +3701,7 @@
         "Kevin Duh",
         "Philipp Koehn"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1209",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Machine Translation"
@@ -3715,7 +3715,7 @@
         "Daniel Weld",
         "Luke Zettlemoyer"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1362",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Semantics"
@@ -3728,7 +3728,7 @@
         "Chuchu Fan",
         "Dan Roth"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1227",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Information Retrieval, Generation, Question Answering & Syntax (Posters & Demos) "
@@ -3740,7 +3740,7 @@
         "Jason Baldridge",
         "Luheng He"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1131",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "Applications, Social Media, Biomedical NLP & Clinical Text Processing (Posters & Demos) "
@@ -3750,7 +3750,7 @@
       "paper_authors": [
         "Guangneng Hu"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1212",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Social Media"
@@ -3761,7 +3761,7 @@
         "Mathieu Dehouck",
         "Pascal Denis"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1017",
       "paper_time": "Monday, June 03, 2019, 11:00 – 12:30",
       "paper_keywords": "Syntax"
@@ -3772,7 +3772,7 @@
         "Prithviraj Ammanabrolu",
         "Mark Riedl"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1358",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Applications"
@@ -3784,7 +3784,7 @@
         "Jungo Kasai",
         "Noah A. Smith"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1392",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Dialogue, Multilingual NLP & Summarization (Posters) "
@@ -3801,7 +3801,7 @@
         "Sameer Singh",
         "Niranjan Balasubramanian"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1089",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Information Extraction, Generation  & Semantics (Posters & Demos) "
@@ -3813,7 +3813,7 @@
         "Tanja Bergmann",
         "Roland Vollgraf"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1078",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Syntax"
@@ -3824,7 +3824,7 @@
         "Sho Takase",
         "Naoaki Okazaki"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1401",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Dialogue, Multilingual NLP & Summarization (Posters) "
@@ -3839,7 +3839,7 @@
         "Shiliang Pu",
         "Yueting Zhuang"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1290",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Phonology & Morphology, Speech and Text Mining (Posters & Demos) "
@@ -3858,7 +3858,7 @@
         "Béatrice Joyeaux-Prunel",
         "Marie-Catherine de Marneffe"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1231",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Information Retrieval, Generation, Question Answering & Syntax (Posters & Demos) "
@@ -3871,7 +3871,7 @@
         "Jacob Andreas",
         "Dan Klein"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1410",
       "paper_time": "Wednesday, June 05, 2019, 15:30 – 16:30",
       "paper_keywords": "Generation"
@@ -3883,7 +3883,7 @@
         "Alexei Baevski",
         "Michael Auli"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1409",
       "paper_time": "Wednesday, June 05, 2019, 15:30 – 16:30",
       "paper_keywords": "Generation"
@@ -3897,7 +3897,7 @@
         "Adam Lopez",
         "Sharon Goldwater"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1006",
       "paper_time": "Monday, June 03, 2019, 11:00 – 12:30",
       "paper_keywords": "Speech"
@@ -3911,7 +3911,7 @@
         "Byron C. Wallace",
         "Ani Nenkova"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1150",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "Applications, Social Media, Biomedical NLP & Clinical Text Processing (Posters & Demos) "
@@ -3923,7 +3923,7 @@
         "Min-Yen Kan",
         "Kazunari Sugiyama"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1318",
       "paper_time": "Wednesday, June 05, 2019, 10:30 – 12:00",
       "paper_keywords": "Text Analysis"
@@ -3935,7 +3935,7 @@
         "Youngja Park",
         "Shimei Pan"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1293",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Phonology & Morphology, Speech and Text Mining (Posters & Demos) "
@@ -3950,7 +3950,7 @@
         "Noura Farra",
         "Ritesh Kumar"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1144",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "Applications, Social Media, Biomedical NLP & Clinical Text Processing (Posters & Demos) "
@@ -3960,7 +3960,7 @@
       "paper_authors": [
         "Cory Shain"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1413",
       "paper_time": "Wednesday, June 05, 2019, 15:30 – 16:30",
       "paper_keywords": "Cognitive  & Psycholinguistics"
@@ -3973,7 +3973,7 @@
         "Hao Zhou",
         "Olga Vechtomova"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1411",
       "paper_time": "Wednesday, June 05, 2019, 15:30 – 16:30",
       "paper_keywords": "Generation"
@@ -3986,7 +3986,7 @@
         "Lucia Specia",
         "Loïc Barrault"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": null,
       "paper_time": null,
       "paper_keywords": null
@@ -3998,7 +3998,7 @@
         "Nanyun Peng",
         "Percy Liang"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1172",
       "paper_time": "Tuesday, June 04, 2019, 9:00 – 10:30",
       "paper_keywords": "Generation"
@@ -4010,7 +4010,7 @@
         "Nitya Parthasarthi",
         "Sameer Singh"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": null,
       "paper_time": null,
       "paper_keywords": null
@@ -4022,7 +4022,7 @@
         "Leon Derczynski",
         "Ira Assent"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1157",
       "paper_time": "Tuesday, June 04, 2019, 9:00 – 10:30",
       "paper_keywords": "Phonology  & Morphology"
@@ -4034,7 +4034,7 @@
         "Tal Baumel",
         "Michael Elhadad"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1395",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Dialogue, Multilingual NLP & Summarization (Posters) "
@@ -4046,7 +4046,7 @@
         "Wilker Aziz",
         "Ivan Titov"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1240",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Information Retrieval, Generation, Question Answering & Syntax (Posters & Demos) "
@@ -4057,7 +4057,7 @@
         "Debjit Paul",
         "Anette Frank"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1368",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Bio & Clinical"
@@ -4072,7 +4072,7 @@
         "Kefeng Li",
         "Hui Zhou"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1289",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Phonology & Morphology, Speech and Text Mining (Posters & Demos) "
@@ -4083,7 +4083,7 @@
         "Alexander LeClair",
         "Collin McMillan"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1394",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Dialogue, Multilingual NLP & Summarization (Posters) "
@@ -4098,7 +4098,7 @@
         "Jun Guo",
         "Nianwen Xue"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1095",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Information Extraction, Generation  & Semantics (Posters & Demos) "
@@ -4108,7 +4108,7 @@
       "paper_authors": [
         "Natalie Schluter"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1022",
       "paper_time": "Monday, June 03, 2019, 11:00 – 12:30",
       "paper_keywords": "Theory"
@@ -4129,7 +4129,7 @@
         "Christopher Potts",
         "Lauri Karttunen"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1365",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Semantics"
@@ -4141,7 +4141,7 @@
         "Miguel Ballesteros",
         "Joakim Nivre"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1159",
       "paper_time": "Tuesday, June 04, 2019, 9:00 – 10:30",
       "paper_keywords": "Multilingual NLP"
@@ -4154,7 +4154,7 @@
         "Colin Cherry",
         "Maxim Krikun"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1208",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Machine Translation"
@@ -4168,7 +4168,7 @@
         "JinJun Xiong",
         "Wen-mei Hwu"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1320",
       "paper_time": "Wednesday, June 05, 2019, 10:30 – 12:00",
       "paper_keywords": "Text Analysis"
@@ -4181,7 +4181,7 @@
         "Hiroyuki Shindo",
         "Yuji Matsumoto"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1286",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Phonology & Morphology, Speech and Text Mining (Posters & Demos) "
@@ -4194,7 +4194,7 @@
         "Jianwen Zhang",
         "Yangqiu Song"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1332",
       "paper_time": "Wednesday, June 05, 2019, 10:30 – 12:00",
       "paper_keywords": "Machine Learning, Tagging, Chunking, Syntax  & Parsing  (Posters) "
@@ -4205,7 +4205,7 @@
         "Gaurav Singh",
         "parminder bhatia"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1147",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "Applications, Social Media, Biomedical NLP & Clinical Text Processing (Posters & Demos) "
@@ -4219,7 +4219,7 @@
         "Jian Li",
         "Ying Liu"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1107",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "IE & IR"
@@ -4231,7 +4231,7 @@
         "Kaige Xie",
         "Maxine Eskenazi"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1123",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "Dialogue"
@@ -4244,7 +4244,7 @@
         "Raphael Tang",
         "Jimmy Lin"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1408",
       "paper_time": "Wednesday, June 05, 2019, 15:30 – 16:30",
       "paper_keywords": "Applications"
@@ -4257,7 +4257,7 @@
         "Junxin Liu",
         "Yongfeng Huang"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1180",
       "paper_time": "Tuesday, June 04, 2019, 9:00 – 10:30",
       "paper_keywords": "Discourse, Information Retrieval, Machine Translation, Vision  & Robotics (Posters) "
@@ -4271,7 +4271,7 @@
         "Xuancheng Ren",
         "Xu SUN"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1296",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Phonology & Morphology, Speech and Text Mining (Posters & Demos) "
@@ -4282,7 +4282,7 @@
         "Muhammad Tasnim Mohiuddin",
         "Shafiq Joty"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1386",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Dialogue, Multilingual NLP & Summarization (Posters) "
@@ -4295,7 +4295,7 @@
         "Nazanin Esmaili",
         "Massimo Piccardi"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1041",
       "paper_time": "Monday, June 03, 2019, 11:00 – 12:30",
       "paper_keywords": "Question Answering, Sentiment, Machine Translation, Resources & Evaluation (Posters) "
@@ -4306,7 +4306,7 @@
         "Prince Zizhuang Wang",
         "William Yang Wang"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1025",
       "paper_time": "Monday, June 03, 2019, 11:00 – 12:30",
       "paper_keywords": "Theory"
@@ -4319,7 +4319,7 @@
         "Hamed Shahbazi",
         "Prasad Tadepalli"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1404",
       "paper_time": "Wednesday, June 05, 2019, 15:30 – 16:30",
       "paper_keywords": "Question Answering"
@@ -4331,7 +4331,7 @@
         "Ting Bai",
         "Philippe Langlais"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1249",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Information Retrieval, Generation, Question Answering & Syntax (Posters & Demos) "
@@ -4342,7 +4342,7 @@
         "Rashidul Islam",
         "James Foulds"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1291",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Phonology & Morphology, Speech and Text Mining (Posters & Demos) "
@@ -4356,7 +4356,7 @@
         "Chris Callison-Burch",
         "Dan Roth"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1053",
       "paper_time": "Monday, June 03, 2019, 11:00 – 12:30",
       "paper_keywords": "Question Answering, Sentiment, Machine Translation, Resources & Evaluation (Posters) "
@@ -4368,7 +4368,7 @@
         "Kazuki Fukui",
         "Hidetoshi Shimodaira"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1324",
       "paper_time": "Wednesday, June 05, 2019, 10:30 – 12:00",
       "paper_keywords": "Machine Learning, Tagging, Chunking, Syntax  & Parsing  (Posters) "
@@ -4380,7 +4380,7 @@
         "André F. T. Martins",
         "Gholamreza Haffari"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1313",
       "paper_time": "Wednesday, June 05, 2019, 10:30 – 12:00",
       "paper_keywords": "Machine Translation"
@@ -4393,7 +4393,7 @@
         "Leila Wehbe",
         "Shou-de Lin"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1255",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Sentiment Analysis"
@@ -4404,7 +4404,7 @@
         "Charles Chen",
         "Razvan Bunescu"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1360",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Applications"
@@ -4415,7 +4415,7 @@
         "Ting-Rui Chiang",
         "Yun-Nung Chen"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1272",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Question Answering"
@@ -4430,7 +4430,7 @@
         "Shiyu Chang",
         "William Yang Wang"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1086",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Information Extraction, Generation  & Semantics (Posters & Demos) "
@@ -4442,7 +4442,7 @@
         "Yoav Goldberg",
         "Ido Dagan"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1236",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Information Retrieval, Generation, Question Answering & Syntax (Posters & Demos) "
@@ -4455,7 +4455,7 @@
         "Ioannis Konstas",
         "Alexandros Potamianos"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1071",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Summarization & IR"
@@ -4468,7 +4468,7 @@
         "Libin Shi",
         "Zhang Xiong"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1228",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Information Retrieval, Generation, Question Answering & Syntax (Posters & Demos) "
@@ -4481,7 +4481,7 @@
         "Maseud Rahgozar",
         "Farhad Oroumchian"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1073",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Summarization & IR"
@@ -4493,7 +4493,7 @@
         "Daniel Gordon",
         "Yonatan Bisk"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1197",
       "paper_time": "Tuesday, June 04, 2019, 9:00 – 10:30",
       "paper_keywords": "Discourse, Information Retrieval, Machine Translation, Vision  & Robotics (Posters) "
@@ -4505,7 +4505,7 @@
         "Raquel Fernández",
         "Gemma Boleda"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1210",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Social Media"
@@ -4518,7 +4518,7 @@
         "Ivan Vulić",
         "Anna Korhonen"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1417",
       "paper_time": "Wednesday, June 05, 2019, 15:30 – 16:30",
       "paper_keywords": "Machine Learning"
@@ -4530,7 +4530,7 @@
         "Daisuke Kawahara",
         "Sadao Kurohashi"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1281",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Phonology & Morphology, Speech and Text Mining (Posters & Demos) "
@@ -4542,7 +4542,7 @@
         "Jinfeng Rao",
         "Jimmy Lin"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1229",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Information Retrieval, Generation, Question Answering & Syntax (Posters & Demos) "
@@ -4555,7 +4555,7 @@
         "Anuj Goyal",
         "Angeliki Metallinou"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1029",
       "paper_time": "Monday, June 03, 2019, 11:00 – 12:30",
       "paper_keywords": "Question Answering, Sentiment, Machine Translation, Resources & Evaluation (Posters) "
@@ -4565,7 +4565,7 @@
       "paper_authors": [
         "Timothy Miller"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1039",
       "paper_time": "Monday, June 03, 2019, 11:00 – 12:30",
       "paper_keywords": "Question Answering, Sentiment, Machine Translation, Resources & Evaluation (Posters) "
@@ -4577,7 +4577,7 @@
         "Ivan Titov",
         "Mirella Lapata"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1173",
       "paper_time": "Tuesday, June 04, 2019, 9:00 – 10:30",
       "paper_keywords": "Discourse, Information Retrieval, Machine Translation, Vision  & Robotics (Posters) "
@@ -4593,7 +4593,7 @@
         "Wai Lam",
         "Shuming Shi"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1124",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "Dialogue"
@@ -4604,7 +4604,7 @@
         "Jack Hessel",
         "Lillian Lee"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1166",
       "paper_time": "Tuesday, June 04, 2019, 9:00 – 10:30",
       "paper_keywords": "Social Media"
@@ -4619,7 +4619,7 @@
         "Xiangyang Xue",
         "Zheng Zhang"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1133",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "Applications, Social Media, Biomedical NLP & Clinical Text Processing (Posters & Demos) "
@@ -4635,7 +4635,7 @@
         "Fernando Alva-Manchego",
         "Andreas Vlachos"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1102",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Information Extraction, Generation  & Semantics (Posters & Demos) "
@@ -4646,7 +4646,7 @@
         "Marco Damonte",
         "Shay B. Cohen"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1366",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Semantics"
@@ -4659,7 +4659,7 @@
         "Madeleine van Zuylen",
         "Field Cady"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1361",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Applications"
@@ -4673,7 +4673,7 @@
         "Miguel Ballesteros",
         "Roger Levy"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1334",
       "paper_time": "Wednesday, June 05, 2019, 10:30 – 12:00",
       "paper_keywords": "Machine Learning, Tagging, Chunking, Syntax  & Parsing  (Posters) "
@@ -4684,7 +4684,7 @@
         "Fan Bai",
         "Alan Ritter"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1310",
       "paper_time": "Wednesday, June 05, 2019, 10:30 – 12:00",
       "paper_keywords": "Information Extraction"
@@ -4696,7 +4696,7 @@
         "Yoav Goldberg",
         "Tal Linzen"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1356",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Machine Learning"
@@ -4709,7 +4709,7 @@
         "Thomas Demeester",
         "Chris Develder"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1081",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Information Extraction, Generation  & Semantics (Posters & Demos) "
@@ -4722,7 +4722,7 @@
         "Manik Bhandari",
         "Partha Talukdar"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1363",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Semantics"
@@ -4734,7 +4734,7 @@
         "Yue Zhang",
         "Shuailong Liang"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1278",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Phonology & Morphology, Speech and Text Mining (Posters & Demos) "
@@ -4746,7 +4746,7 @@
         "Jun Suzuki",
         "Kentaro Inui"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1353",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Machine Learning"
@@ -4758,7 +4758,7 @@
         "Özlem Çetinoğlu",
         "Katharina Kann"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1201",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Multilingual NLP"
@@ -4772,7 +4772,7 @@
         "Dragomir Radev",
         "Owen Rambow"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1075",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Syntax"
@@ -4785,7 +4785,7 @@
         "Guohong Fu",
         "Min Zhang"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1118",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "Machine Translation"
@@ -4799,7 +4799,7 @@
         "Shujian Huang",
         "Jiajun CHEN"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1259",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Sentiment Analysis"
@@ -4811,7 +4811,7 @@
         "Luyao Huang",
         "Xipeng Qiu"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1035",
       "paper_time": "Monday, June 03, 2019, 11:00 – 12:30",
       "paper_keywords": "Question Answering, Sentiment, Machine Translation, Resources & Evaluation (Posters) "
@@ -4825,7 +4825,7 @@
         "Jing Jiang",
         "Chengqi Zhang"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1127",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "Applications, Social Media, Biomedical NLP & Clinical Text Processing (Posters & Demos) "
@@ -4839,7 +4839,7 @@
         "Vincent Perot",
         "Dan Roth"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1319",
       "paper_time": "Wednesday, June 05, 2019, 10:30 – 12:00",
       "paper_keywords": "Text Analysis"
@@ -4853,7 +4853,7 @@
         "Mirella Lapata",
         "Hannaneh Hajishirzi"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1238",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Information Retrieval, Generation, Question Answering & Syntax (Posters & Demos) "
@@ -4867,7 +4867,7 @@
         "Bhuwan Dhingra",
         "Dipanjan Das"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1263",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Summarization"
@@ -4885,7 +4885,7 @@
         "Edwin Simpson",
         "Iryna Gurevych"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1165",
       "paper_time": "Tuesday, June 04, 2019, 9:00 – 10:30",
       "paper_keywords": "Social Media"
@@ -4896,7 +4896,7 @@
         "Tim vor der Brück",
         "Marc Pouly"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1181",
       "paper_time": "Tuesday, June 04, 2019, 9:00 – 10:30",
       "paper_keywords": "Discourse, Information Retrieval, Machine Translation, Vision  & Robotics (Posters) "
@@ -4911,7 +4911,7 @@
         "Stanislas Dehaene",
         "Marco Baroni"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1002",
       "paper_time": "Monday, June 03, 2019, 11:00 – 12:30",
       "paper_keywords": "Cognitive"
@@ -4922,7 +4922,7 @@
         "Chao Wang",
         "Hui Jiang"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1402",
       "paper_time": "Wednesday, June 05, 2019, 15:30 – 16:30",
       "paper_keywords": "Question Answering"
@@ -4934,7 +4934,7 @@
         "Sorcha Gilroy",
         "Adam Lopez"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1096",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Information Extraction, Generation  & Semantics (Posters & Demos) "
@@ -4946,7 +4946,7 @@
         "Jiaming Xu",
         "Bo Xu"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1266",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Vision"
@@ -4957,7 +4957,7 @@
         "Wenchao Du",
         "Alan W Black"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1377",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Dialogue, Multilingual NLP & Summarization (Posters) "
@@ -4971,7 +4971,7 @@
         "Sepehr Janghorbani",
         "Mubbasir Kapadia"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1376",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Dialogue, Multilingual NLP & Summarization (Posters) "
@@ -4988,7 +4988,7 @@
         "Changyou Chen",
         "Lawrence Carin"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1015",
       "paper_time": "Monday, June 03, 2019, 11:00 – 12:30",
       "paper_keywords": "Generation"
@@ -5000,7 +5000,7 @@
         "Chris Quirk",
         "Michel Galley"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1269",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Vision"
@@ -5015,7 +5015,7 @@
         "Yejin Choi",
         "Hannaneh Hajishirzi"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1245",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Information Retrieval, Generation, Question Answering & Syntax (Posters & Demos) "
@@ -5026,7 +5026,7 @@
         "Toms Bergmanis",
         "Sharon Goldwater"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1418",
       "paper_time": "Wednesday, June 05, 2019, 15:30 – 16:30",
       "paper_keywords": "Machine Learning"
@@ -5038,7 +5038,7 @@
         "Sujith Ravi",
         "Zornitsa Kozareva"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1339",
       "paper_time": "Wednesday, June 05, 2019, 10:30 – 12:00",
       "paper_keywords": "Machine Learning, Tagging, Chunking, Syntax  & Parsing  (Posters) "
@@ -5050,7 +5050,7 @@
         "Abu Nowshed Chy",
         "Masaki Aono"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1185",
       "paper_time": "Tuesday, June 04, 2019, 9:00 – 10:30",
       "paper_keywords": "Discourse, Information Retrieval, Machine Translation, Vision  & Robotics (Posters) "
@@ -5064,7 +5064,7 @@
         "Benoit Favre",
         "Carlos Ramisch"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1393",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Dialogue, Multilingual NLP & Summarization (Posters) "
@@ -5078,7 +5078,7 @@
         "Jijnasa Nayak",
         "Lun-Wei Ku"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1031",
       "paper_time": "Monday, June 03, 2019, 11:00 – 12:30",
       "paper_keywords": "Question Answering, Sentiment, Machine Translation, Resources & Evaluation (Posters) "
@@ -5093,7 +5093,7 @@
         "Tiejun Zhao",
         "Shuming Shi"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1046",
       "paper_time": "Monday, June 03, 2019, 11:00 – 12:30",
       "paper_keywords": "Question Answering, Sentiment, Machine Translation, Resources & Evaluation (Posters) "
@@ -5104,7 +5104,7 @@
         "Jifan Chen",
         "Greg Durrett"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1405",
       "paper_time": "Wednesday, June 05, 2019, 15:30 – 16:30",
       "paper_keywords": "Question Answering"
@@ -5115,7 +5115,7 @@
         "Dan Schwartz",
         "Tom Mitchell"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1005",
       "paper_time": "Monday, June 03, 2019, 11:00 – 12:30",
       "paper_keywords": "Cognitive"
@@ -5126,7 +5126,7 @@
         "Naomi Saphra",
         "Adam Lopez"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1329",
       "paper_time": "Wednesday, June 05, 2019, 10:30 – 12:00",
       "paper_keywords": "Machine Learning, Tagging, Chunking, Syntax  & Parsing  (Posters) "
@@ -5137,7 +5137,7 @@
         "Krtin Kumar",
         "Jackie Chi Kit Cheung"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1396",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Dialogue, Multilingual NLP & Summarization (Posters) "
@@ -5149,7 +5149,7 @@
         "Hugh Zhang",
         "Percy Liang"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1169",
       "paper_time": "Tuesday, June 04, 2019, 9:00 – 10:30",
       "paper_keywords": "Generation"
@@ -5165,7 +5165,7 @@
         "Jianfeng Gao",
         "Jing Jiang"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1094",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Information Extraction, Generation  & Semantics (Posters & Demos) "
@@ -5177,7 +5177,7 @@
         "Tiancheng Zhao",
         "Zhou Yu"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1178",
       "paper_time": "Tuesday, June 04, 2019, 9:00 – 10:30",
       "paper_keywords": "Discourse, Information Retrieval, Machine Translation, Vision  & Robotics (Posters) "
@@ -5188,7 +5188,7 @@
         "Benjamin Marie",
         "Atsushi Fujita"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1384",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Dialogue, Multilingual NLP & Summarization (Posters) "
@@ -5202,7 +5202,7 @@
         "Mohit Iyyer",
         "Andrew McCallum"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1116",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "Parsing"
@@ -5217,7 +5217,7 @@
         "Chris Dyer",
         "Gábor Melis"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1114",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "Parsing"
@@ -5229,7 +5229,7 @@
         "Ji-Ping Wang",
         "Doug Downey"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1330",
       "paper_time": "Wednesday, June 05, 2019, 10:30 – 12:00",
       "paper_keywords": "Machine Learning, Tagging, Chunking, Syntax  & Parsing  (Posters) "
@@ -5240,7 +5240,7 @@
         "Rajkumar Pujari",
         "Dan Goldwasser"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1403",
       "paper_time": "Wednesday, June 05, 2019, 15:30 – 16:30",
       "paper_keywords": "Question Answering"
@@ -5253,7 +5253,7 @@
         "Ben Hachey",
         "Cecile Paris"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1149",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "Applications, Social Media, Biomedical NLP & Clinical Text Processing (Posters & Demos) "
@@ -5265,7 +5265,7 @@
         "Jonathan Herzig",
         "Jonathan Berant"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1193",
       "paper_time": "Tuesday, June 04, 2019, 9:00 – 10:30",
       "paper_keywords": "Discourse, Information Retrieval, Machine Translation, Vision  & Robotics (Posters) "
@@ -5277,7 +5277,7 @@
         "Xipeng Qiu",
         "Xuanjing Huang"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1277",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Phonology & Morphology, Speech and Text Mining (Posters & Demos) "
@@ -5288,7 +5288,7 @@
         "Hadi Amiri",
         "Mitra Mohtarami"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1143",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "Applications, Social Media, Biomedical NLP & Clinical Text Processing (Posters & Demos) "
@@ -5299,7 +5299,7 @@
         "Radu Tudor Ionescu",
         "Andrei Butnaru"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1033",
       "paper_time": "Monday, June 03, 2019, 11:00 – 12:30",
       "paper_keywords": "Question Answering, Sentiment, Machine Translation, Resources & Evaluation (Posters) "
@@ -5311,7 +5311,7 @@
         "David Vilares",
         "Carlos Gómez-Rodríguez"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1077",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Syntax"
@@ -5323,7 +5323,7 @@
         "Karan Jariwala",
         "Christopher Kanan"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1194",
       "paper_time": "Tuesday, June 04, 2019, 9:00 – 10:30",
       "paper_keywords": "Discourse, Information Retrieval, Machine Translation, Vision  & Robotics (Posters) "
@@ -5337,7 +5337,7 @@
         "Matthijs Westera",
         "Gemma Boleda"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1378",
       "paper_time": "Wednesday, June 05, 2019, 13:30 – 15:00",
       "paper_keywords": "Dialogue, Multilingual NLP & Summarization (Posters) "
@@ -5347,7 +5347,7 @@
       "paper_authors": [
         "Dmetri Hayes"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1111",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "Semantics"
@@ -5360,7 +5360,7 @@
         "Douwe Kiela",
         "Jason Weston"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1170",
       "paper_time": "Tuesday, June 04, 2019, 9:00 – 10:30",
       "paper_keywords": "Generation"
@@ -5379,7 +5379,7 @@
         "Anna Rumshisky",
         "Adam Kalai"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": null,
       "paper_time": null,
       "paper_keywords": null
@@ -5391,7 +5391,7 @@
         "Prashant Shiralkar",
         "Xin Luna Dong"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1309",
       "paper_time": "Wednesday, June 05, 2019, 10:30 – 12:00",
       "paper_keywords": "Information Extraction"
@@ -5404,7 +5404,7 @@
         "Yoav Chai",
         "Jonathan Berant"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1139",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "Applications, Social Media, Biomedical NLP & Clinical Text Processing (Posters & Demos) "
@@ -5415,7 +5415,7 @@
         "Mohammad Taher Pilehvar",
         "Jose Camacho-Collados"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1128",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "Applications, Social Media, Biomedical NLP & Clinical Text Processing (Posters & Demos) "
@@ -5427,7 +5427,7 @@
         "Kenji Araki",
         "Eduard Hovy"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1186",
       "paper_time": "Tuesday, June 04, 2019, 9:00 – 10:30",
       "paper_keywords": "Discourse, Information Retrieval, Machine Translation, Vision  & Robotics (Posters) "
@@ -5439,7 +5439,7 @@
         "Debasis Ganguly",
         "Gareth Jones"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1109",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "Semantics"
@@ -5450,7 +5450,7 @@
         "Soufian Jebbara",
         "Philipp Cimiano"
       ],
-      "paper_type": null,
+      "paper_type": "Main Conference",
       "paper_link": "http://www.aclweb.org/anthology/N19-1257",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Sentiment Analysis"
@@ -5466,7 +5466,7 @@
         "Tatsuru Higurashi",
         "Yoshimune Tabuchi"
       ],
-      "paper_type": null,
+      "paper_type": "Industry Track",
       "paper_link": "http://www.aclweb.org/anthology/N19-2010",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Industry"
@@ -5477,7 +5477,7 @@
         "Yue Chen",
         "John Chen"
       ],
-      "paper_type": null,
+      "paper_type": "Industry Track",
       "paper_link": "http://www.aclweb.org/anthology/N19-2019",
       "paper_time": "Wednesday, June 05, 2019, 15:30 – 16:30",
       "paper_keywords": "Industry (posters) "
@@ -5491,7 +5491,7 @@
         "Imre Kiss",
         "Spyros Matsoukas"
       ],
-      "paper_type": null,
+      "paper_type": "Industry Track",
       "paper_link": "http://www.aclweb.org/anthology/N19-2012",
       "paper_time": "Wednesday, June 05, 2019, 15:30 – 16:30",
       "paper_keywords": "Industry (posters) "
@@ -5504,7 +5504,7 @@
         "Carmi Rothberg",
         "David Nahamoo"
       ],
-      "paper_type": null,
+      "paper_type": "Industry Track",
       "paper_link": "http://www.aclweb.org/anthology/N19-2014",
       "paper_time": "Wednesday, June 05, 2019, 15:30 – 16:30",
       "paper_keywords": "Industry (posters) "
@@ -5521,7 +5521,7 @@
         "Avinatan Hassidim",
         "Yossi Matias"
       ],
-      "paper_type": null,
+      "paper_type": "Industry Track",
       "paper_link": "http://www.aclweb.org/anthology/N19-2025",
       "paper_time": "Wednesday, June 05, 2019, 15:30 – 16:30",
       "paper_keywords": "Industry (posters) "
@@ -5533,7 +5533,7 @@
         "Aijun An",
         "Gordon Edall"
       ],
-      "paper_type": null,
+      "paper_type": "Industry Track",
       "paper_link": "http://www.aclweb.org/anthology/N19-2028",
       "paper_time": "Wednesday, June 05, 2019, 15:30 – 16:30",
       "paper_keywords": "Industry (posters) "
@@ -5546,7 +5546,7 @@
         "Judith Gaspers",
         "Dietrich Klakow"
       ],
-      "paper_type": null,
+      "paper_type": "Industry Track",
       "paper_link": "http://www.aclweb.org/anthology/N19-2023",
       "paper_time": "Wednesday, June 05, 2019, 15:30 – 16:30",
       "paper_keywords": "Industry (posters) "
@@ -5566,7 +5566,7 @@
         "Jian Pei",
         "Jimmy Lin"
       ],
-      "paper_type": null,
+      "paper_type": "Industry Track",
       "paper_link": "http://www.aclweb.org/anthology/N19-2008",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Industry"
@@ -5582,7 +5582,7 @@
         "Matthew Ventura",
         "Jessica Yarbro"
       ],
-      "paper_type": null,
+      "paper_type": "Industry Track",
       "paper_link": "http://www.aclweb.org/anthology/N19-2015",
       "paper_time": "Wednesday, June 05, 2019, 15:30 – 16:30",
       "paper_keywords": "Industry (posters) "
@@ -5594,7 +5594,7 @@
         "Peter Bailey",
         "Milad Shokouhi"
       ],
-      "paper_type": null,
+      "paper_type": "Industry Track",
       "paper_link": "http://www.aclweb.org/anthology/N19-2006",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Industry"
@@ -5608,7 +5608,7 @@
         "Katsutoshi Ohtsuki",
         "Hideki Nakayama"
       ],
-      "paper_type": null,
+      "paper_type": "Industry Track",
       "paper_link": "http://www.aclweb.org/anthology/N19-2001",
       "paper_time": "Tuesday, June 04, 2019, 9:00 – 10:30",
       "paper_keywords": "Industry"
@@ -5624,7 +5624,7 @@
         "Vasudeva Varma",
         "Pushpak Bhattacharyya"
       ],
-      "paper_type": null,
+      "paper_type": "Industry Track",
       "paper_link": "http://www.aclweb.org/anthology/N19-2017",
       "paper_time": "Wednesday, June 05, 2019, 15:30 – 16:30",
       "paper_keywords": "Industry (posters) "
@@ -5645,7 +5645,7 @@
         "Wai Leng Chow",
         "Nancy F. Chen"
       ],
-      "paper_type": null,
+      "paper_type": "Industry Track",
       "paper_link": null,
       "paper_time": null,
       "paper_keywords": null
@@ -5658,7 +5658,7 @@
         "Anusha Balakrishnan",
         "Rajen Subba"
       ],
-      "paper_type": null,
+      "paper_type": "Industry Track",
       "paper_link": "http://www.aclweb.org/anthology/N19-2027",
       "paper_time": "Wednesday, June 05, 2019, 15:30 – 16:30",
       "paper_keywords": "Industry (posters) "
@@ -5674,7 +5674,7 @@
         "Song Wang",
         "Vikas Bhardwaj"
       ],
-      "paper_type": null,
+      "paper_type": "Industry Track",
       "paper_link": "http://www.aclweb.org/anthology/N19-2007",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Industry"
@@ -5688,7 +5688,7 @@
         "Huasha Zhao",
         "Xiaojing Liu"
       ],
-      "paper_type": null,
+      "paper_type": "Industry Track",
       "paper_link": "http://www.aclweb.org/anthology/N19-2005",
       "paper_time": "Tuesday, June 04, 2019, 9:00 – 10:30",
       "paper_keywords": "Industry"
@@ -5701,7 +5701,7 @@
         "Xiao Ling",
         "Michele Banko"
       ],
-      "paper_type": null,
+      "paper_type": "Industry Track",
       "paper_link": "http://www.aclweb.org/anthology/N19-2018",
       "paper_time": "Wednesday, June 05, 2019, 15:30 – 16:30",
       "paper_keywords": "Industry (posters) "
@@ -5718,7 +5718,7 @@
         "Srikanth Ronanki",
         "Trevor Wood"
       ],
-      "paper_type": null,
+      "paper_type": "Industry Track",
       "paper_link": "http://www.aclweb.org/anthology/N19-2026",
       "paper_time": "Wednesday, June 05, 2019, 15:30 – 16:30",
       "paper_keywords": "Industry (posters) "
@@ -5730,7 +5730,7 @@
         "Anjishnu Kumar",
         "Arpit Mittal"
       ],
-      "paper_type": null,
+      "paper_type": "Industry Track",
       "paper_link": "http://www.aclweb.org/anthology/N19-2016",
       "paper_time": "Wednesday, June 05, 2019, 15:30 – 16:30",
       "paper_keywords": "Industry (posters) "
@@ -5742,7 +5742,7 @@
         "Ruhi Sarikaya",
         "Young-Bum Kim"
       ],
-      "paper_type": null,
+      "paper_type": "Industry Track",
       "paper_link": "http://www.aclweb.org/anthology/N19-2002",
       "paper_time": "Tuesday, June 04, 2019, 9:00 – 10:30",
       "paper_keywords": "Industry"
@@ -5758,7 +5758,7 @@
         "Yu Gong",
         "Philip S. Yu"
       ],
-      "paper_type": null,
+      "paper_type": "Industry Track",
       "paper_link": "http://www.aclweb.org/anthology/N19-2009",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Industry"
@@ -5768,7 +5768,7 @@
       "paper_authors": [
         "Kyle Williams"
       ],
-      "paper_type": null,
+      "paper_type": "Industry Track",
       "paper_link": "http://www.aclweb.org/anthology/N19-2011",
       "paper_time": "Wednesday, June 05, 2019, 15:30 – 16:30",
       "paper_keywords": "Industry (posters) "
@@ -5782,7 +5782,7 @@
         "Ankur Gandhe",
         "Bjorn Hoffmeister"
       ],
-      "paper_type": null,
+      "paper_type": "Industry Track",
       "paper_link": "http://www.aclweb.org/anthology/N19-2024",
       "paper_time": "Wednesday, June 05, 2019, 10:30 – 12:00",
       "paper_keywords": "Machine Learning, Tagging, Chunking, Syntax  & Parsing  (Posters) "
@@ -5794,7 +5794,7 @@
         "Rahul Goel",
         "Tagyoung Chung"
       ],
-      "paper_type": null,
+      "paper_type": "Industry Track",
       "paper_link": "http://www.aclweb.org/anthology/N19-2003",
       "paper_time": "Tuesday, June 04, 2019, 9:00 – 10:30",
       "paper_keywords": "Industry"
@@ -5807,7 +5807,7 @@
         "Frederic Bechet",
         "Benoit Favre"
       ],
-      "paper_type": null,
+      "paper_type": "Industry Track",
       "paper_link": "http://www.aclweb.org/anthology/N19-2021",
       "paper_time": "Wednesday, June 05, 2019, 15:30 – 16:30",
       "paper_keywords": "Industry (posters) "
@@ -5820,7 +5820,7 @@
         "Tongfei Chen",
         "Mathias Lambert"
       ],
-      "paper_type": null,
+      "paper_type": "Industry Track",
       "paper_link": "http://www.aclweb.org/anthology/N19-2013",
       "paper_time": "Wednesday, June 05, 2019, 15:30 – 16:30",
       "paper_keywords": "Industry (posters) "
@@ -5832,7 +5832,7 @@
         "Kai Zhang",
         "Fule Ji"
       ],
-      "paper_type": null,
+      "paper_type": "Industry Track",
       "paper_link": "http://www.aclweb.org/anthology/N19-2022",
       "paper_time": "Wednesday, June 05, 2019, 15:30 – 16:30",
       "paper_keywords": "Industry (posters) "
@@ -5847,7 +5847,7 @@
         "Sergey Tulyakov",
         "Pradeep Karuturi"
       ],
-      "paper_type": null,
+      "paper_type": "Industry Track",
       "paper_link": "http://www.aclweb.org/anthology/N19-2020",
       "paper_time": "Wednesday, June 05, 2019, 15:30 – 16:30",
       "paper_keywords": "Industry (posters) "
@@ -5863,7 +5863,7 @@
         "Eric Holder",
         "Clare Voss"
       ],
-      "paper_type": null,
+      "paper_type": "System Demonstrations",
       "paper_link": "http://www.aclweb.org/anthology/N19-4023",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Phonology & Morphology, Speech and Text Mining (Posters & Demos) "
@@ -5874,7 +5874,7 @@
         "Manuel Ciosici",
         "Ira Assent"
       ],
-      "paper_type": null,
+      "paper_type": "System Demonstrations",
       "paper_link": "http://www.aclweb.org/anthology/N19-4001",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Information Extraction, Generation  & Semantics (Posters & Demos) "
@@ -5887,7 +5887,7 @@
         "Houda Bouamor",
         "Nizar Habash"
       ],
-      "paper_type": null,
+      "paper_type": "System Demonstrations",
       "paper_link": "http://www.aclweb.org/anthology/N19-4002",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Information Extraction, Generation  & Semantics (Posters & Demos) "
@@ -5900,7 +5900,7 @@
         "Vicente Ordonez",
         "Song Feng"
       ],
-      "paper_type": null,
+      "paper_type": "System Demonstrations",
       "paper_link": "http://www.aclweb.org/anthology/N19-4024",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Phonology & Morphology, Speech and Text Mining (Posters & Demos) "
@@ -5915,7 +5915,7 @@
         "Lyle Ungar",
         "Chris Callison-Burch"
       ],
-      "paper_type": null,
+      "paper_type": "System Demonstrations",
       "paper_link": "http://www.aclweb.org/anthology/N19-4011",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "Applications, Social Media, Biomedical NLP & Clinical Text Processing (Posters & Demos) "
@@ -5928,7 +5928,7 @@
         "Sylvia Schreiner",
         "Lane Schwartz"
       ],
-      "paper_type": null,
+      "paper_type": "System Demonstrations",
       "paper_link": "http://www.aclweb.org/anthology/N19-4021",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Phonology & Morphology, Speech and Text Mining (Posters & Demos) "
@@ -5943,7 +5943,7 @@
         "Danish Pruthi",
         "Xinyi Wang"
       ],
-      "paper_type": null,
+      "paper_type": "System Demonstrations",
       "paper_link": "http://www.aclweb.org/anthology/N19-4007",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "Applications, Social Media, Biomedical NLP & Clinical Text Processing (Posters & Demos) "
@@ -5969,7 +5969,7 @@
         "Clayton Morrison",
         "Mihai Surdeanu"
       ],
-      "paper_type": null,
+      "paper_type": "System Demonstrations",
       "paper_link": "http://www.aclweb.org/anthology/N19-4008",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "Applications, Social Media, Biomedical NLP & Clinical Text Processing (Posters & Demos) "
@@ -5985,7 +5985,7 @@
         "Marco A. Valenzuela-Escárcega",
         "Mihai Surdeanu"
       ],
-      "paper_type": null,
+      "paper_type": "System Demonstrations",
       "paper_link": "http://www.aclweb.org/anthology/N19-4003",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Information Extraction, Generation  & Semantics (Posters & Demos) "
@@ -6002,7 +6002,7 @@
         "Ming Li",
         "Jimmy Lin"
       ],
-      "paper_type": null,
+      "paper_type": "System Demonstrations",
       "paper_link": "http://www.aclweb.org/anthology/N19-4013",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Information Retrieval, Generation, Question Answering & Syntax (Posters & Demos) "
@@ -6019,7 +6019,7 @@
         "David Grangier",
         "Michael Auli"
       ],
-      "paper_type": null,
+      "paper_type": "System Demonstrations",
       "paper_link": "http://www.aclweb.org/anthology/N19-4009",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "Applications, Social Media, Biomedical NLP & Clinical Text Processing (Posters & Demos) "
@@ -6033,7 +6033,7 @@
         "Mitra Mohtarami",
         "James Glass"
       ],
-      "paper_type": null,
+      "paper_type": "System Demonstrations",
       "paper_link": "http://www.aclweb.org/anthology/N19-4014",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Information Retrieval, Generation, Question Answering & Syntax (Posters & Demos) "
@@ -6048,7 +6048,7 @@
         "Stefan Schweter",
         "Roland Vollgraf"
       ],
-      "paper_type": null,
+      "paper_type": "System Demonstrations",
       "paper_link": "http://www.aclweb.org/anthology/N19-4010",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "Applications, Social Media, Biomedical NLP & Clinical Text Processing (Posters & Demos) "
@@ -6060,7 +6060,7 @@
         "Jhih-Sheng Fang",
         "Wei-Yun Ma"
       ],
-      "paper_type": null,
+      "paper_type": "System Demonstrations",
       "paper_link": "http://www.aclweb.org/anthology/N19-4015",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Information Retrieval, Generation, Question Answering & Syntax (Posters & Demos) "
@@ -6072,7 +6072,7 @@
         "Wentao Qin",
         "Xiaojun Wan"
       ],
-      "paper_type": null,
+      "paper_type": "System Demonstrations",
       "paper_link": "https://youtu.be/7ItteKW3GEk",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Information Extraction, Generation  & Semantics (Posters & Demos) "
@@ -6084,7 +6084,7 @@
         "Ping Wang",
         "Chandan K. Reddy"
       ],
-      "paper_type": null,
+      "paper_type": "System Demonstrations",
       "paper_link": "http://www.aclweb.org/anthology/N19-4012",
       "paper_time": "Monday, June 03, 2019, 17:00 – 18:30",
       "paper_keywords": "Applications, Social Media, Biomedical NLP & Clinical Text Processing (Posters & Demos) "
@@ -6097,7 +6097,7 @@
         "Jhih-Jie Chen",
         "Chingyu Yang"
       ],
-      "paper_type": null,
+      "paper_type": "System Demonstrations",
       "paper_link": "http://www.aclweb.org/anthology/N19-4005",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Information Extraction, Generation  & Semantics (Posters & Demos) "
@@ -6112,7 +6112,7 @@
         "Conner Cowling",
         "Frank Schilder"
       ],
-      "paper_type": null,
+      "paper_type": "System Demonstrations",
       "paper_link": "http://www.aclweb.org/anthology/N19-4020",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Phonology & Morphology, Speech and Text Mining (Posters & Demos) "
@@ -6124,7 +6124,7 @@
         "Steffen Remus",
         "Chris Biemann"
       ],
-      "paper_type": null,
+      "paper_type": "System Demonstrations",
       "paper_link": "http://www.aclweb.org/anthology/N19-4017",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Information Retrieval, Generation, Question Answering & Syntax (Posters & Demos) "
@@ -6139,7 +6139,7 @@
         "Morteza Dehghani",
         "Heng Ji"
       ],
-      "paper_type": null,
+      "paper_type": "System Demonstrations",
       "paper_link": "http://www.aclweb.org/anthology/N19-4019",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Phonology & Morphology, Speech and Text Mining (Posters & Demos) "
@@ -6151,7 +6151,7 @@
         "Haining Feng",
         "Nanyun Peng"
       ],
-      "paper_type": null,
+      "paper_type": "System Demonstrations",
       "paper_link": "http://www.aclweb.org/anthology/N19-4016",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Information Retrieval, Generation, Question Answering & Syntax (Posters & Demos) "
@@ -6164,7 +6164,7 @@
         "Hongxia Jin",
         "Sandeep Nama"
       ],
-      "paper_type": null,
+      "paper_type": "System Demonstrations",
       "paper_link": "http://www.aclweb.org/anthology/N19-4018",
       "paper_time": "Tuesday, June 04, 2019, 11:00 – 12:30",
       "paper_keywords": "Information Retrieval, Generation, Question Answering & Syntax (Posters & Demos) "
@@ -6178,7 +6178,7 @@
         "Eleftherios Avramidis",
         "Sebastian Möller"
       ],
-      "paper_type": null,
+      "paper_type": "System Demonstrations",
       "paper_link": "http://www.aclweb.org/anthology/N19-4006",
       "paper_time": "Monday, June 03, 2019, 15:00 – 16:30",
       "paper_keywords": "Information Extraction, Generation  & Semantics (Posters & Demos) "
@@ -6190,7 +6190,7 @@
         "Olga Zamaraeva",
         "Emily M. Bender"
       ],
-      "paper_type": null,
+      "paper_type": "System Demonstrations",
       "paper_link": "http://www.aclweb.org/anthology/N19-4022",
       "paper_time": "Tuesday, June 04, 2019, 15:30 – 17:00",
       "paper_keywords": "Phonology & Morphology, Speech and Text Mining (Posters & Demos) "
