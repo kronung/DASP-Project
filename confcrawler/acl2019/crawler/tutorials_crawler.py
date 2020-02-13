@@ -2,7 +2,7 @@ __author__ = "Aron Kaufmann"
 import copy
 from urllib import request
 from bs4 import BeautifulSoup
-
+import re
 from confcrawler.util import util
 
 
@@ -36,7 +36,9 @@ def extract_tutorial_info(url):
         elif tutorial.text[:2] >= datetimes[1][1][:2]:
             tutorial_dummy["tutorial_time"] = datetimes[1][0]
         next = tutorial.findNext("div")
-        tutorial_dummy["tutorial_author"] = tutorial.findNext("p", {"class": "tutorials-tutors"}).text
+        authors_str = tutorial.findNext("p", {"class": "tutorials-tutors"}).text
+        authors_list = [author.strip() for author in re.split(r",|\sand\s", authors_str)]
+        tutorial_dummy["tutorial_author"] = authors_list
         tutorial_dummy["tutorial_location"] = tutorial.findNext("p", {"class": "tutorials-room"}).text.split('.')[1].strip()
         tutorial_dummy["tutorial_link"] = tutorial.findNext("a", {"class": "tutorials-materials"})["href"]
         abstract_p = next.findAll("p", class_=None)

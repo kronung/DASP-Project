@@ -1,9 +1,9 @@
 conf_name = EMNLP 2019
-topics_url = https://www.emnlp-ijcnlp2019.org/calls/papers
-organizers_url = https://www.emnlp-ijcnlp2019.org/organization
-schedule_url= https://www.emnlp-ijcnlp2019.org/program/ischedule/
-papers_url= https://www.emnlp-ijcnlp2019.org/program/accepted/
-workshops_url= https://www.emnlp-ijcnlp2019.org/program/workshops/
-tutorials_url= https://www.emnlp-ijcnlp2019.org/program/tutorials/
-keynotes_url = https://www.emnlp-ijcnlp2019.org/program/keynotes/
-smd_url= https://www.emnlp-ijcnlp2019.org/calls/papers
+topics_url = http://www.emnlp-ijcnlp2019.org/calls/papers
+organizers_url = http://www.emnlp-ijcnlp2019.org/organization
+schedule_url= http://www.emnlp-ijcnlp2019.org/program/ischedule/
+papers_url= http://www.emnlp-ijcnlp2019.org/program/accepted/
+workshops_url= http://www.emnlp-ijcnlp2019.org/program/workshops/
+tutorials_url= http://www.emnlp-ijcnlp2019.org/program/tutorials/
+keynotes_url = http://www.emnlp-ijcnlp2019.org/program/keynotes/
+smd_url= http://www.emnlp-ijcnlp2019.org/calls/papers

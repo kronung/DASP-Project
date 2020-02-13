@@ -32,12 +32,24 @@ def extract_organizers_info(url):
             if isinstance(tag, element.Tag):
                 text = tag.text # re.sub(r"[\W^ ]", "", tag.text)
                 if re.sub(r"[\W]", "", text) != "":
-                    organizers_dummy[fill_dummy(counter)] = util.basic_string_clean(text)
+                    authors_str = util.basic_string_clean(text)
+                    authors_list = [author.strip() for author in re.split(r",|\sand\s", authors_str)]
+                    attribute = fill_dummy(counter)
+                    if attribute == "members":
+                        organizers_dummy[attribute] = authors_list
+                    else:
+                        organizers_dummy[attribute] = util.basic_string_clean(text)
                     counter += 1
             elif isinstance(tag, element.NavigableString):
                 text = re.sub(r"[^\w\s]", "", tag).strip()
                 if text != "":
-                    organizers_dummy[fill_dummy(counter)] = util.basic_string_clean(text)
+                    authors_str = util.basic_string_clean(text)
+                    authors_list = [author.strip() for author in re.split(r",|\sand\s", authors_str)]
+                    attribute = fill_dummy(counter)
+                    if attribute == "members":
+                        organizers_dummy[attribute] = authors_list
+                    else:
+                        organizers_dummy[attribute] = util.basic_string_clean(text)
                     counter += 1
             if counter > 1 and organizers_dummy["members"] is not None and organizers_dummy["institution"] is not None:
                 organizers_info_list.append(copy.copy(organizers_dummy))

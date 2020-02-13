@@ -4,7 +4,7 @@ import copy
 from urllib import request
 from bs4 import BeautifulSoup
 from bs4 import element
-
+import re
 from confcrawler.util import util
 
 
@@ -50,7 +50,9 @@ def extract_workshop_info(url):
         current_date = get_timestamp_for_event(datetimes, (current_date, workshop.text))
         workshop_dummy["workshop_day"] = current_date
         workshop_dummy["workshop_link"] = workshop.contents[0]["href"]
-        workshop_dummy["workshop_organizer"] = util.basic_string_clean(workshop.findNext("p", {"class": "tutorials-tutors"}).text)
+        authors_str = util.basic_string_clean(workshop.findNext("p", {"class": "tutorials-tutors"}).text)
+        authors_list = [author.strip() for author in re.split(r",|\sand\s", authors_str)]
+        workshop_dummy["workshop_organizer"] = authors_list
         workshop_dummy["workshop_location"] = workshop.findNext("p", {"class": "tutorials-room"}).text.split('.')[
             1].strip()
         workshop_info_list.append(copy.copy(workshop_dummy))
