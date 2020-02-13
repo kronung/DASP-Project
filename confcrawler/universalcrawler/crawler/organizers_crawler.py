@@ -20,7 +20,7 @@ def extract_organizers(organizers_url=None):
              (for example https://naacl2019.org/organization )
      :return: list of dictionaries with organizers in a conference represented as one dictionary.
      """
-    logger.info('Start crawling PAPERS...')
+    logger.info('Start crawling ORGANIZERS...')
     organizers = []
 
     # crawl the papers site
