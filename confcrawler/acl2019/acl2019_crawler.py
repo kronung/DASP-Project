@@ -38,7 +38,7 @@ def collect_data():
     ]
     conf_dict["name"] = "ACL 2019"
     conf_dict["location"] = "Florence, Italy"
-    conf_dict["datetime"] = "Juli 28 to August 2, 2019"
+    conf_dict["datetime"] = "Juli 28, 2019 - August 2, 2019"
     conf_dict["tutorials"] = tutorials_crawler.get_tutorials()
     conf_dict["workshops"] = workshop_crawler.get_workshops()
     #conf_dict["keynotes"] = keynote_crawler.extract_keynotes()

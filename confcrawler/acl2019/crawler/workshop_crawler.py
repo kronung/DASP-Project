@@ -5,6 +5,8 @@ from urllib import request
 from bs4 import BeautifulSoup
 from bs4 import element
 
+from confcrawler.util import util
+
 
 def get_timestamps(url):
     try:
@@ -44,11 +46,11 @@ def extract_workshop_info(url):
     workshop_div = BeautifulSoup(page, 'html.parser').findAll("div", class_="workshops")[0]
     workshops = workshop_div.findAll("h3")
     for workshop in workshops:
-        workshop_dummy["workshop_name"] = workshop.text
+        workshop_dummy["workshop_name"] = util.basic_string_clean(workshop.text)
         current_date = get_timestamp_for_event(datetimes, (current_date, workshop.text))
         workshop_dummy["workshop_day"] = current_date
         workshop_dummy["workshop_link"] = workshop.contents[0]["href"]
-        workshop_dummy["workshop_organizer"] = workshop.findNext("p", {"class": "tutorials-tutors"}).text
+        workshop_dummy["workshop_organizer"] = util.basic_string_clean(workshop.findNext("p", {"class": "tutorials-tutors"}).text)
         workshop_dummy["workshop_location"] = workshop.findNext("p", {"class": "tutorials-room"}).text.split('.')[
             1].strip()
         workshop_info_list.append(copy.copy(workshop_dummy))

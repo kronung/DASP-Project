@@ -3,6 +3,8 @@ __author__ = "Aron Kaufmann"
 import copy
 from urllib import request
 from bs4 import BeautifulSoup
+import confcrawler.util.util as util
+import re
 
 
 def extract_paper_info(url):
@@ -16,8 +18,10 @@ def extract_paper_info(url):
 
     papers = BeautifulSoup(page, 'html.parser').findAll("p", class_="paper-item")
     for paper in papers:
-        paper_dummy["paper_title"] = paper.contents[0]
-        paper_dummy["paper_authors"] = paper.contents[2].text
+        paper_dummy["paper_title"] = util.basic_string_clean(paper.contents[0])
+        authors_str = paper.contents[2].text
+        authors_list = [author.strip() for author in re.split(r",|\sand\s", authors_str)]
+        paper_dummy["paper_authors"] = authors_list
         paper_info_list.append(copy.copy(paper_dummy))
     return paper_info_list
 

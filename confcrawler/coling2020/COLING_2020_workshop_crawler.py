@@ -5,6 +5,8 @@ from bs4 import BeautifulSoup
 from urllib import request
 import copy
 
+from confcrawler.util import util
+
 
 def extract_workshops(url):
     """
@@ -27,7 +29,7 @@ def extract_workshops(url):
             workshop = {attribute: None for attribute in ["workshop_name", "workshop_organizer", "workshop_description",
                                                           "workshop_day", "workshop_location", "workshop_link"]}
             workshop['workshop_day'] = child.text
-            workshop['workshop_name'] = i.find('a').text
+            workshop['workshop_name'] = util.basic_string_clean(i.find('a').text)
             workshop['workshop_link'] = i.find('a')['href']
             workshops.append(copy.copy(workshop))
 

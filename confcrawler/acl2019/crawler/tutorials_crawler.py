@@ -3,6 +3,8 @@ import copy
 from urllib import request
 from bs4 import BeautifulSoup
 
+from confcrawler.util import util
+
 
 def get_timestamps(url):
     try:
@@ -28,7 +30,7 @@ def extract_tutorial_info(url):
     datetimes = get_timestamps(url)
     tutorials = BeautifulSoup(page, 'html.parser').findAll("h3", {"class": "tutorials-anchor"})
     for tutorial in tutorials:
-        tutorial_dummy["tutorial_name"] = tutorial.text
+        tutorial_dummy["tutorial_name"] = util.basic_string_clean(tutorial.text)
         if tutorial.text[:2] < datetimes[1][1][:2]:
             tutorial_dummy["tutorial_time"] = datetimes[0][0]
         elif tutorial.text[:2] >= datetimes[1][1][:2]:

@@ -4,6 +4,8 @@ import copy, re
 from urllib import request
 from bs4 import BeautifulSoup, element
 
+from confcrawler.util import util
+
 
 def fill_dummy(counter):
     #print(counter)
@@ -30,18 +32,18 @@ def extract_organizers_info(url):
             if isinstance(tag, element.Tag):
                 text = tag.text # re.sub(r"[\W^ ]", "", tag.text)
                 if re.sub(r"[\W]", "", text) != "":
-                    organizers_dummy[fill_dummy(counter)] = text
+                    organizers_dummy[fill_dummy(counter)] = util.basic_string_clean(text)
                     counter += 1
             elif isinstance(tag, element.NavigableString):
                 text = re.sub(r"[^\w\s]", "", tag).strip()
                 if text != "":
-                    organizers_dummy[fill_dummy(counter)] = text
+                    organizers_dummy[fill_dummy(counter)] = util.basic_string_clean(text)
                     counter += 1
             if counter > 1 and organizers_dummy["members"] is not None and organizers_dummy["institution"] is not None:
                 organizers_info_list.append(copy.copy(organizers_dummy))
                 organizers_dummy["members"] = None
                 organizers_dummy["institution"] = None
-        organizers_dummy['members'] = child.text.strip()
+        organizers_dummy['members'] = util.basic_string_clean(child.text.strip())
 
     return organizers_info_list
 

@@ -32,7 +32,7 @@ def collect_data():
      ]
     conf_dict["name"] = "COLING 2020"
     conf_dict["location"] = "Barcelona, Spain"
-    conf_dict["datetime"] = "September 13 to 18, 2020"
+    conf_dict["datetime"] = "September 13, 2020 - September 18, 2020"
     conf_dict["tutorials"] = coling_tutorials.get_tutorials()
     conf_dict["workshops"] = COLING_2020_workshop_crawler.get_workshops()
     #conf_dict["keynotes"] = keynote_crawler.extract_keynotes()
