@@ -89,6 +89,10 @@ Default folder DASP-Project --> data/ (needs to be specified in any case).
           python3 create_database_dump.py data /user/folder1/folder2
           
 ## Functionality
+### Data representation
+We designed a JSON conference template to represent all the conference data.  
+Have a look at our template located at   
+```confcrawler -> ressources -> conference_template.json```
 
 ### Crawler
 Main crawler at  ```confcrawler -> conference_crawler.py``` which calls the
