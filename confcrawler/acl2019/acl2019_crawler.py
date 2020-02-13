@@ -1,15 +1,41 @@
 __author__ = "Aron Kaufmann"
 
 import json
-from confcrawler.acl2019.crawler import paper_crawler, tutorials_crawler, workshop_crawler
+from confcrawler.acl2019.crawler import paper_crawler, tutorials_crawler, workshop_crawler, organizers_crawler
+import confcrawler.util.util as util
 
 
 def collect_data():
-    conf_dict = generate_conference_dummy_dict()
+    conf_dict = util.generate_empty_conf_dict()
     # print(json.dumps(conf_dict, indent=1))
     #conf_dict["topics"] = topics_crawler.extract_topics()
-    #conf_dict["organizers"] = organizers_crawler.extract_organizers()
-    #conf_dict["submission_deadlines"] = submission_deadlines_crawler.extract_submission_deadlines()
+    conf_dict["organizers"] = organizers_crawler.get_organizers()
+    conf_dict["submission_deadlines"] = [
+        {
+            "name": "Submission deadline (long & short papers)",
+            "datetime": "4 March, 2019"
+        },
+        {
+            "name": "Notification of acceptance",
+            "datetime": "13 May, 2019"
+        },
+        {
+            "name": "Camera-ready due",
+            "datetime": "3 June, 2019"
+        },
+        {
+            "name": "Tutorials",
+            "datetime": "28 July, 2019"
+        },
+        {
+            "name": "Conference",
+            "datetime": "29 to 31 July, 2019"
+        },
+        {
+            "name": "Workshops and Co-located conferences",
+            "datetime": "1 to 2 August, 2019"
+        }
+    ]
     conf_dict["name"] = "ACL 2019"
     conf_dict["location"] = "Florence, Italy"
     conf_dict["datetime"] = "Juli 28 to August 2, 2019"
@@ -18,14 +44,8 @@ def collect_data():
     #conf_dict["keynotes"] = keynote_crawler.extract_keynotes()
     conf_dict["papers"] = paper_crawler.get_papers()
 
-    with open("output/acl2019_data.json", "w", encoding='utf-8') as f:
-        json.dump({"ACL2019": conf_dict}, f, ensure_ascii=False)
+    util.save_conference_data("ACL2019", conf_dict)
     print("created conference data!")
-
-
-def generate_conference_dummy_dict():
-    with open("crawler/conference_template.json", "r") as template:
-        return json.load(template)["conference"]
 
 
 if __name__ == "__main__":

@@ -1,1 +1,463 @@
-{"name": "ACL 2020", "location": "", "datetime": "", "submission_deadlines": [{"name": "Completion of START Global Profile", "datetime": "December 9, 2019"}, {"name": "Completion of ACL2020 Reviewer and Chair/Author Information Form", "datetime": "December 9, 2019"}, {"name": "Submission deadline(long & short papers)", "datetime": "December 9, 2019"}, {"name": "Paper review rebuttal period", "datetime": "February 12 – 17, 2020"}, {"name": "Student Research Workshop Submission deadline", "datetime": "March 6, 2020"}, {"name": "Notification of acceptance(long & short papers)", "datetime": "April 3, 2020"}, {"name": "Camera-ready papers due(long & short papers)", "datetime": "April 24, 2020"}, {"name": "Proceedings publication", "datetime": "June 19, 2020"}, {"name": "Tutorials", "datetime": "July 5, 2020"}, {"name": "Main conference", "datetime": "July 6 – 8, 2020"}, {"name": "Workshops and Co-located conferences", "datetime": "July 9 – 10, 2020"}], "topics": ["Natural Language Processing systems or system components", "Application systems using language technology components", "Software tools for computational linguistics research", "Software for demonstration or evaluation", "Software supporting learning or education", "Tools for data visualization and annotation", "Development tools"], "organizers": [], "papers": [], "tutorials": [{"tutorial_name": "Interpretability and Analysis in Neural NLP", "tutorial_author": ["Yonatan Belinkov", "Sebastian Gehrmann", "Ellie Pavlick"], "tutorial_abstract": "", "tutorial_time": null, "tutorial_location": null, "tutorial_link": null}, {"tutorial_name": "Multi-modal Information Extraction from Text, Semi-structured, and Tabular Data on the Web", "tutorial_author": ["Xin Luna Dong", "Hannaneh Hajishirzi", "Colin Lockard", "Prashant Shiralkar"], "tutorial_abstract": "", "tutorial_time": null, "tutorial_location": null, "tutorial_link": null}, {"tutorial_name": "Reviewing Natural Language Processing Research", "tutorial_author": ["Kevin Cohen", "Karën Fort", "Margot Mieskes", "Aurélie Névéol"], "tutorial_abstract": "", "tutorial_time": null, "tutorial_location": null, "tutorial_link": null}, {"tutorial_name": "Stylized Text Generation: Approaches and Applications", "tutorial_author": ["Lili Mou", "Olga Vechtomova"], "tutorial_abstract": "", "tutorial_time": null, "tutorial_location": null, "tutorial_link": null}, {"tutorial_name": "Achieving Common Ground in Multi-modal Dialogue", "tutorial_author": ["Malihe Alikhani", "Matthew Stone"], "tutorial_abstract": "", "tutorial_time": null, "tutorial_location": null, "tutorial_link": null}, {"tutorial_name": "Commonsense Reasoning for Natural Language Processing", "tutorial_author": ["Maarten Sap", "Vered Shwartz", "Antoine Bosselut", "Dan Roth", "Yejin Choi"], "tutorial_abstract": "", "tutorial_time": null, "tutorial_location": null, "tutorial_link": null}, {"tutorial_name": "Integrating Ethics into the NLP Curriculum", "tutorial_author": ["Emily M. Bender", "Dirk Hovy", "Alexandra Schofield"], "tutorial_abstract": "", "tutorial_time": null, "tutorial_location": null, "tutorial_link": null}, {"tutorial_name": "Recent Advances in Open-Domain Question Answering", "tutorial_author": ["Danqi Chen", "Scott Wen-tau Yih"], "tutorial_abstract": "", "tutorial_time": null, "tutorial_location": null, "tutorial_link": null}], "keynotes": [], "workshops": [{"workshop_name": "IWSLT", "workshop_organizer": ["Marcello Federico", "Alexander Waibel", "Jiatao Gu", "Kevin Knight", "Will Lewis", "Satoshi Nakamura", "Hermann Ney", "Jan Niehues", "Sebastian Stüker", "Marco Turchi"], "workshop_description": "The 17th International Conference on Spoken Language Translation (IWSLT) is an annual scientific conference for the study, development and evaluation of spoken language translation technology: speech-to-text, speech-to-speech translation, simultaneous and consecutive translation, speech dubbing, cross-lingual communication including all multimodal, emotional, para-linguistic, and stylistic aspects and their applications in the field. The conference organizes evaluations and workshop sessions around challenge areas, and presents scientific work and system descriptions. Organizers: Marcello Federico, Alexander Waibel, Jiatao Gu, Kevin Knight, Will Lewis, Satoshi Nakamura, Hermann Ney, Jan Niehues, Sebastian Stüker and Marco Turchi", "workshop_day": null, "workshop_location": null, "workshop_link": "http://www.iwslt.org/doku.php"}, {"workshop_name": "ALVR", "workshop_organizer": ["Xin Wang", "Jesse Thomason", "Ronghang Hu", "Xinlei Chen", "Peter Anderson", "Qi Wu", "Asli Celikyilmaz", "Jason Baldridge", "William Yang Wang"], "workshop_description": "Workshop on Advances in Language and Vision Research. Promoting the frontier of language and vision research and bringing researchers together to discuss real-world solutions in this area. Organizers: Xin Wang, Jesse Thomason, Ronghang Hu, Xinlei Chen, Peter Anderson, Qi Wu, Asli Celikyilmaz, Jason Baldridge and William Yang Wang", "workshop_day": null, "workshop_location": null, "workshop_link": "https://alvr-workshop.github.io/"}, {"workshop_name": "AutoSimTrans", "workshop_organizer": ["Hua Wu", "Colin Cherry", "James Cross", "Liang Huang", "Zhongjun He", "Mark Liberman", "Yang Liu"], "workshop_description": "The 1st Workshop on Automatic Simultaneous Translation: challenges, recent advances,and future directions. Organizers: Hua Wu, Colin Cherry, James Cross, Liang Huang, Zhongjun He, Mark Liberman and Yang Liu", "workshop_day": null, "workshop_location": null, "workshop_link": "https://autosimtrans.github.io"}, {"workshop_name": "BEA", "workshop_organizer": ["Ekaterina Kochmar", "Jill Burstein", "Claudia Leacock", "Nitin Madnani", "Ildiko Pilan", "Helen Yannakoudakis", "Torsten Zesch"], "workshop_description": "The 15th Workshop on Innovative Use of NLP for Building Educational Applications. The BEA Workshop is a leading venue for NLP innovation in educational applications and one of the largest one-day workshops in ACL. Organizers: Ekaterina Kochmar, Jill Burstein, Claudia Leacock, Nitin Madnani, Ildiko Pilan, Helen Yannakoudakis and Torsten Zesch", "workshop_day": null, "workshop_location": null, "workshop_link": "https://sig-edu.org/bea/current"}, {"workshop_name": "BioNLP 2020", "workshop_organizer": ["Dina Demner-Fushman", "Kevin Cohen", "Sophia Ananiadou", "Jun’ichi Tsujii"], "workshop_description": "NLP can help improve health and BioNLP is the best venue for biomedical & clinical language processing researchers to learn how. Organizers: Dina Demner-Fushman, Kevin Cohen, Sophia Ananiadou and Jun’ichi Tsujii", "workshop_day": null, "workshop_location": null, "workshop_link": "https://www.aclweb.org/portal/content/bionlp-2020-workshop-biomedical-natural-language-processing"}, {"workshop_name": "Challenge-HML", "workshop_organizer": ["AmirAli Bagher Zadeh", "Louis-Philippe Morency", "Paul Pu Liang", "Soujanya Poria", "Ying Shen"], "workshop_description": "The Second Grand-Challenge and Workshop on Human Multimodal Language promotes the growth of modeling multimodal language (language, vision, acoustic) as a fundamental research area in NLP. Organizers: AmirAli Bagher Zadeh, Louis-Philippe Morency, Paul Pu Liang, Soujanya Poria and Ying Shen", "workshop_day": null, "workshop_location": null, "workshop_link": null}, {"workshop_name": "ECNLP", "workshop_organizer": ["Shervin Malmasi", "Eugene Agichtein", "Oleg Rokhlenko", "Nicola Ueffing", "Ido Guy"], "workshop_description": "The Third Workshop on e-Commerce and NLP focuses on NLP for e-Commerce and online shopping applications. Shared tasks on classification and Question Answering are included. Organizers: Shervin Malmasi, Eugene Agichtein, Oleg Rokhlenko, Nicola Ueffing and Ido Guy", "workshop_day": null, "workshop_location": null, "workshop_link": "https://sites.google.com/view/ecnlp/acl-2020"}, {"workshop_name": "FEVER", "workshop_organizer": ["Christos Christodoulopoulos", "James Thorne", "Andreas Vlachos", "Oana Cocarascu", "Arpit Mittal"], "workshop_description": "The Third workshop on Fact Extraction and VERification continues the discussion on fact verification and presents results from ongoing shared tasks. Organizers: Christos Christodoulopoulos, James Thorne, Andreas Vlachos, Oana Cocarascu and Arpit Mittal", "workshop_day": null, "workshop_location": null, "workshop_link": "http://fever.ai/"}, {"workshop_name": "FLP", "workshop_organizer": ["Beata Beigman Klebanov", "Ekaterina Shutova", "Patricia Lichtenstein", "Smaranda Muresan", "Anna Feldman", "Chee Wee (Ben) Leong", "Debanjan Ghosh"], "workshop_description": "The 2nd Workshop on Figurative Language Processing aims to discuss computational approaches to figurative language (e.g., metaphors, puns, sarcasm). Shared tasks: one on metaphor and one on sarcasm detection. Organizers: Beata Beigman Klebanov, Ekaterina Shutova, Patricia Lichtenstein, Smaranda Muresan, Anna Feldman, Chee Wee (Ben) Leong and Debanjan Ghosh", "workshop_day": null, "workshop_location": null, "workshop_link": "https://sites.google.com/view/figlang2020/"}, {"workshop_name": "IWPT", "workshop_organizer": ["Yuji Matsumoto", "Stephan Oepen", "Kenji Sagae", "Anders Søgaard", "Weiwei Sun", "Reut Tsarfaty"], "workshop_description": "The 16th International Conference on Parsing Technologies. All things related to the analysis of language structure, with a shared task on Multilingual Parsing to Enhanced Universal Dependencies. Organizers: Yuji Matsumoto, Stephan Oepen, Kenji Sagae, Anders Søgaard, Weiwei Sun and Reut Tsarfaty", "workshop_day": null, "workshop_location": null, "workshop_link": null}, {"workshop_name": "NLI", "workshop_organizer": ["Ahmed Hassan Awadallah", "Yu Su", "Huan Sun", "Scott Wen-tau Yih"], "workshop_description": "Natural Language Interfaces: Challenges and Promises. This multidisciplinary workshop retrospectively and prospectively discusses the challenges and promises of natural language interfaces. Organizers: Ahmed Hassan Awadallah, Yu Su, Huan Sun and Scott Wen-tau Yih", "workshop_day": null, "workshop_location": null, "workshop_link": "https://nli-acl2020.github.io/"}, {"workshop_name": "NLP4ConvAI", "workshop_organizer": ["Tsung-Hsien Wen", "Asli Celikyilmaz", "Iñigo Casanueva", "Mihail Eric", "Anuj Kumar", "Alexandros Papangelis", "Rushin Shah", "Zhou Yu"], "workshop_description": "NLP for Conversational AI workshop aims at building a ConvAI community where ideas and latest progresses can be shared freely and openly. Organizers: Tsung-Hsien Wen, Asli Celikyilmaz, Iñigo Casanueva, Mihail Eric, Anuj Kumar, Alexandros Papangelis, Rushin Shah and Zhou Yu", "workshop_day": null, "workshop_location": null, "workshop_link": "https://sites.google.com/view/2ndnlp4convai/home"}, {"workshop_name": "NLPMC", "workshop_organizer": ["Parminder Bhatia", "Chaitanya Shivade", "Mona Diab", "Byron Wallace", "Rashmi Gangadharaiah", "Nan Du", "Izhak Shafran", "Steven Lin"], "workshop_description": "NLP for Medical Conversations. Building the clinical decision support systems as cognitive assistants by bridging the gap between NLP research and medical practice. Organizers: Parminder Bhatia, Chaitanya Shivade, Mona Diab, Byron Wallace, Rashmi Gangadharaiah, Nan Du, Izhak Shafran and Steven Lin", "workshop_day": null, "workshop_location": null, "workshop_link": "https://sites.google.com/view/nlp4medicalconversations/home"}, {"workshop_name": "NUSE", "workshop_organizer": ["Claire Bonial", "Tommaso Caselli", "Snigdha Chaturvedi", "Elizabeth Clark", "Ruihong Huang", "Ben Miller", "Mohit Iyyer", "Alejandro Jaimes", "Heng Ji", "Lara Martin", "Teruko Mitamura", "Nanyun Peng", "Joel Tetreault"], "workshop_description": "The 1st Joint Workshop on Narrative Understanding, Storylines, and Events invites researchers in AI/NLP/Vision/DH & beyond to discuss methods/fiction/news/social media. Organizers: Claire Bonial, Tommaso Caselli, Snigdha Chaturvedi, Elizabeth Clark, Ruihong Huang, Ben Miller, Mohit Iyyer, Alejandro Jaimes, Heng Ji, Lara Martin, Teruko Mitamura, Nanyun Peng and Joel Tetreault", "workshop_day": null, "workshop_location": null, "workshop_link": "https://sites.google.com/view/nuse"}, {"workshop_name": "RepL4NLP", "workshop_organizer": ["Emma Strubell", "Spandana Gella", "Marek Rei", "Johannes Welbl", "Fabio Petroni", "Patrick Lewis", "Hannaneh Hajishirzi", "Kyunghyun Cho", "Edward Grefenstette", "Karl Moritz Hermann", "Laura Rimell", "Chris Dyer", "Isabelle Augenstein"], "workshop_description": "The 5th Workshop on Representation Learning for NLP is a large workshop on vector space models of meaning, neural networks, spectral methods, with interdisciplinary keynotes, posters, panel. Organizers: Emma Strubell, Spandana Gella, Marek Rei, Johannes Welbl, Fabio Petroni, Patrick Lewis, Hannaneh Hajishirzi, Kyunghyun Cho, Edward Grefenstette, Karl Moritz Hermann, Laura Rimell, Chris Dyer and Isabelle Augenstein", "workshop_day": null, "workshop_location": null, "workshop_link": null}, {"workshop_name": "SIGMORPHON", "workshop_organizer": ["Garrett Nicolai", "Kyle Gorman"], "workshop_description": "SIGMORPHON brings together researchers interested in applying computational techniques to problems in morphology, phonology, and phonetics. Organizers: Garrett Nicolai and Kyle Gorman", "workshop_day": null, "workshop_location": null, "workshop_link": "https://sigmorphon.github.io/workshops/2020/"}, {"workshop_name": "SocialNLP", "workshop_organizer": ["Lun-Wei Ku", "Cheng-Te Li"], "workshop_description": "The Eighth International Workshop on Natural Language Processing for Social Media (SocialNLP 2020). Check out social NLP tech from experts, researches and applications, plus resources for you to play in challenge EmotionX from SocialNLP! Organizers: Lun-Wei Ku and Cheng-Te Li", "workshop_day": null, "workshop_location": null, "workshop_link": "https://sites.google.com/site/socialnlp2020/"}, {"workshop_name": "WiNLP", "workshop_organizer": ["Samira Shaikh", "Rossana da Cunha Silva", "Ann Clifton", "Erika Doggett", "Ryan Georgi"], "workshop_description": "The Fourth Widening NLP Workshop focuses on efforts to promote and support ideas and voices of underrepresented groups in Natural Language Processing. Organizers: Samira Shaikh, Rossana da Cunha Silva, Ann Clifton, Erika Doggett and Ryan Georgi", "workshop_day": null, "workshop_location": null, "workshop_link": "http://www.winlp.org/winlp-2020-workshop/"}, {"workshop_name": "WNGT", "workshop_organizer": ["Alexandra Birch", "Graham Neubig", "Andrew Finch", "Hiroaki Hayashi", "Kenneth Heafield", "Ioannis Konstas", "Yusuke Oda", "Xian Li"], "workshop_description": "The 4th Workshop on Neural Generation and Translation provides a forum for research in applications of neural models to language generation and translation tasks. Organizers: Alexandra Birch, Graham Neubig, Andrew Finch, Hiroaki Hayashi, Kenneth Heafield, Ioannis Konstas, Yusuke Oda and Xian Li", "workshop_day": null, "workshop_location": null, "workshop_link": "https://sites.google.com/view/wngt20/home"}]}
+{
+  "name": "ACL 2020",
+  "location": "",
+  "datetime": "",
+  "submission_deadlines": [
+    {
+      "name": "Completion of START Global Profile",
+      "datetime": "December 9, 2019"
+    },
+    {
+      "name": "Completion of ACL2020 Reviewer and Chair/Author Information Form",
+      "datetime": "December 9, 2019"
+    },
+    {
+      "name": "Submission deadline(long & short papers)",
+      "datetime": "December 9, 2019"
+    },
+    {
+      "name": "Paper review rebuttal period",
+      "datetime": "February 12 – 17, 2020"
+    },
+    {
+      "name": "Student Research Workshop Submission deadline",
+      "datetime": "March 6, 2020"
+    },
+    {
+      "name": "Notification of acceptance(long & short papers)",
+      "datetime": "April 3, 2020"
+    },
+    {
+      "name": "Camera-ready papers due(long & short papers)",
+      "datetime": "April 24, 2020"
+    },
+    {
+      "name": "Proceedings publication",
+      "datetime": "June 19, 2020"
+    },
+    {
+      "name": "Tutorials",
+      "datetime": "July 5, 2020"
+    },
+    {
+      "name": "Main conference",
+      "datetime": "July 6 – 8, 2020"
+    },
+    {
+      "name": "Workshops and Co-located conferences",
+      "datetime": "July 9 – 10, 2020"
+    }
+  ],
+  "topics": [
+    "Natural Language Processing systems or system components",
+    "Application systems using language technology components",
+    "Software tools for computational linguistics research",
+    "Software for demonstration or evaluation",
+    "Software supporting learning or education",
+    "Tools for data visualization and annotation",
+    "Development tools"
+  ],
+  "organizers": [],
+  "papers": [],
+  "tutorials": [
+    {
+      "tutorial_name": "Interpretability and Analysis in Neural NLP",
+      "tutorial_author": [
+        "Yonatan Belinkov",
+        "Sebastian Gehrmann",
+        "Ellie Pavlick"
+      ],
+      "tutorial_abstract": "",
+      "tutorial_time": null,
+      "tutorial_location": null,
+      "tutorial_link": null
+    },
+    {
+      "tutorial_name": "Multi-modal Information Extraction from Text, Semi-structured, and Tabular Data on the Web",
+      "tutorial_author": [
+        "Xin Luna Dong",
+        "Hannaneh Hajishirzi",
+        "Colin Lockard",
+        "Prashant Shiralkar"
+      ],
+      "tutorial_abstract": "",
+      "tutorial_time": null,
+      "tutorial_location": null,
+      "tutorial_link": null
+    },
+    {
+      "tutorial_name": "Reviewing Natural Language Processing Research",
+      "tutorial_author": [
+        "Kevin Cohen",
+        "Karën Fort",
+        "Margot Mieskes",
+        "Aurélie Névéol"
+      ],
+      "tutorial_abstract": "",
+      "tutorial_time": null,
+      "tutorial_location": null,
+      "tutorial_link": null
+    },
+    {
+      "tutorial_name": "Stylized Text Generation: Approaches and Applications",
+      "tutorial_author": [
+        "Lili Mou",
+        "Olga Vechtomova"
+      ],
+      "tutorial_abstract": "",
+      "tutorial_time": null,
+      "tutorial_location": null,
+      "tutorial_link": null
+    },
+    {
+      "tutorial_name": "Achieving Common Ground in Multi-modal Dialogue",
+      "tutorial_author": [
+        "Malihe Alikhani",
+        "Matthew Stone"
+      ],
+      "tutorial_abstract": "",
+      "tutorial_time": null,
+      "tutorial_location": null,
+      "tutorial_link": null
+    },
+    {
+      "tutorial_name": "Commonsense Reasoning for Natural Language Processing",
+      "tutorial_author": [
+        "Maarten Sap",
+        "Vered Shwartz",
+        "Antoine Bosselut",
+        "Dan Roth",
+        "Yejin Choi"
+      ],
+      "tutorial_abstract": "",
+      "tutorial_time": null,
+      "tutorial_location": null,
+      "tutorial_link": null
+    },
+    {
+      "tutorial_name": "Integrating Ethics into the NLP Curriculum",
+      "tutorial_author": [
+        "Emily M. Bender",
+        "Dirk Hovy",
+        "Alexandra Schofield"
+      ],
+      "tutorial_abstract": "",
+      "tutorial_time": null,
+      "tutorial_location": null,
+      "tutorial_link": null
+    },
+    {
+      "tutorial_name": "Recent Advances in Open-Domain Question Answering",
+      "tutorial_author": [
+        "Danqi Chen",
+        "Scott Wen-tau Yih"
+      ],
+      "tutorial_abstract": "",
+      "tutorial_time": null,
+      "tutorial_location": null,
+      "tutorial_link": null
+    }
+  ],
+  "keynotes": [],
+  "workshops": [
+    {
+      "workshop_name": "IWSLT",
+      "workshop_organizer": [
+        "Marcello Federico",
+        "Alexander Waibel",
+        "Jiatao Gu",
+        "Kevin Knight",
+        "Will Lewis",
+        "Satoshi Nakamura",
+        "Hermann Ney",
+        "Jan Niehues",
+        "Sebastian Stüker",
+        "Marco Turchi"
+      ],
+      "workshop_description": "The 17th International Conference on Spoken Language Translation (IWSLT) is an annual scientific conference for the study, development and evaluation of spoken language translation technology: speech-to-text, speech-to-speech translation, simultaneous and consecutive translation, speech dubbing, cross-lingual communication including all multimodal, emotional, para-linguistic, and stylistic aspects and their applications in the field. The conference organizes evaluations and workshop sessions around challenge areas, and presents scientific work and system descriptions. Organizers: Marcello Federico, Alexander Waibel, Jiatao Gu, Kevin Knight, Will Lewis, Satoshi Nakamura, Hermann Ney, Jan Niehues, Sebastian Stüker and Marco Turchi",
+      "workshop_day": null,
+      "workshop_location": null,
+      "workshop_link": "http://www.iwslt.org/doku.php"
+    },
+    {
+      "workshop_name": "ALVR",
+      "workshop_organizer": [
+        "Xin Wang",
+        "Jesse Thomason",
+        "Ronghang Hu",
+        "Xinlei Chen",
+        "Peter Anderson",
+        "Qi Wu",
+        "Asli Celikyilmaz",
+        "Jason Baldridge",
+        "William Yang Wang"
+      ],
+      "workshop_description": "Workshop on Advances in Language and Vision Research. Promoting the frontier of language and vision research and bringing researchers together to discuss real-world solutions in this area. Organizers: Xin Wang, Jesse Thomason, Ronghang Hu, Xinlei Chen, Peter Anderson, Qi Wu, Asli Celikyilmaz, Jason Baldridge and William Yang Wang",
+      "workshop_day": null,
+      "workshop_location": null,
+      "workshop_link": "https://alvr-workshop.github.io/"
+    },
+    {
+      "workshop_name": "AutoSimTrans",
+      "workshop_organizer": [
+        "Hua Wu",
+        "Colin Cherry",
+        "James Cross",
+        "Liang Huang",
+        "Zhongjun He",
+        "Mark Liberman",
+        "Yang Liu"
+      ],
+      "workshop_description": "The 1st Workshop on Automatic Simultaneous Translation: challenges, recent advances,and future directions. Organizers: Hua Wu, Colin Cherry, James Cross, Liang Huang, Zhongjun He, Mark Liberman and Yang Liu",
+      "workshop_day": null,
+      "workshop_location": null,
+      "workshop_link": "https://autosimtrans.github.io"
+    },
+    {
+      "workshop_name": "BEA",
+      "workshop_organizer": [
+        "Ekaterina Kochmar",
+        "Jill Burstein",
+        "Claudia Leacock",
+        "Nitin Madnani",
+        "Ildiko Pilan",
+        "Helen Yannakoudakis",
+        "Torsten Zesch"
+      ],
+      "workshop_description": "The 15th Workshop on Innovative Use of NLP for Building Educational Applications. The BEA Workshop is a leading venue for NLP innovation in educational applications and one of the largest one-day workshops in ACL. Organizers: Ekaterina Kochmar, Jill Burstein, Claudia Leacock, Nitin Madnani, Ildiko Pilan, Helen Yannakoudakis and Torsten Zesch",
+      "workshop_day": null,
+      "workshop_location": null,
+      "workshop_link": "https://sig-edu.org/bea/current"
+    },
+    {
+      "workshop_name": "BioNLP 2020",
+      "workshop_organizer": [
+        "Dina Demner-Fushman",
+        "Kevin Cohen",
+        "Sophia Ananiadou",
+        "Jun’ichi Tsujii"
+      ],
+      "workshop_description": "NLP can help improve health and BioNLP is the best venue for biomedical & clinical language processing researchers to learn how. Organizers: Dina Demner-Fushman, Kevin Cohen, Sophia Ananiadou and Jun’ichi Tsujii",
+      "workshop_day": null,
+      "workshop_location": null,
+      "workshop_link": "https://www.aclweb.org/portal/content/bionlp-2020-workshop-biomedical-natural-language-processing"
+    },
+    {
+      "workshop_name": "Challenge-HML",
+      "workshop_organizer": [
+        "AmirAli Bagher Zadeh",
+        "Louis-Philippe Morency",
+        "Paul Pu Liang",
+        "Soujanya Poria",
+        "Ying Shen"
+      ],
+      "workshop_description": "The Second Grand-Challenge and Workshop on Human Multimodal Language promotes the growth of modeling multimodal language (language, vision, acoustic) as a fundamental research area in NLP. Organizers: AmirAli Bagher Zadeh, Louis-Philippe Morency, Paul Pu Liang, Soujanya Poria and Ying Shen",
+      "workshop_day": null,
+      "workshop_location": null,
+      "workshop_link": null
+    },
+    {
+      "workshop_name": "ECNLP",
+      "workshop_organizer": [
+        "Shervin Malmasi",
+        "Eugene Agichtein",
+        "Oleg Rokhlenko",
+        "Nicola Ueffing",
+        "Ido Guy"
+      ],
+      "workshop_description": "The Third Workshop on e-Commerce and NLP focuses on NLP for e-Commerce and online shopping applications. Shared tasks on classification and Question Answering are included. Organizers: Shervin Malmasi, Eugene Agichtein, Oleg Rokhlenko, Nicola Ueffing and Ido Guy",
+      "workshop_day": null,
+      "workshop_location": null,
+      "workshop_link": "https://sites.google.com/view/ecnlp/acl-2020"
+    },
+    {
+      "workshop_name": "FEVER",
+      "workshop_organizer": [
+        "Christos Christodoulopoulos",
+        "James Thorne",
+        "Andreas Vlachos",
+        "Oana Cocarascu",
+        "Arpit Mittal"
+      ],
+      "workshop_description": "The Third workshop on Fact Extraction and VERification continues the discussion on fact verification and presents results from ongoing shared tasks. Organizers: Christos Christodoulopoulos, James Thorne, Andreas Vlachos, Oana Cocarascu and Arpit Mittal",
+      "workshop_day": null,
+      "workshop_location": null,
+      "workshop_link": "http://fever.ai/"
+    },
+    {
+      "workshop_name": "FLP",
+      "workshop_organizer": [
+        "Beata Beigman Klebanov",
+        "Ekaterina Shutova",
+        "Patricia Lichtenstein",
+        "Smaranda Muresan",
+        "Anna Feldman",
+        "Chee Wee (Ben) Leong",
+        "Debanjan Ghosh"
+      ],
+      "workshop_description": "The 2nd Workshop on Figurative Language Processing aims to discuss computational approaches to figurative language (e.g., metaphors, puns, sarcasm). Shared tasks: one on metaphor and one on sarcasm detection. Organizers: Beata Beigman Klebanov, Ekaterina Shutova, Patricia Lichtenstein, Smaranda Muresan, Anna Feldman, Chee Wee (Ben) Leong and Debanjan Ghosh",
+      "workshop_day": null,
+      "workshop_location": null,
+      "workshop_link": "https://sites.google.com/view/figlang2020/"
+    },
+    {
+      "workshop_name": "IWPT",
+      "workshop_organizer": [
+        "Yuji Matsumoto",
+        "Stephan Oepen",
+        "Kenji Sagae",
+        "Anders Søgaard",
+        "Weiwei Sun",
+        "Reut Tsarfaty"
+      ],
+      "workshop_description": "The 16th International Conference on Parsing Technologies. All things related to the analysis of language structure, with a shared task on Multilingual Parsing to Enhanced Universal Dependencies. Organizers: Yuji Matsumoto, Stephan Oepen, Kenji Sagae, Anders Søgaard, Weiwei Sun and Reut Tsarfaty",
+      "workshop_day": null,
+      "workshop_location": null,
+      "workshop_link": null
+    },
+    {
+      "workshop_name": "NLI",
+      "workshop_organizer": [
+        "Ahmed Hassan Awadallah",
+        "Yu Su",
+        "Huan Sun",
+        "Scott Wen-tau Yih"
+      ],
+      "workshop_description": "Natural Language Interfaces: Challenges and Promises. This multidisciplinary workshop retrospectively and prospectively discusses the challenges and promises of natural language interfaces. Organizers: Ahmed Hassan Awadallah, Yu Su, Huan Sun and Scott Wen-tau Yih",
+      "workshop_day": null,
+      "workshop_location": null,
+      "workshop_link": "https://nli-acl2020.github.io/"
+    },
+    {
+      "workshop_name": "NLP4ConvAI",
+      "workshop_organizer": [
+        "Tsung-Hsien Wen",
+        "Asli Celikyilmaz",
+        "Iñigo Casanueva",
+        "Mihail Eric",
+        "Anuj Kumar",
+        "Alexandros Papangelis",
+        "Rushin Shah",
+        "Zhou Yu"
+      ],
+      "workshop_description": "NLP for Conversational AI workshop aims at building a ConvAI community where ideas and latest progresses can be shared freely and openly. Organizers: Tsung-Hsien Wen, Asli Celikyilmaz, Iñigo Casanueva, Mihail Eric, Anuj Kumar, Alexandros Papangelis, Rushin Shah and Zhou Yu",
+      "workshop_day": null,
+      "workshop_location": null,
+      "workshop_link": "https://sites.google.com/view/2ndnlp4convai/home"
+    },
+    {
+      "workshop_name": "NLPMC",
+      "workshop_organizer": [
+        "Parminder Bhatia",
+        "Chaitanya Shivade",
+        "Mona Diab",
+        "Byron Wallace",
+        "Rashmi Gangadharaiah",
+        "Nan Du",
+        "Izhak Shafran",
+        "Steven Lin"
+      ],
+      "workshop_description": "NLP for Medical Conversations. Building the clinical decision support systems as cognitive assistants by bridging the gap between NLP research and medical practice. Organizers: Parminder Bhatia, Chaitanya Shivade, Mona Diab, Byron Wallace, Rashmi Gangadharaiah, Nan Du, Izhak Shafran and Steven Lin",
+      "workshop_day": null,
+      "workshop_location": null,
+      "workshop_link": "https://sites.google.com/view/nlp4medicalconversations/home"
+    },
+    {
+      "workshop_name": "NUSE",
+      "workshop_organizer": [
+        "Claire Bonial",
+        "Tommaso Caselli",
+        "Snigdha Chaturvedi",
+        "Elizabeth Clark",
+        "Ruihong Huang",
+        "Ben Miller",
+        "Mohit Iyyer",
+        "Alejandro Jaimes",
+        "Heng Ji",
+        "Lara Martin",
+        "Teruko Mitamura",
+        "Nanyun Peng",
+        "Joel Tetreault"
+      ],
+      "workshop_description": "The 1st Joint Workshop on Narrative Understanding, Storylines, and Events invites researchers in AI/NLP/Vision/DH & beyond to discuss methods/fiction/news/social media. Organizers: Claire Bonial, Tommaso Caselli, Snigdha Chaturvedi, Elizabeth Clark, Ruihong Huang, Ben Miller, Mohit Iyyer, Alejandro Jaimes, Heng Ji, Lara Martin, Teruko Mitamura, Nanyun Peng and Joel Tetreault",
+      "workshop_day": null,
+      "workshop_location": null,
+      "workshop_link": "https://sites.google.com/view/nuse"
+    },
+    {
+      "workshop_name": "RepL4NLP",
+      "workshop_organizer": [
+        "Emma Strubell",
+        "Spandana Gella",
+        "Marek Rei",
+        "Johannes Welbl",
+        "Fabio Petroni",
+        "Patrick Lewis",
+        "Hannaneh Hajishirzi",
+        "Kyunghyun Cho",
+        "Edward Grefenstette",
+        "Karl Moritz Hermann",
+        "Laura Rimell",
+        "Chris Dyer",
+        "Isabelle Augenstein"
+      ],
+      "workshop_description": "The 5th Workshop on Representation Learning for NLP is a large workshop on vector space models of meaning, neural networks, spectral methods, with interdisciplinary keynotes, posters, panel. Organizers: Emma Strubell, Spandana Gella, Marek Rei, Johannes Welbl, Fabio Petroni, Patrick Lewis, Hannaneh Hajishirzi, Kyunghyun Cho, Edward Grefenstette, Karl Moritz Hermann, Laura Rimell, Chris Dyer and Isabelle Augenstein",
+      "workshop_day": null,
+      "workshop_location": null,
+      "workshop_link": null
+    },
+    {
+      "workshop_name": "SIGMORPHON",
+      "workshop_organizer": [
+        "Garrett Nicolai",
+        "Kyle Gorman"
+      ],
+      "workshop_description": "SIGMORPHON brings together researchers interested in applying computational techniques to problems in morphology, phonology, and phonetics. Organizers: Garrett Nicolai and Kyle Gorman",
+      "workshop_day": null,
+      "workshop_location": null,
+      "workshop_link": "https://sigmorphon.github.io/workshops/2020/"
+    },
+    {
+      "workshop_name": "SocialNLP",
+      "workshop_organizer": [
+        "Lun-Wei Ku",
+        "Cheng-Te Li"
+      ],
+      "workshop_description": "The Eighth International Workshop on Natural Language Processing for Social Media (SocialNLP 2020). Check out social NLP tech from experts, researches and applications, plus resources for you to play in challenge EmotionX from SocialNLP! Organizers: Lun-Wei Ku and Cheng-Te Li",
+      "workshop_day": null,
+      "workshop_location": null,
+      "workshop_link": "https://sites.google.com/site/socialnlp2020/"
+    },
+    {
+      "workshop_name": "WiNLP",
+      "workshop_organizer": [
+        "Samira Shaikh",
+        "Rossana da Cunha Silva",
+        "Ann Clifton",
+        "Erika Doggett",
+        "Ryan Georgi"
+      ],
+      "workshop_description": "The Fourth Widening NLP Workshop focuses on efforts to promote and support ideas and voices of underrepresented groups in Natural Language Processing. Organizers: Samira Shaikh, Rossana da Cunha Silva, Ann Clifton, Erika Doggett and Ryan Georgi",
+      "workshop_day": null,
+      "workshop_location": null,
+      "workshop_link": "http://www.winlp.org/winlp-2020-workshop/"
+    },
+    {
+      "workshop_name": "WNGT",
+      "workshop_organizer": [
+        "Alexandra Birch",
+        "Graham Neubig",
+        "Andrew Finch",
+        "Hiroaki Hayashi",
+        "Kenneth Heafield",
+        "Ioannis Konstas",
+        "Yusuke Oda",
+        "Xian Li"
+      ],
+      "workshop_description": "The 4th Workshop on Neural Generation and Translation provides a forum for research in applications of neural models to language generation and translation tasks. Organizers: Alexandra Birch, Graham Neubig, Andrew Finch, Hiroaki Hayashi, Kenneth Heafield, Ioannis Konstas, Yusuke Oda and Xian Li",
+      "workshop_day": null,
+      "workshop_location": null,
+      "workshop_link": "https://sites.google.com/view/wngt20/home"
+    }
+  ]
+}
