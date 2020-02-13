@@ -12,11 +12,11 @@ def fill_dummy(counter):
     elif counter % 2 == 0:
         return "institution"
     elif counter % 2 == 1:
-        return "name"
+        return "members"
 
 
 def extract_organizers_info(url):
-    organizers_dummy = {attribute: None for attribute in ["name", "position", "institution"]}
+    organizers_dummy = {attribute: None for attribute in ["members", "position", "institution"]}
     organizers_info_list = []
     try:
         page = request.urlopen(url)
@@ -37,11 +37,11 @@ def extract_organizers_info(url):
                 if text != "":
                     organizers_dummy[fill_dummy(counter)] = text
                     counter += 1
-            if counter > 1 and organizers_dummy["name"] is not None and organizers_dummy["institution"] is not None:
+            if counter > 1 and organizers_dummy["members"] is not None and organizers_dummy["institution"] is not None:
                 organizers_info_list.append(copy.copy(organizers_dummy))
-                organizers_dummy["name"] = None
+                organizers_dummy["members"] = None
                 organizers_dummy["institution"] = None
-        organizers_dummy['name'] = child.text.strip()
+        organizers_dummy['members'] = child.text.strip()
 
     return organizers_info_list
 

@@ -1,7 +1,7 @@
 {
   "name": "COLING 2020",
-  "location": "",
-  "datetime": "",
+  "location": "Barcelona, Spain",
+  "datetime": "September 13 to 18, 2020",
   "submission_deadlines": [
     {
       "name": "Final submissions due",
@@ -27,103 +27,103 @@
   "topics": [],
   "organizers": [
     {
-      "name": "Donia Scott",
+      "members": "Donia Scott",
       "link": "https://coling2020.org/assets/images/team/donia_scott.jpg"
     },
     {
-      "name": "Nuria Bel",
+      "members": "Nuria Bel",
       "link": "https://coling2020.org/assets/images/team/nuria_bel.jpg"
     },
     {
-      "name": "Chengqing Zong",
+      "members": "Chengqing Zong",
       "link": "https://coling2020.org/assets/images/team/chengqing_zong.jpg"
     },
     {
-      "name": "Leo Wanner",
+      "members": "Leo Wanner",
       "link": "https://coling2020.org/assets/images/team/leo_wanner.jpg"
     },
     {
-      "name": "Horacio Saggion",
+      "members": "Horacio Saggion",
       "link": "https://coling2020.org/assets/images/team/horacio_saggion.jpg"
     },
     {
-      "name": "Mónica Domínguez",
+      "members": "Mónica Domínguez",
       "link": "https://coling2020.org/assets/images/team/monica_dominguez.jpeg"
     },
     {
-      "name": "Lucia Specia",
+      "members": "Lucia Specia",
       "link": "https://coling2020.org/assets/images/team/lucia_specia.jpg"
     },
     {
-      "name": "Daniel Beck",
+      "members": "Daniel Beck",
       "link": "https://coling2020.org/assets/images/team/daniel_beck.jpg"
     },
     {
-      "name": "Xiaodan Zhu",
+      "members": "Xiaodan Zhu",
       "link": "https://coling2020.org/assets/images/team/xiaodan_zhu.jpg"
     },
     {
-      "name": "Preslav Nakov",
+      "members": "Preslav Nakov",
       "link": "https://coling2020.org/assets/images/team/preslav_nakov.jpeg"
     },
     {
-      "name": "Jun Zhao",
+      "members": "Jun Zhao",
       "link": "https://coling2020.org/assets/images/team/jun_zhao.jpg"
     },
     {
-      "name": "Ann Clifton",
+      "members": "Ann Clifton",
       "link": "https://coling2020.org/assets/images/team/ann_clifton.jpeg"
     },
     {
-      "name": "Courtney Napoles",
+      "members": "Courtney Napoles",
       "link": "https://coling2020.org/assets/images/team/c_napoles.jpeg"
     },
     {
-      "name": "Derek Wong",
+      "members": "Derek Wong",
       "link": "https://coling2020.org/assets/images/team/derek_wong.jpg"
     },
     {
-      "name": "Liang Huang",
+      "members": "Liang Huang",
       "link": "https://coling2020.org/assets/images/team/liang_huang.jpg"
     },
     {
-      "name": "Yang Zhao",
+      "members": "Yang Zhao",
       "link": "https://coling2020.org/assets/images/team/YangZhao.jpg"
     },
     {
-      "name": "Michal Ptaszynski",
+      "members": "Michal Ptaszynski",
       "link": "https://coling2020.org/assets/images/team/michal_ptaszynski.jpg"
     },
     {
-      "name": "Bartosz Ziolko",
+      "members": "Bartosz Ziolko",
       "link": "https://coling2020.org/assets/images/team/bartosz_ziolko.jpeg"
     },
     {
-      "name": "Ghazaleh Kazeminejad",
+      "members": "Ghazaleh Kazeminejad",
       "link": "https://coling2020.org/assets/images/team/ghazaleh_kazeminejad.jpg"
     },
     {
-      "name": "Tiejun Zhao",
+      "members": "Tiejun Zhao",
       "link": "https://coling2020.org/assets/images/team/tiejun_zhao.jpg"
     },
     {
-      "name": "Feiyu Xu",
+      "members": "Feiyu Xu",
       "link": "https://coling2020.org/assets/images/team/feiyu_xu.jpg"
     },
     {
-      "name": "Alexander Löser",
+      "members": "Alexander Löser",
       "link": "https://coling2020.org/assets/images/team/alexander_loser.jpg"
     },
     {
-      "name": "Laura Pérez-Mayos",
+      "members": "Laura Pérez-Mayos",
       "link": "https://coling2020.org/assets/images/team/laura_perez_mayos.jpg"
     },
     {
-      "name": "Amita Misra",
+      "members": "Amita Misra",
       "link": "https://coling2020.org/assets/images/team/amita_misra.jpg"
     },
     {
-      "name": "Joana Clotet",
+      "members": "Joana Clotet",
       "link": "https://coling2020.org/assets/images/team/joana_clotet.jpeg"
     }
   ],
@@ -151,172 +151,172 @@
   ],
   "workshops": [
     {
-      "title": "International Workshop on Semantic Evaluation (SemEval)",
-      "authors": null,
-      "abstract": null,
-      "datetime": "September 13-14, 2020",
-      "location": null,
-      "link": "http://alt.qcri.org/semeval2020/"
+      "workshop_name": "International Workshop on Semantic Evaluation (SemEval)",
+      "workshop_organizer": null,
+      "workshop_description": null,
+      "workshop_day": "September 13-14, 2020",
+      "workshop_location": null,
+      "workshop_link": "http://alt.qcri.org/semeval2020/"
     },
     {
-      "title": "9th Joint Conference on Lexical and Computational Semantics (*SEM)",
-      "authors": null,
-      "abstract": null,
-      "datetime": "September 13-14, 2020",
-      "location": null,
-      "link": "https://starsem.org/"
+      "workshop_name": "9th Joint Conference on Lexical and Computational Semantics (*SEM)",
+      "workshop_organizer": null,
+      "workshop_description": null,
+      "workshop_day": "September 13-14, 2020",
+      "workshop_location": null,
+      "workshop_link": "https://starsem.org/"
     },
     {
-      "title": "The Fourteenth Linguistic Annotation Workshop (LAW)",
-      "authors": null,
-      "abstract": null,
-      "datetime": "September 13, 2020",
-      "location": null,
-      "link": "https://sigann.github.io/LAW-XIV-2020/"
+      "workshop_name": "The Fourteenth Linguistic Annotation Workshop (LAW)",
+      "workshop_organizer": null,
+      "workshop_description": null,
+      "workshop_day": "September 13, 2020",
+      "workshop_location": null,
+      "workshop_link": "https://sigann.github.io/LAW-XIV-2020/"
     },
     {
-      "title": "4th Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature (LaTeCH-CLfL)",
-      "authors": null,
-      "abstract": null,
-      "datetime": "September 13, 2020",
-      "location": null,
-      "link": "https://sighum.wordpress.com/events/latech-clfl-2020/"
+      "workshop_name": "4th Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature (LaTeCH-CLfL)",
+      "workshop_organizer": null,
+      "workshop_description": null,
+      "workshop_day": "September 13, 2020",
+      "workshop_location": null,
+      "workshop_link": "https://sighum.wordpress.com/events/latech-clfl-2020/"
     },
     {
-      "title": "Third Workshop on Computational Models of Reference, Anaphora and Coreference (CRAC)",
-      "authors": null,
-      "abstract": null,
-      "datetime": "September 13, 2020",
-      "location": null,
-      "link": "https://sites.google.com/view/crac2020"
+      "workshop_name": "Third Workshop on Computational Models of Reference, Anaphora and Coreference (CRAC)",
+      "workshop_organizer": null,
+      "workshop_description": null,
+      "workshop_day": "September 13, 2020",
+      "workshop_location": null,
+      "workshop_link": "https://sites.google.com/view/crac2020"
     },
     {
-      "title": "Natural Language Processing for Internet Freedom (NLP4IF)",
-      "authors": null,
-      "abstract": null,
-      "datetime": "September 13, 2020",
-      "location": null,
-      "link": "http://www.netcopia.net/nlp4if/"
+      "workshop_name": "Natural Language Processing for Internet Freedom (NLP4IF)",
+      "workshop_organizer": null,
+      "workshop_description": null,
+      "workshop_day": "September 13, 2020",
+      "workshop_location": null,
+      "workshop_link": "http://www.netcopia.net/nlp4if/"
     },
     {
-      "title": "Workshop on Natural Language Processing in E-Commerce (EComNLP)",
-      "authors": null,
-      "abstract": null,
-      "datetime": "September 13, 2020",
-      "location": null,
-      "link": "https://ecomnlp.github.io"
+      "workshop_name": "Workshop on Natural Language Processing in E-Commerce (EComNLP)",
+      "workshop_organizer": null,
+      "workshop_description": null,
+      "workshop_day": "September 13, 2020",
+      "workshop_location": null,
+      "workshop_link": "https://ecomnlp.github.io"
     },
     {
-      "title": "The Fifth Arabic Natural Language Processing Workshop (WANLP 2020)",
-      "authors": null,
-      "abstract": null,
-      "datetime": "September 13, 2020",
-      "location": null,
-      "link": "http://wanlp2020.arabic-nlp.net/"
+      "workshop_name": "The Fifth Arabic Natural Language Processing Workshop (WANLP 2020)",
+      "workshop_organizer": null,
+      "workshop_description": null,
+      "workshop_day": "September 13, 2020",
+      "workshop_location": null,
+      "workshop_link": "http://wanlp2020.arabic-nlp.net/"
     },
     {
-      "title": "Cognitive Aspects of the Lexicon (CogALex)",
-      "authors": null,
-      "abstract": null,
-      "datetime": "September 13, 2020",
-      "location": null,
-      "link": "https://sites.google.com/view/cogalex-2020"
+      "workshop_name": "Cognitive Aspects of the Lexicon (CogALex)",
+      "workshop_organizer": null,
+      "workshop_description": null,
+      "workshop_day": "September 13, 2020",
+      "workshop_location": null,
+      "workshop_link": "https://sites.google.com/view/cogalex-2020"
     },
     {
-      "title": "The 1st Joint Workshop on Financial Narrative Processing and Multiling Financial Narrative Summarisation (FNP-FNS)",
-      "authors": null,
-      "abstract": null,
-      "datetime": "September 13, 2020",
-      "location": null,
-      "link": "http://wp.lancs.ac.uk/cfie/fnp2020/"
+      "workshop_name": "The 1st Joint Workshop on Financial Narrative Processing and Multiling Financial Narrative Summarisation (FNP-FNS)",
+      "workshop_organizer": null,
+      "workshop_description": null,
+      "workshop_day": "September 13, 2020",
+      "workshop_location": null,
+      "workshop_link": "http://wp.lancs.ac.uk/cfie/fnp2020/"
     },
     {
-      "title": "5th Social Media Mining for Health Research and Applications Workshop (#SMM4H)",
-      "authors": null,
-      "abstract": null,
-      "datetime": "September 13, 2020",
-      "location": null,
-      "link": "https://healthlanguageprocessing.org/smm4h/"
+      "workshop_name": "5th Social Media Mining for Health Research and Applications Workshop (#SMM4H)",
+      "workshop_organizer": null,
+      "workshop_description": null,
+      "workshop_day": "September 13, 2020",
+      "workshop_location": null,
+      "workshop_link": "https://healthlanguageprocessing.org/smm4h/"
     },
     {
-      "title": "Graph-based Methods for Natural Language Processing (TextGraphs)",
-      "authors": null,
-      "abstract": null,
-      "datetime": "September 14, 2020",
-      "location": null,
-      "link": "https://sites.google.com/view/textgraphs2020"
+      "workshop_name": "Graph-based Methods for Natural Language Processing (TextGraphs)",
+      "workshop_organizer": null,
+      "workshop_description": null,
+      "workshop_day": "September 14, 2020",
+      "workshop_location": null,
+      "workshop_link": "https://sites.google.com/view/textgraphs2020"
     },
     {
-      "title": "Workshop on Gender Bias for Natural Language Processing",
-      "authors": null,
-      "abstract": null,
-      "datetime": "September 14, 2020",
-      "location": null,
-      "link": "https://genderbiasnlp.talp.cat/"
+      "workshop_name": "Workshop on Gender Bias for Natural Language Processing",
+      "workshop_organizer": null,
+      "workshop_description": null,
+      "workshop_day": "September 14, 2020",
+      "workshop_location": null,
+      "workshop_link": "https://genderbiasnlp.talp.cat/"
     },
     {
-      "title": "7th Workshop on Argument Mining",
-      "authors": null,
-      "abstract": null,
-      "datetime": "September 14, 2020",
-      "location": null,
-      "link": "https://www.argmining2020.i3s.unice.fr/"
+      "workshop_name": "7th Workshop on Argument Mining",
+      "workshop_organizer": null,
+      "workshop_description": null,
+      "workshop_day": "September 14, 2020",
+      "workshop_location": null,
+      "workshop_link": "https://www.argmining2020.i3s.unice.fr/"
     },
     {
-      "title": "The Second International Workshop on Designing Meaning Representations (DMR)",
-      "authors": null,
-      "abstract": null,
-      "datetime": "September 14, 2020",
-      "location": null,
-      "link": "http://www.cs.brandeis.edu/~clp/dmr2020"
+      "workshop_name": "The Second International Workshop on Designing Meaning Representations (DMR)",
+      "workshop_organizer": null,
+      "workshop_description": null,
+      "workshop_day": "September 14, 2020",
+      "workshop_location": null,
+      "workshop_link": "http://www.cs.brandeis.edu/~clp/dmr2020"
     },
     {
-      "title": "Third International Workshop on Rumours and Deception in Social Media (RDSM)",
-      "authors": null,
-      "abstract": null,
-      "datetime": "September 14, 2020",
-      "location": null,
-      "link": "https://www.pheme.eu/rdsm2020/"
+      "workshop_name": "Third International Workshop on Rumours and Deception in Social Media (RDSM)",
+      "workshop_organizer": null,
+      "workshop_description": null,
+      "workshop_day": "September 14, 2020",
+      "workshop_location": null,
+      "workshop_link": "https://www.pheme.eu/rdsm2020/"
     },
     {
-      "title": "Seventh Workshop on NLP for Similar Languages, Varieties and Dialects (VarDial)",
-      "authors": null,
-      "abstract": null,
-      "datetime": "September 14, 2020",
-      "location": null,
-      "link": "https://sites.google.com/view/vardial2020/home"
+      "workshop_name": "Seventh Workshop on NLP for Similar Languages, Varieties and Dialects (VarDial)",
+      "workshop_organizer": null,
+      "workshop_description": null,
+      "workshop_day": "September 14, 2020",
+      "workshop_location": null,
+      "workshop_link": "https://sites.google.com/view/vardial2020/home"
     },
     {
-      "title": "The fourth workshop on Universal Dependencies (UDW-20)",
-      "authors": null,
-      "abstract": null,
-      "datetime": "September 14, 2020",
-      "location": null,
-      "link": "https://universaldependencies.org/udw20/"
+      "workshop_name": "The fourth workshop on Universal Dependencies (UDW-20)",
+      "workshop_organizer": null,
+      "workshop_description": null,
+      "workshop_day": "September 14, 2020",
+      "workshop_location": null,
+      "workshop_link": "https://universaldependencies.org/udw20/"
     },
     {
-      "title": "Third Workshop on Computational Modeling of PEople’s Opinions, PersonaLity, and Emotions in Social media (PEOPLES)",
-      "authors": null,
-      "abstract": null,
-      "datetime": "September 14, 2020",
-      "location": null,
-      "link": "https://peopleswksh.github.io/"
+      "workshop_name": "Third Workshop on Computational Modeling of PEople’s Opinions, PersonaLity, and Emotions in Social media (PEOPLES)",
+      "workshop_organizer": null,
+      "workshop_description": null,
+      "workshop_day": "September 14, 2020",
+      "workshop_location": null,
+      "workshop_link": "https://peopleswksh.github.io/"
     },
     {
-      "title": "Joint Workshop on Multiword Expressions and Electronic Lexicons (MWE-LEX)",
-      "authors": null,
-      "abstract": null,
-      "datetime": "September 14, 2020",
-      "location": null,
-      "link": "http://multiword.sourceforge.net/mwelex2020"
+      "workshop_name": "Joint Workshop on Multiword Expressions and Electronic Lexicons (MWE-LEX)",
+      "workshop_organizer": null,
+      "workshop_description": null,
+      "workshop_day": "September 14, 2020",
+      "workshop_location": null,
+      "workshop_link": "http://multiword.sourceforge.net/mwelex2020"
     },
     {
-      "title": "The Second Workshop Beyond Vision and LANguage: InTEgrating Real-world KNowledge (LANTERN\t)",
-      "authors": null,
-      "abstract": null,
-      "datetime": "September 14, 2020",
-      "location": null,
-      "link": "https://www.lantern.uni-saarland.de/2020/"
+      "workshop_name": "The Second Workshop Beyond Vision and LANguage: InTEgrating Real-world KNowledge (LANTERN\t)",
+      "workshop_organizer": null,
+      "workshop_description": null,
+      "workshop_day": "September 14, 2020",
+      "workshop_location": null,
+      "workshop_link": "https://www.lantern.uni-saarland.de/2020/"
     }
   ]
 }

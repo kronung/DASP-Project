@@ -6,7 +6,8 @@ from bs4 import BeautifulSoup
 
 
 def extract_tutorials_info(url):
-    tutorial_dummy = {attribute: None for attribute in ["title", "authors", "abstract", "datetime", "location", "link"]}
+    tutorial_dummy = {attribute: None for attribute in ["tutorial_name", "tutorial_author", "tutorial_abstract",
+                                                        "tutorial_time", "tutorial_location", "tutorial_link"]}
     tutorial_info_list = []
     try:
         page = request.urlopen(url)
@@ -16,8 +17,8 @@ def extract_tutorials_info(url):
     tutorials = BeautifulSoup(page, 'html.parser').find("section", {"id": "main_content"})
     for child in tutorials.findChildren('p'):
         text = child.text.split('\n')
-        tutorial_dummy['title'] = text[0]
-        tutorial_dummy['authors'] = text[1]
+        tutorial_dummy['tutorial_name'] = text[0]
+        tutorial_dummy['tutorial_author'] = text[1]
         tutorial_info_list.append(copy.copy(tutorial_dummy))
     return tutorial_info_list
 

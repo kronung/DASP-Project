@@ -4,7 +4,7 @@ __author__ = "Lars Meister, Samaun Ibna Faiz, Aron Kaufmann"
 import json
 from re import sub
 import pathlib
-
+import os
 current_path = pathlib.Path(__file__).parent.parent.parent
 
 
@@ -20,9 +20,13 @@ def load_conference(filepath):
         return json.load(f)
 
 
-def save_conference_data(conf_name, conf_data, folder="/data"):
+def save_conference_data(conf_name, conf_data, folder):
     """Saves the generated conf_data dict to file in the output folder."""
-    with open(str(current_path) + folder + "/" + conf_name.replace(" ", "").lower() + "_data.json", "w",
+    if folder == "":
+        folder = "data"
+    if not os.path.exists(str(current_path) + "/" + folder):
+        os.makedirs(str(current_path) + "/" + folder)
+    with open(str(current_path) + "/" + folder + "/" + conf_name.replace(" ", "").lower() + "_data.json", "w",
               encoding='utf-8') as f:
         json.dump(conf_data, f, ensure_ascii=False)
 

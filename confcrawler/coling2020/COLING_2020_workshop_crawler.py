@@ -3,7 +3,7 @@ __author__ = "Yuqing Xu"
 
 from bs4 import BeautifulSoup
 from urllib import request
-import json
+import copy
 
 
 def extract_workshops(url):
@@ -24,14 +24,14 @@ def extract_workshops(url):
 
     for child in soup.findChildren('h3'):
         for i in child.findNext('ul').find_all('li'):
-            workshop = {attribute: None for attribute in
-                        ['title', 'authors', 'abstract', 'datetime', 'location', 'link']}
-            workshop['datetime'] = child.text
-            workshop['title'] = i.find('a').text
-            workshop['link'] = i.find('a')['href']
-            workshops.append(workshop)
+            workshop = {attribute: None for attribute in ["workshop_name", "workshop_organizer", "workshop_description",
+                                                          "workshop_day", "workshop_location", "workshop_link"]}
+            workshop['workshop_day'] = child.text
+            workshop['workshop_name'] = i.find('a').text
+            workshop['workshop_link'] = i.find('a')['href']
+            workshops.append(copy.copy(workshop))
 
-    #print(json.dumps(workshops, indent=1))
+    # print(json.dumps(workshops, indent=1))
     return workshops
 
 

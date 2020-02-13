@@ -44,7 +44,7 @@ def collect_data():
     #conf_dict["keynotes"] = keynote_crawler.extract_keynotes()
     conf_dict["papers"] = paper_crawler.get_papers()
 
-    util.save_conference_data("ACL2019", conf_dict)
+    util.save_conference_data("ACL2019", conf_dict, "data")
     print("created conference data!")
 
 

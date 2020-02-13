@@ -1,4 +1,5 @@
 __author__ = "Aron Kaufmann"
+
 import copy
 from urllib import request
 from bs4 import BeautifulSoup
@@ -29,7 +30,9 @@ def get_timestamp_for_event(datetimes, date_tuple):
 
 
 def extract_workshop_info(url):
-    workshop_dummy = {attribute: None for attribute in ["title", "authors", "location", "link"]}
+    workshop_dummy = {attribute: None for attribute in
+                      ["workshop_name", "workshop_organizer", "workshop_description", "workshop_day",
+                       "workshop_location", "workshop_link"]}
     workshop_info_list = []
     try:
         page = request.urlopen(url)
@@ -41,12 +44,13 @@ def extract_workshop_info(url):
     workshop_div = BeautifulSoup(page, 'html.parser').findAll("div", class_="workshops")[0]
     workshops = workshop_div.findAll("h3")
     for workshop in workshops:
-        workshop_dummy["title"] = workshop.text
+        workshop_dummy["workshop_name"] = workshop.text
         current_date = get_timestamp_for_event(datetimes, (current_date, workshop.text))
-        workshop_dummy["datetime"] = current_date
-        workshop_dummy["link"] = workshop.contents[0]["href"]
-        workshop_dummy["authors"] = workshop.findNext("p", {"class": "tutorials-tutors"}).text
-        workshop_dummy["location"] = workshop.findNext("p", {"class": "tutorials-room"}).text.split('.')[1].strip()
+        workshop_dummy["workshop_day"] = current_date
+        workshop_dummy["workshop_link"] = workshop.contents[0]["href"]
+        workshop_dummy["workshop_organizer"] = workshop.findNext("p", {"class": "tutorials-tutors"}).text
+        workshop_dummy["workshop_location"] = workshop.findNext("p", {"class": "tutorials-room"}).text.split('.')[
+            1].strip()
         workshop_info_list.append(copy.copy(workshop_dummy))
     return workshop_info_list
 
